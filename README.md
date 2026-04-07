@@ -11,6 +11,22 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ---
 
+---
+
+### 👨‍💻 Personal Branding
+<p align="center">
+  <img src="https://github.com/mhshanto-dev.png" width="120" style="border-radius:50%" alt="Profile Avatar"/>
+</p>
+
+<p align="center">
+  <b>Md Mehedi Hasan Shanto</b><br/>
+  <i>Full Stack Web Developer</i><br/>
+  JavaScript | React | Node.js | Express | Next.js | MongoDB | Python
+</p>
+
+---
+
+
 ### 📌 Pinned Projects with Animated Code
 <table>
 <tr>
