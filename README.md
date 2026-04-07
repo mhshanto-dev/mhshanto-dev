@@ -16,11 +16,11 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 <tr>
 <td>
 
-- 📂 [Programming Journey Archive](https://github.com/shanto-dev/programming-journey-archive)  
-- 📂 [Beginner Portfolio](https://github.com/shanto-dev/Beginner--portfolio)  
-- 📂 [Book Vibe](https://github.com/shanto-dev/Book-Vibe)  
-- 📂 [BPL Dream](https://github.com/shanto-dev/Bpl-Dream)  
-- 📂 [Digital Tools Platform](https://github.com/shanto-dev/DigitalToolsPlatform)  
+- 📂 [Programming Journey Archive](https://github.com/mhshanto-dev/programming-journey-archive)  
+- 📂 [Book Vibe](https://github.com/mhshanto-dev/Book-Vibe)  
+- 📂 [BPL Dream](https://github.com/mhshanto-dev/Bpl-Dream)  
+- 📂 [Beginner Portfolio](https://github.com/mhshanto-dev/Beginner--portfolio)  
+- 📂 [Digital Tools Platform](https://github.com/mhshanto-dev/DigitalToolsPlatform)  
 
 </td>
 <td>
