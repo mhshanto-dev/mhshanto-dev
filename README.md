@@ -1,8 +1,6 @@
-<h1 align="center">Hi 👋, I'm Md Mehedi Hasan Shanto</h1>
-<h3 align="center">CSE Student | Aspiring MERN Stack Developer</h3>
-
+<!-- Animated Banner -->
 <p align="center">
-  🌍 <b>Me vs Me — I challenge myself daily to grow as a versatile web developer.</b>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Hi+%F0%9F%91%8B%2C+I'm+Md+Mehedi+Hasan+Shanto;CSE+Student+%7C+Aspiring+MERN+Stack+Developer;JavaScript+%7C+React+%7C+Node.js+%7C+MongoDB;Me+vs+Me+%E2%9C%A6+Relentless+Learner" alt="Typing Banner"/>
 </p>
 
 ---
@@ -26,9 +24,27 @@ Recent Working Project → [Live Netlify Link](https://whimsical-entremet-c5c4f5
 
 ---
 
+### 📌 Pinned Projects with Details
+- 📂 [Programming Journey Archive](https://github.com/shanto-dev/programming-journey-archive)  
+  Beginner‑friendly resources and practice codes from my learning journey.  
+
+- 📂 [Beginner Portfolio](https://github.com/shanto-dev/Beginner--portfolio)  
+  Responsive portfolio showcasing early projects → [Live Demo](https://mehedi-hasan-shanto-dev.github.io/Beginner--portfolio/)  
+
+- 📂 [Book Vibe](https://github.com/shanto-dev/Book-Vibe)  
+  A JavaScript project for book lovers to explore and manage collections.  
+
+- 📂 [BPL Dream](https://github.com/shanto-dev/Bpl-Dream)  
+  Cricket‑themed project built with JavaScript for Bangladesh Premier League fans.  
+
+- 📂 [Digital Tools Platform](https://github.com/shanto-dev/DigitalToolsPlatform)  
+  A platform with multiple digital utilities and productivity tools.  
+
+---
+
 ### 🌐 Connect with me
 - 📧 Email: **mhshanto.8989.t@gmail.com**  
-- 💻 GitHub: [github.com/mehedi-hasan-shanto-dev](https://github.com/mehedi-hasan-shanto-dev)  
+- 💻 GitHub: [github.com/shanto-dev](https://github.com/shanto-dev)  
 - 🔗 LinkedIn: [linkedin.com/in/mehedi-hasan-shanto-dev](https://www.linkedin.com/in/mehedi-hasan-shanto-dev)  
 - 🌐 Facebook: [facebook.com/mehedi.hasan.shanto.dev](https://www.facebook.com/mehedi.hasan.shanto.dev)  
 - 🖥️ Portfolio: [Beginner Portfolio](https://mehedi-hasan-shanto-dev.github.io/Beginner--portfolio/)  
@@ -52,18 +68,21 @@ Recent Working Project → [Live Netlify Link](https://whimsical-entremet-c5c4f5
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mehedi-hasan-shanto-dev&show_icons=true&theme=tokyonight" alt="stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mehedi-hasan-shanto-dev&theme=tokyonight" alt="streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mehedi-hasan-shanto-dev&layout=compact&theme=tokyonight" alt="langs"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=shanto-dev&show_icons=true&theme=tokyonight" alt="stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shanto-dev&theme=tokyonight" alt="streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanto-dev&layout=compact&theme=tokyonight" alt="langs"/>
 </p>
 
 ---
 
 ### 🔥 Animated Section
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&width=600&lines=Passionate+Frontend+Developer;Aspiring+MERN+Stack+Engineer;Consistency+is+my+superpower;Building+Projects+with+Programming+Hero+%26+Phitron" alt="Typing Animation"/>
+  <img src="https://komarev.com/ghpvc/?username=shanto-dev&style=for-the-badge&color=blue" alt="Profile Views"/>
 </p>
 
+---
+
+### 📈 Contribution Graph
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mehedi-hasan-shanto-dev&style=for-the-badge&color=blue" alt="Profile Views"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shanto-dev&theme=tokyo-night" alt="Contribution Graph"/>
 </p>
