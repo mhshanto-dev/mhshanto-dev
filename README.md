@@ -77,10 +77,18 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ---
 
-## 📊 GitHub Stats  
+---
 
-![Mehedi's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)  
+### 📊 GitHub Stats
+<p align="center">
+  <b>Total Contributions:</b> 197 <br/>
+  <b>Current Streak:</b> 9 (Mar 30 – Apr 7) <br/>
+  <b>Longest Streak:</b> 9 (Mar 30 – Apr 7) <br/>
+  <b>Contribution Period:</b> Apr 2, 2023 – Present
+</p>
+
+---
+ 
 
 ### 🔥 Animated Section
 <p align="center">
