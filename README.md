@@ -71,10 +71,9 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ### 📊 GitHub Stats
 <p align="center">
-  <b>Total Contributions:</b> 197 <br/>
-  <b>Current Streak:</b> 9 (Mar 30 – Apr 7) <br/>
-  <b>Longest Streak:</b> 9 (Mar 30 – Apr 7) <br/>
-  <b>Contribution Period:</b> Apr 2, 2023 – Present
+  <img src="https://github-readme-stats.vercel.app/api?username=shanto-dev&show_icons=true&theme=tokyonight" alt="stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shanto-dev&theme=tokyonight" alt="streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanto-dev&layout=compact&theme=tokyonight" alt="langs"/>
 </p>
 
 ---
