@@ -11,10 +11,6 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ---
 
----
-
----
-
 ### 👨‍💻 Personal Branding
 <p align="center">
   <img src="https://img.shields.io/badge/MERN%20STACK%20DEVELOPER-00CFFF?style=for-the-badge&logo=react&logoColor=white" />
@@ -33,20 +29,16 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ---
 
----
-
-
 ### 📌 Pinned Projects with Animated Code
 <table>
 <tr>
 <td>
 
-- 📂 [Programming Journey Archive](https://github.com/mhshanto-dev/programming-journey-archive)
+- 📂 [Programming Journey Archive](https://github.com/mhshanto-dev/programming-journey-archive)  
 - 📂 [Digital Tools Platform](https://github.com/mhshanto-dev/DigitalToolsPlatform)  
 - 📂 [Book Vibe](https://github.com/mhshanto-dev/Book-Vibe)  
 - 📂 [BPL Dream](https://github.com/mhshanto-dev/Bpl-Dream)  
 - 📂 [Beginner Portfolio](https://github.com/mhshanto-dev/Beginner--portfolio)  
- 
 
 </td>
 <td>
@@ -77,8 +69,6 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ---
 
----
-
 ### 📊 GitHub Stats
 <p align="center">
   <b>Total Contributions:</b> 197 <br/>
@@ -88,18 +78,10 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 </p>
 
 ---
- 
 
 ### 🔥 Animated Section
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=4000&pause=1000&color=FF5733&width=600&height=200&lines=//+React+Component+Example;function+Navbar(){return(<nav>Home+|+About+|+Contact</nav>);}export+default+Navbar;" alt="React UI Animation"/>
-</p>
-
----
-
-### 💻 Talking about Personal Stuff
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3500&pause=1000&color=00CFFF&width=600&height=200&lines=⚡+Working+with+JS,+TS,+React,+Node,+Express,+MongoDB,+SQL,+AWS;🌱+Exploring+Golang,+Blockchain,+Rust,+Solidity,+Solana;📫+Reach+me+at:+mhshanto.8989.t@gmail.com" alt="Personal Stuff Animation"/>
 </p>
 
 ---
