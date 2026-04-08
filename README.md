@@ -77,12 +77,11 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shanto-dev&show_icons=true&theme=tokyonight" alt="stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shanto-dev&theme=tokyonight" alt="streak"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanto-dev&layout=compact&theme=tokyonight" alt="langs"/>
-</p>
+## 📊 GitHub Stats  
+
+![Mehedi's GitHub stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical)  
 
 ---
 
