@@ -1,0 +1,185 @@
+@import "tailwindcss";
+
+@theme {
+  /* Theme Variables */
+  --color-background: var(--background);
+  --color-on-background: var(--on-background);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  
+  /* Constant Colors */
+  --color-primary: #2563eb;
+  --color-secondary: #7c3aed;
+  --color-primary-container: #2563eb;
+  --color-secondary-container: #7c3aed;
+  --color-outline: #919094;
+  --color-outline-variant: #46464a;
+  
+  /* Fonts */
+  --font-heading: "Plus Jakarta Sans", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Typography Scale (V4 Standard) */
+  --text-h1: 4.5rem;
+  --text-h1--line-height: 1.05;
+  --text-h1--font-weight: 800;
+
+  --text-h2: 3rem;
+  --text-h2--line-height: 1.2;
+  --text-h2--font-weight: 700;
+
+  --text-body-lg: 1.25rem;
+  --text-body-lg--line-height: 1.6;
+
+  --text-body-md: 1rem;
+  --text-body-md--line-height: 1.6;
+
+  --text-label-sm: 0.75rem;
+  --text-label-sm--line-height: 1;
+  --text-label-sm--font-weight: 600;
+}
+
+/* 🌙 LIGHT MODE (DEFAULT) */
+:root {
+  --background: #fcfcfd;
+  --on-background: #090a0b;
+  --on-surface: #1a1c1e;
+  --on-surface-variant: #44474e;
+  --surface-container-highest: #e2e2e6;
+  --surface-container-high: #f0f0f3;
+  --surface-container-lowest: #ffffff;
+  
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(0, 0, 0, 0.08);
+}
+
+/* 🌑 DARK MODE */
+.dark {
+  --background: #08090a;
+  --on-background: #e2e2e6;
+  --on-surface: #e2e2e6;
+  --on-surface-variant: #c4c6d0;
+  --surface-container-highest: #1c1d21;
+  --surface-container-high: #131418;
+  --surface-container-lowest: #0a0b0d;
+  
+  --glass-bg: rgba(10, 11, 13, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.08);
+
+  --color-primary: #b4c5ff;
+  --color-secondary: #ffdbcd;
+}
+
+/* Base resets */
+@layer base {
+  html {
+    scroll-behavior: auto; /* Lenis handles this */
+    overflow-x: hidden;
+  }
+  
+  body {
+    @apply bg-background text-on-background antialiased transition-colors duration-700 ease-in-out font-body;
+    overscroll-behavior: none;
+    cursor: default;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-heading tracking-tight;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+/* Properly defined components */
+@layer components {
+  .glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--glass-border);
+    @apply rounded-3xl shadow-sm transition-all duration-500;
+  }
+
+  .glow-primary {
+    @apply shadow-[0_0_40px_rgba(37,99,235,0.1)];
+  }
+
+  .glow-hover {
+    @apply transition-all duration-500;
+  }
+  
+  .glow-hover:hover {
+    @apply shadow-[0_0_50px_rgba(37,99,235,0.2)] border-primary/30;
+  }
+
+  .contact-input {
+    @apply w-full bg-surface-container-high border border-outline-variant/10 rounded-2xl px-6 py-4 focus:border-primary/50 focus:bg-surface-container-highest transition-all outline-none text-on-surface duration-300;
+  }
+
+  .quick-btn {
+    @apply px-5 py-2.5 rounded-full bg-surface-container-high border border-outline-variant/10 text-xs text-on-surface-variant hover:bg-primary/10 hover:text-primary hover:border-primary/30 transition-all duration-300;
+  }
+
+  .scroll-fab {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid var(--glass-border);
+    @apply w-14 h-14 rounded-full flex items-center justify-center text-on-background text-xl font-bold cursor-pointer transition-all hover:bg-primary-container hover:text-white hover:border-primary/50 hover:scale-110 active:scale-90 shadow-2xl;
+  }
+
+  /* Cinematic Layers */
+  .parallax-layer-bg {
+    @apply pointer-events-none absolute inset-0 -z-20;
+  }
+
+  .parallax-layer-mid {
+    @apply relative z-0;
+  }
+
+  .parallax-layer-fg {
+    @apply relative z-10;
+  }
+}
+
+/* Lenis CSS */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Easing Classes */
+.ease-ios {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-outline-variant/20 rounded-full hover:bg-primary/40 transition-colors;
+}
