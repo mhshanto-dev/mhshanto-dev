@@ -41,29 +41,61 @@ const Timeline = () => {
 
   const milestones = [
     {
-      period: "2021 — Present",
-      role: "Senior Engineer",
-      company: "Tech Giants Inc.",
-      description: "Leading frontend architecture and mentoring junior developers in a distributed team environment, focusing on scale and performance.",
+      period: "2017 — 2018",
+      icon: "🏫",
+      role: "Secondary School Certificate (SSC)",
+      company: "Dhangora Model High School",
+      board: "Board of Intermediate & Secondary Education, Rajshahi",
+      gpa: "GPA 5.00",
+      tags: ["Science", "Math Olympiad", "Science Fair"],
+      description:
+        "Completed SSC in Science with the highest distinction — GPA 5.00. Focused on Physics, Chemistry, Biology & Mathematics. Actively participated in Science Fairs, Math Olympiad training, and school debates. These experiences strengthened problem‑solving ability, analytical thinking, and teamwork.",
       color: "bg-primary",
-      glow: "glow-primary"
+      accent: "text-primary",
+      glow: "shadow-[0_0_20px_rgba(37,99,235,0.4)]",
     },
     {
-      period: "2018 — 2021",
-      role: "Full Stack Lead",
-      company: "Startup Lab",
-      description: "Built and scaled a SaaS platform from MVP to 50k active users, managing the entire technical stack and roadmap.",
+      period: "2019 — 2020",
+      icon: "🎓",
+      role: "Higher Secondary Certificate (HSC)",
+      company: "Islamia Government College",
+      board: "Board of Intermediate & Secondary Education, Rajshahi",
+      gpa: "GPA 5.00",
+      tags: ["Science", "Hackathons", "Coding Contests", "Debate"],
+      description:
+        "Completed HSC in Science with GPA 5.00. Focused on advanced Physics, Chemistry, Biology, and Mathematics. Actively engaged in hackathons, coding contests, and science fairs. Contributed to debate team and peer tutoring — built strong foundations for Computer Science.",
       color: "bg-secondary",
-      glow: "shadow-[0_0_20px_rgba(221,184,255,0.4)]"
+      accent: "text-secondary",
+      glow: "shadow-[0_0_20px_rgba(139,92,246,0.4)]",
     },
     {
-      period: "2014 — 2018",
-      role: "BSc Computer Science",
-      company: "University of Engineering",
-      description: "Specialized in Distributed Systems and Human-Computer Interaction. Graduated with honors.",
+      period: "2025 — Present",
+      icon: "💻",
+      role: "Full Stack Developer Journey",
+      company: "Self-Taught · Freelance Projects",
+      board: "MERN Stack · Next.js · Problem Solving",
+      gpa: "30+ Projects",
+      tags: ["React", "Next.js", "Node.js", "MongoDB", "Tailwind"],
+      description:
+        "Started my programming journey with a deep focus on the MERN stack. Built 30+ real-world projects including ecommerce platforms, social media apps, and developer tools. Constantly leveling up through open-source contributions, UI/UX exploration, and full-stack problem solving.",
       color: "bg-primary",
-      glow: "glow-primary"
-    }
+      accent: "text-primary",
+      glow: "shadow-[0_0_20px_rgba(37,99,235,0.4)]",
+    },
+    {
+      period: "2026 — Future",
+      icon: "🚀",
+      role: "Growing as a Software Engineer",
+      company: "Open to Opportunities · Remote & Onsite",
+      board: "Next.js · TypeScript · System Design",
+      gpa: "Available Now",
+      tags: ["TypeScript", "System Design", "Open Source", "SaaS"],
+      description:
+        "Currently expanding into TypeScript, system design, and scalable SaaS architecture. Actively seeking full-time or freelance roles where I can contribute to impactful products and grow as a professional software engineer.",
+      color: "bg-secondary",
+      accent: "text-secondary",
+      glow: "shadow-[0_0_20px_rgba(139,92,246,0.4)]",
+    },
   ];
 
   return (
@@ -72,34 +104,74 @@ const Timeline = () => {
         <span className="text-primary font-bold tracking-[0.3em] uppercase text-[10px]">
           Evolution
         </span>
-        <h2 className="font-h2 text-4xl mt-2">Journey & Milestones</h2>
+        <h2 className="font-h2 text-4xl mt-2">Journey &amp; Milestones</h2>
+        <p className="text-on-surface-variant/60 mt-4 text-sm max-w-md mx-auto leading-relaxed">
+          From science classrooms to full-stack codebases — a continuous journey of learning and building.
+        </p>
       </div>
 
       <div className="relative max-w-4xl mx-auto timeline-container">
-        {/* Animated Line */}
-        <div 
+        {/* Animated vertical line */}
+        <div
           ref={lineRef}
-          className="absolute left-1/2 -translate-x-1/2 w-1 h-full bg-gradient-to-b from-primary via-secondary to-transparent opacity-40"
-        ></div>
+          className="absolute left-1/2 -translate-x-1/2 w-px h-full bg-gradient-to-b from-primary via-secondary to-transparent opacity-30 hidden md:block"
+        />
 
-        <div className="space-y-24">
+        <div className="space-y-16">
           {milestones.map((m, i) => (
-            <div key={i} className="timeline-item relative grid md:grid-cols-2 gap-16 items-center">
-              <div className={`${i % 2 === 0 ? "text-right md:pr-12" : "md:pr-12 md:order-1 order-2 md:text-right"}`}>
-                <div className={`${i % 2 === 0 ? "text-primary" : "text-secondary"} font-bold text-xl mb-1`}>
-                  {m.period}
-                </div>
-                <h4 className="text-2xl font-bold mb-2">{m.role}</h4>
-                <p className="text-slate-500 font-medium">{m.company}</p>
+            <div
+              key={i}
+              className="timeline-item relative grid md:grid-cols-2 gap-8 md:gap-16 items-start"
+            >
+              {/* ---- LEFT SIDE ---- */}
+              <div className={`${i % 2 !== 0 ? "md:order-2" : ""}`}>
+                {i % 2 === 0 ? (
+                  /* Even → info card on left */
+                  <div className="text-right md:pr-12">
+                    <span className={`text-[10px] font-black uppercase tracking-widest ${m.accent} opacity-70`}>
+                      {m.period}
+                    </span>
+                    <h4 className="text-xl font-black text-on-background mt-1 leading-snug">
+                      {m.icon} {m.role}
+                    </h4>
+                    <p className="text-sm font-semibold text-on-surface-variant mt-1">{m.company}</p>
+                    <p className="text-[11px] text-on-surface-variant/50 mt-0.5">{m.board}</p>
+                    <span className={`inline-block mt-3 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest ${m.accent} bg-primary/10 border border-primary/20`}>
+                      ★ {m.gpa}
+                    </span>
+                  </div>
+                ) : (
+                  /* Odd → description card on left */
+                  <TimelineCard m={m} align="left" />
+                )}
               </div>
 
-              {/* Point */}
-              <div className={`absolute left-1/2 -translate-x-1/2 w-5 h-5 rounded-full ${m.color} ${m.glow} border-[5px] border-background z-10 hidden md:block`}></div>
+              {/* Center dot (desktop only) */}
+              <div
+                className={`absolute left-1/2 -translate-x-1/2 w-5 h-5 rounded-full ${m.color} ${m.glow} border-[4px] border-background z-10 hidden md:block top-1`}
+              />
 
-              <div className={`${i % 2 === 0 ? "md:pl-12" : "md:pl-12 md:order-2 order-1"}`}>
-                <p className="text-on-surface-variant leading-relaxed text-lg">
-                  {m.description}
-                </p>
+              {/* ---- RIGHT SIDE ---- */}
+              <div className={`${i % 2 !== 0 ? "md:order-1" : ""}`}>
+                {i % 2 === 0 ? (
+                  /* Even → description card on right */
+                  <TimelineCard m={m} align="left" />
+                ) : (
+                  /* Odd → info card on right */
+                  <div className="md:pl-12">
+                    <span className={`text-[10px] font-black uppercase tracking-widest ${m.accent} opacity-70`}>
+                      {m.period}
+                    </span>
+                    <h4 className="text-xl font-black text-on-background mt-1 leading-snug">
+                      {m.icon} {m.role}
+                    </h4>
+                    <p className="text-sm font-semibold text-on-surface-variant mt-1">{m.company}</p>
+                    <p className="text-[11px] text-on-surface-variant/50 mt-0.5">{m.board}</p>
+                    <span className={`inline-block mt-3 px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest ${m.accent} bg-secondary/10 border border-secondary/20`}>
+                      ★ {m.gpa}
+                    </span>
+                  </div>
+                )}
               </div>
             </div>
           ))}
@@ -108,5 +180,25 @@ const Timeline = () => {
     </section>
   );
 };
+
+const TimelineCard = ({ m, align = "left" }) => (
+  <div
+    className={`glass-card p-6 rounded-2xl border border-outline-variant/10 hover:border-primary/20 transition-all duration-500 group`}
+  >
+    <p className="text-on-surface-variant/70 text-sm leading-relaxed mb-4">
+      {m.description}
+    </p>
+    <div className={`flex flex-wrap gap-2 ${align === "right" ? "justify-end" : ""}`}>
+      {m.tags.map((tag, ti) => (
+        <span
+          key={ti}
+          className="px-2.5 py-1 bg-surface-container-high rounded-lg text-[9px] font-bold uppercase tracking-wider text-on-surface-variant/60 border border-outline-variant/10 group-hover:border-primary/20 transition-colors"
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
+  </div>
+);
 
 export default Timeline;
