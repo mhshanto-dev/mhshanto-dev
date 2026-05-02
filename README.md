@@ -29,19 +29,29 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ---
 
-### 📌 Pinned Projects with Animated Code
+### 📌 Projects
+
 <table>
 <tr>
 <td>
 
-- 📂 [Programming Journey Archive](https://github.com/mhshanto-dev/programming-journey-archive)  
-- 📂 [Digital Tools Platform](https://github.com/mhshanto-dev/DigitalToolsPlatform)  
-- 📂 [Book Vibe](https://github.com/mhshanto-dev/Book-Vibe)  
-- 📂 [BPL Dream](https://github.com/mhshanto-dev/Bpl-Dream)  
-- 📂 [Beginner Portfolio](https://github.com/mhshanto-dev/Beginner--portfolio)  
+| Project | Live Link |
+|---------|-----------|
+| 🧑‍💼 Portfolio | [Visit](https://mhshanto-dev.vercel.app/) |
+| 🪨 Tiles Gallery Ecommerce | [Visit](https://tiles-gallery-ecommerce.vercel.app/) |
+| 📱 Keenkeeper Social Media | [Visit](https://courageous-fox-f6c3ed.netlify.app/) |
+| 🛒 Modern Digitools Ecommerce | [Visit](https://whimsical-entremet-c5c4f5.netlify.app/) |
 
 </td>
 <td>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=4000&pause=1000&color=00FF00&width=500&height=200&lines=import+React+from+'react';function+App(){return(<div>Hello+World!</div>);}export+default+App;" alt="React Code Animation"/>
+</p>
+
+</td>
+</tr>
+</table>
 
 <!-- Animated React Code -->
 <p align="center">
