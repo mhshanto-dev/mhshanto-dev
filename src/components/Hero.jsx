@@ -13,8 +13,18 @@ gsap.registerPlugin(ScrollTrigger);
 const Hero = () => {
   const containerRef = useRef(null);
   const { scrollY } = useScroll();
+  
   const [roleIndex, setRoleIndex] = useState(0);
-  const roles = ["Software Developer", "Full Stack Developer", "Problem Solver"];
+  const [isGlitching, setIsGlitching] = useState(false);
+  const roles = [
+    "Full Stack Developer",
+    "Software Engineer",
+    "Problem Solver",
+    "Mern Stack Developer",
+  ];
+  
+  const [sequenceIndex, setSequenceIndex] = useState(0);
+  const sequence = ["Hey,", "this is", "Mehedi Hasan Shanto"];
 
   // Cinematic Parallax
   const bgY = useTransform(scrollY, [0, 800], [0, 200]);
@@ -32,12 +42,24 @@ const Hero = () => {
       delay: 0.2
     });
 
-    // Role rotation timer
-    const interval = setInterval(() => {
-      setRoleIndex((prev) => (prev + 1) % roles.length);
-    }, 3000);
+    // Sequence rotation timer (Hey, this is, Name)
+    const seqInterval = setInterval(() => {
+      setSequenceIndex((prev) => (prev + 1) % sequence.length);
+    }, 2500);
 
-    return () => clearInterval(interval);
+    // Role rotation timer with glitch effect
+    const roleInterval = setInterval(() => {
+      setIsGlitching(true);
+      setTimeout(() => {
+        setRoleIndex((prev) => (prev + 1) % roles.length);
+        setIsGlitching(false);
+      }, 300);
+    }, 3200);
+
+    return () => {
+      clearInterval(seqInterval);
+      clearInterval(roleInterval);
+    };
   }, []);
 
   return (
@@ -62,37 +84,94 @@ const Hero = () => {
         </div>
 
         <div className="space-y-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-            className="text-h1 text-on-background leading-tight"
-          >
-            Hey, <br />
-            <span className="text-h2 md:text-h1 block opacity-40 font-medium tracking-tight">this is</span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-              Mehedi Hasan Shanto
-            </span>
-            <span className="block text-lg md:text-xl opacity-60 font-bold uppercase tracking-[0.2em] mt-4">
+          <div className="h-[120px] md:h-[160px] flex items-center overflow-visible">
+            <AnimatePresence mode="wait">
+              <motion.h1
+                key={sequenceIndex}
+                initial={{ opacity: 0, y: 40, filter: "blur(10px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                exit={{ opacity: 0, y: -40, filter: "blur(10px)" }}
+                transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+                className={`text-h1 leading-tight tracking-tighter ${
+                  sequenceIndex === 2 
+                    ? "text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-black" 
+                    : "text-on-background opacity-80"
+                }`}
+              >
+                {sequence[sequenceIndex]}
+              </motion.h1>
+            </AnimatePresence>
+          </div>
+          
+          <div className="flex flex-col gap-4">
+            <span className="block text-lg md:text-xl opacity-60 font-bold uppercase tracking-[0.2em]">
               Full-Stack Developer from Bangladesh
             </span>
-          </motion.div>
-          
-          <div className="flex items-center gap-3 text-2xl md:text-3xl font-heading font-bold text-on-surface-variant">
-            <span>I'm a</span>
-            <div className="relative h-10 overflow-hidden min-w-[300px]">
-              <AnimatePresence mode="wait">
-                <motion.span
-                  key={roleIndex}
-                  initial={{ y: 20, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  exit={{ y: -20, opacity: 0 }}
-                  transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
-                  className="absolute left-0 text-primary"
-                >
-                  {roles[roleIndex]}
-                </motion.span>
-              </AnimatePresence>
+
+            {/* Animated Role Rotator */}
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-2xl md:text-3xl font-heading font-bold text-on-surface-variant">
+              <span className="shrink-0">I&apos;m a</span>
+              <div
+                className="relative h-12 overflow-hidden"
+                style={{ minWidth: "clamp(220px, 45vw, 380px)" }}
+              >
+                <AnimatePresence mode="wait">
+                  <motion.span
+                    key={roleIndex}
+                    initial={{ y: 40, opacity: 0, filter: "blur(8px)" }}
+                    animate={{
+                      y: 0,
+                      opacity: 1,
+                      filter: isGlitching ? "blur(4px)" : "blur(0px)",
+                      x: isGlitching
+                        ? [0, -4, 4, -2, 2, 0]
+                        : 0,
+                      color: isGlitching
+                        ? ["var(--primary)", "#ff4ecd", "var(--primary)"]
+                        : "var(--primary)",
+                    }}
+                    exit={{ y: -40, opacity: 0, filter: "blur(8px)" }}
+                    transition={{
+                      duration: 0.6,
+                      ease: [0.16, 1, 0.3, 1],
+                      x: { duration: 0.3, repeat: isGlitching ? 1 : 0 },
+                      color: { duration: 0.3 },
+                    }}
+                    className="absolute left-0 top-1/2 -translate-y-1/2 text-primary font-black whitespace-nowrap"
+                    style={{ textShadow: "0 0 20px var(--primary-container)" }}
+                  >
+                    {roles[roleIndex]}
+                  </motion.span>
+                </AnimatePresence>
+
+                {/* Underline accent bar */}
+                <motion.div
+                  key={`bar-${roleIndex}`}
+                  initial={{ scaleX: 0, opacity: 0 }}
+                  animate={{ scaleX: 1, opacity: 1 }}
+                  exit={{ scaleX: 0, opacity: 0 }}
+                  transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
+                  className="absolute bottom-0 left-0 h-[3px] w-full origin-left rounded-full bg-gradient-to-r from-primary via-secondary to-transparent"
+                />
+              </div>
+            </div>
+
+            {/* Role Dots Indicator */}
+            <div className="flex gap-2 pt-1">
+              {roles.map((_, i) => (
+                <motion.div
+                  key={i}
+                  animate={{
+                    width: i === roleIndex ? 24 : 6,
+                    opacity: i === roleIndex ? 1 : 0.3,
+                    backgroundColor:
+                      i === roleIndex ? "var(--primary)" : "var(--outline)",
+                  }}
+                  transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                  className="h-1.5 rounded-full cursor-pointer"
+                  onClick={() => setRoleIndex(i)}
+                />
+              ))}
             </div>
           </div>
 
@@ -164,12 +243,10 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Handle Underneath */}
         <div className="mt-8 text-center">
           <p className="text-sm font-medium text-primary uppercase tracking-[0.2em] opacity-60">mhshanto-dev</p>
         </div>
 
-        {/* Floating Data Cards - RESPONSIVE */}
         <motion.div 
           initial={{ x: -60, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}

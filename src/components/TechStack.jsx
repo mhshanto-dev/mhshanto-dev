@@ -1,75 +1,56 @@
 "use client";
 
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { motion } from "framer-motion";
 import Magnetic from "./Magnetic";
 
-gsap.registerPlugin(ScrollTrigger);
-
 const TechStack = () => {
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      gsap.from(".tech-card", {
-        opacity: 0,
-        y: 30,
-        stagger: 0.1,
-        duration: 0.8,
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top 80%",
-        },
-      });
-    }, sectionRef);
-
-    return () => ctx.revert();
-  }, []);
-
   const techs = [
     {
       name: "JavaScript",
       icon: "javascript",
       color: "text-yellow-400",
+      bg: "bg-yellow-400/10 group-hover:bg-yellow-400/20",
       skills: ["ES6+ Modern Syntax", "DOM Manipulation / API Handling"]
     },
     {
       name: "TypeScript",
       icon: "code_blocks",
       color: "text-blue-500",
+      bg: "bg-blue-500/10 group-hover:bg-blue-500/20",
       skills: ["Type Safety System", "Scalable Code Structure"]
     },
     {
-      name: "React",
+      name: "React & Next.js",
       icon: "deployed_code",
       color: "text-cyan-400",
+      bg: "bg-cyan-400/10 group-hover:bg-cyan-400/20",
       skills: ["Component-Based Architecture", "State Management (Hooks)"]
     },
     {
-      name: "Node.js",
+      name: "Node.js & Express",
       icon: "terminal",
       color: "text-green-500",
-      skills: ["Backend API Development", "Server-Side Logic"]
+      bg: "bg-green-500/10 group-hover:bg-green-500/20",
+      skills: ["Backend API Development", "RESTful API Design"]
     },
     {
-      name: "Deployment",
+      name: "MongoDB & SQL",
+      icon: "database",
+      color: "text-orange-400",
+      bg: "bg-orange-400/10 group-hover:bg-orange-400/20",
+      skills: ["NoSQL Database Design", "Data Modeling & Querying"]
+    },
+    {
+      name: "Deployment & DevOps",
       icon: "cloud_upload",
       color: "text-purple-400",
-      skills: ["Vercel / Netlify Deployment", "Production Build Optimization"]
-    },
-    {
-      name: "Terminal",
-      icon: "keyboard",
-      color: "text-slate-400",
-      skills: ["Git & CLI Commands", "Project Automation Workflow"]
+      bg: "bg-purple-400/10 group-hover:bg-purple-400/20",
+      skills: ["Vercel / Netlify Hosting", "Git Workflow & CI/CD"]
     }
   ];
 
   return (
-    <section ref={sectionRef} className="max-w-[1200px] mx-auto px-6 py-[120px]" id="skills">
+    <section className="max-w-[1200px] mx-auto px-6 py-[120px]" id="skills">
       <div className="mb-16">
         <span className="text-primary font-bold tracking-[0.3em] uppercase text-[10px]">
           Technical Expertise
@@ -77,22 +58,32 @@ const TechStack = () => {
         <h2 className="text-h2 text-on-background mt-3">
           My Tech Stack
         </h2>
+        <p className="text-on-surface-variant/60 mt-4 max-w-lg text-sm leading-relaxed">
+          Tools and technologies I use to build modern, scalable applications.
+        </p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {techs.map((tech, i) => (
           <Magnetic key={i} strength={0.1}>
             <motion.div
-              whileHover={{ scale: 1.05, y: -5 }}
-              className="tech-card glass-card p-8 group transition-all duration-500 hover:shadow-[0_20px_50px_rgba(37,99,235,0.15)] hover:border-primary/20 cursor-default"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-80px" }}
+              transition={{ duration: 0.7, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+              whileHover={{ scale: 1.02, y: -4 }}
+              className="glass-card p-8 group transition-all duration-500 hover:shadow-[0_20px_50px_rgba(37,99,235,0.12)] hover:border-primary/20 cursor-default relative overflow-hidden"
             >
+              {/* Subtle corner glow on hover */}
+              <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 -translate-y-1/2 translate-x-1/2" />
+
               <div className="flex items-start justify-between mb-6">
-                <div className={`w-14 h-14 rounded-2xl bg-surface-container-high flex items-center justify-center transition-colors group-hover:bg-primary/10`}>
+                <div className={`w-14 h-14 rounded-2xl flex items-center justify-center transition-all duration-500 ${tech.bg}`}>
                   <span className={`material-symbols-outlined ${tech.color} text-3xl group-hover:scale-110 transition-transform duration-500`}>
                     {tech.icon}
                   </span>
                 </div>
-                <div className="w-8 h-8 rounded-full border border-outline-variant/10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <div className="w-8 h-8 rounded-full border border-outline-variant/20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <span className="material-symbols-outlined text-sm text-primary">north_east</span>
                 </div>
               </div>
@@ -100,11 +91,11 @@ const TechStack = () => {
               <h3 className="text-xl font-bold text-on-background mb-4 font-heading">
                 {tech.name}
               </h3>
-              
-              <ul className="space-y-3 opacity-0 group-hover:opacity-100 transition-all duration-700 translate-y-4 group-hover:translate-y-0 h-0 group-hover:h-auto overflow-hidden">
+
+              <ul className="space-y-2.5">
                 {tech.skills.map((skill, si) => (
-                  <li key={si} className="flex items-center gap-3 text-sm text-on-surface-variant/80">
-                    <div className="w-1.5 h-1.5 rounded-full bg-primary/40" />
+                  <li key={si} className="flex items-center gap-3 text-sm text-on-surface-variant/70">
+                    <div className={`w-1.5 h-1.5 rounded-full shrink-0 ${tech.color} opacity-60`} />
                     {skill}
                   </li>
                 ))}
