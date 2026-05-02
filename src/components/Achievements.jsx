@@ -60,8 +60,8 @@ const Achievements = () => {
   ];
 
   return (
-    <section className="max-w-[1200px] mx-auto px-6 py-[80px]" id="achievements">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+    <section className="max-w-[1200px] mx-auto px-6 py-[100px] md:py-[120px]" id="achievements">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-y-12 gap-x-8">
         {stats.map((stat, i) => (
           <motion.div
             key={i}

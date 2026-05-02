@@ -26,7 +26,7 @@ const Navbar = () => {
   useEffect(() => {
     setMounted(true);
     const handleScroll = () => {
-      const sections = ["home", "achievements", "about", "process", "skills", "projects", "assignments", "timeline", "faq", "contact"];
+      const sections = ["home", "achievements", "about", "services", "backend", "process", "skills", "projects", "codeshowcase", "assignments", "timeline", "faq", "contact"];
       const scrollPosition = window.scrollY + 100;
       for (const section of sections) {
         if (section === "home") {
@@ -46,7 +46,8 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "/#home", id: "home" },
     { name: "About", href: "#about", id: "about" },
-    { name: "Process", href: "#process", id: "process" },
+    { name: "Services", href: "#services", id: "services" },
+    { name: "Code", href: "#codeshowcase", id: "codeshowcase" },
     { name: "Projects", href: "#projects", id: "projects" },
     { name: "Contact", href: "#contact", id: "contact" },
   ];

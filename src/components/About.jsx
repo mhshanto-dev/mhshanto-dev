@@ -4,8 +4,6 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import aboutImg from "@/assets/about_cartoon.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -56,19 +54,8 @@ const About = () => {
 
   return (
     <section ref={sectionRef} className="max-w-[1200px] mx-auto px-4 sm:px-6 py-[80px] sm:py-[120px] lg:py-[140px] relative overflow-hidden" id="about">
-      {/* Background Cartoon Layer (The "Image na dia" feel - integrated into background) */}
-      <div className="absolute right-0 top-0 w-1/2 h-full opacity-10 pointer-events-none select-none">
-        <Image
-          src={aboutImg}
-          alt="Background Visual"
-          className="w-full h-full object-cover grayscale"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-l from-background via-background/80 to-background" />
-      </div>
 
       <div className="grid lg:grid-cols-12 gap-10 lg:gap-24 items-center relative z-10">
-        {/* Left Side: About Info */}
         <div className="lg:col-span-6 space-y-10">
           <div className="about-heading space-y-4">
             <span className="text-primary font-bold tracking-[0.4em] uppercase text-[10px]">
@@ -79,15 +66,15 @@ const About = () => {
             </h2>
           </div>
 
-          <div className="space-y-8">
+          <div className="space-y-6">
             <div className="about-content-item">
-              <p className="text-lg sm:text-xl font-medium text-on-background leading-relaxed">
-                I'm Mehedi Hasan Shanto (MH Shanto), a Full-Stack Developer based in Bangladesh (Dhaka, Sirajganj, Rajshahi) with a deep-seated passion for high-performance digital experiences.
+              <p className="text-base sm:text-lg lg:text-xl font-medium text-on-background leading-relaxed">
+                I'm Mehedi Hasan Shanto (MH Shanto), a Full-Stack Developer based in Bangladesh with a passion for high-performance digital experiences.
               </p>
             </div>
             
             <div className="about-content-item">
-              <p className="text-on-surface-variant leading-relaxed text-base sm:text-lg">
+              <p className="text-on-surface-variant leading-relaxed text-sm sm:text-base lg:text-lg">
                 I specialize in Frontend and Backend development, bridging the gap between complex logic and intuitive interfaces. Whether it's building scalable architectures or crafting pixel-perfect interactive frontends, I focus on delivering code that is as clean as it is impactful.
               </p>
             </div>
@@ -95,8 +82,8 @@ const About = () => {
         </div>
 
         {/* Right Side: Typing Visual (No "Image" Card) */}
-        <div className="lg:col-span-6">
-          <div className="relative group">
+        <div className="lg:col-span-6 relative flex flex-col justify-center">
+          <div className="relative group w-full">
             <div className="glass-card p-5 sm:p-8 rounded-[32px] border-white/5 backdrop-blur-3xl overflow-hidden min-h-[320px] sm:min-h-[400px] flex flex-col">
               {/* Terminal Header */}
               <div className="flex gap-2 mb-6 border-b border-white/5 pb-4">
@@ -151,14 +138,6 @@ const About = () => {
                 </div>
               </div>
 
-              {/* Cartoon image integrated subtly in the background of the card */}
-              <div className="absolute bottom-0 right-0 w-48 h-48 opacity-20 group-hover:opacity-40 transition-opacity duration-700 pointer-events-none">
-                <Image
-                  src={aboutImg}
-                  alt="Cartoon Subtle"
-                  className="w-full h-full object-contain"
-                />
-              </div>
             </div>
           </div>
         </div>

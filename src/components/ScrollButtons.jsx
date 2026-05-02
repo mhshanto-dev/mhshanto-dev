@@ -7,7 +7,7 @@ const ScrollButtons = () => {
   const [showUp, setShowUp] = useState(false);
   const [showDown, setShowDown] = useState(true);
 
-  const sections = ["home", "achievements", "about", "process", "skills", "projects", "assignments", "timeline", "faq", "contact"];
+  const sections = ["home", "achievements", "about", "services", "backend", "process", "skills", "projects", "codeshowcase", "assignments", "timeline", "faq", "contact"];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,9 +53,9 @@ const ScrollButtons = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={scrollToTop}
-            className="pointer-events-auto w-12 h-12 rounded-full glass-card flex items-center justify-center text-on-background shadow-2xl border border-outline-variant/20 hover:bg-primary-container hover:text-white transition-colors"
+            className="pointer-events-auto w-10 h-10 sm:w-12 sm:h-12 rounded-full glass-card flex items-center justify-center text-on-background shadow-2xl border border-outline-variant/20 hover:bg-primary-container hover:text-white transition-colors"
           >
-            <span className="material-symbols-outlined">north</span>
+            <span className="material-symbols-outlined text-sm sm:text-base">north</span>
           </motion.button>
         )}
       </AnimatePresence>
@@ -69,9 +69,9 @@ const ScrollButtons = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
             onClick={scrollToNext}
-            className="pointer-events-auto w-12 h-12 rounded-full glass-card flex items-center justify-center text-on-background shadow-2xl border border-outline-variant/20 hover:bg-primary-container hover:text-white transition-colors"
+            className="pointer-events-auto w-10 h-10 sm:w-12 sm:h-12 rounded-full glass-card flex items-center justify-center text-on-background shadow-2xl border border-outline-variant/20 hover:bg-primary-container hover:text-white transition-colors"
           >
-            <span className="material-symbols-outlined">south</span>
+            <span className="material-symbols-outlined text-sm sm:text-base">south</span>
           </motion.button>
         )}
       </AnimatePresence>

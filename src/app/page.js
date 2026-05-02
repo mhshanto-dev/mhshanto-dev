@@ -12,6 +12,9 @@ import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Achievements from "@/components/Achievements";
 import AssignmentShowcase from "@/components/AssignmentShowcase";
+import Services from "@/components/Services";
+import BackendArchitecture from "@/components/BackendArchitecture";
+import CodeShowcase from "@/components/CodeShowcase";
 import WorkingProcess from "@/components/WorkingProcess";
 
 export default function Home() {
@@ -22,10 +25,13 @@ export default function Home() {
         <Hero />
         <Achievements />
         <About />
+        <Services />
+        <BackendArchitecture />
         <WorkingProcess />
         <TechStack />
         <Skills />
         <Projects />
+        <CodeShowcase />
         <AssignmentShowcase />
         <Timeline />
         <FAQ />

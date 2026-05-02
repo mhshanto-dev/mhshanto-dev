@@ -46,8 +46,10 @@ const FAQ = () => {
   return (
     <section ref={sectionRef} className="max-w-[1000px] mx-auto px-6 py-[120px]" id="faq">
       <div className="text-center mb-16">
-        <h2 className="font-h2 text-3xl">Frequently Asked</h2>
-        <div className="h-1 w-12 bg-primary rounded-full mx-auto mt-4 opacity-50"></div>
+        <span className="text-primary font-bold tracking-[0.3em] uppercase text-[10px]">
+          F.A.Q
+        </span>
+        <h2 className="text-h2 text-on-background mt-3">Common Questions</h2>
       </div>
       
       <div className="space-y-6">
