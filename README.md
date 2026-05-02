@@ -90,39 +90,21 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 </p>
 ---
 
-### 💭 Dev Quote
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
-</p>
-
----
-
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: mhshanto-dev
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ### 📈 Contribution Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhshanto-dev&theme=tokyo-night" alt="Contribution Graph"/>
+</p>
+
+---
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=1000&color=00F7FF&center=true&width=600&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Feel+free+to+explore+my+projects!;Let's+build+something+amazing+together!;Open+to+work+%26+collaboration!" alt="Footer Animation"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mhshanto-dev&color=00F7FF&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
 </p>
