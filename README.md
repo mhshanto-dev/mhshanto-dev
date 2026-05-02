@@ -83,12 +83,11 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 ---
 ---
 
-### 🎯 2025 Goals
+### 🎯 2026 Goals
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=500&color=00F7FF&center=true&width=600&lines=✅+Complete+20+Projects;✅+Master+AI+Integration;✅+Land+First+Dev+Job;✅+Build+SaaS+Product;✅+Contribute+to+Open+Source" alt="Goals"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=800&color=00F7FF&center=true&width=600&multiline=false&lines=%E2%9C%85+Complete+20+Projects;%E2%9C%85+Master+AI+Integration;%E2%9C%85+Land+First+Dev+Job;%E2%9C%85+Build+SaaS+Product;%E2%9C%85+Open+Source+Contribution" alt="Goals"/>
 </p>
-
 ---
 
 ### 💭 Dev Quote
@@ -99,22 +98,29 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ---
 
-### 🐍 Contribution Snake
+name: Generate Snake
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
-</p>
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=FF5733&center=true&width=500&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Let's+build+something+amazing+together!" alt="Footer"/>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mhshanto-dev&color=00F7FF&style=for-the-badge" alt="Profile Views"/>
-</p>
-
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: mhshanto-dev
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ### 📈 Contribution Graph
 
 <p align="center">
