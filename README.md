@@ -7,7 +7,7 @@
 
 ### 💫 About Me
 
-I am a passionate Computer Science student and aspiring full‑stack developer, skilled in **HTML, CSS, JavaScript, React, Node.js, MongoDB, Next.js, Python**.  
+I am a passionate Computer Science student and aspiring full‑stack developer, skilled in **HTML, CSS, JavaScript, React, Node.js, MongoDB, Next.js,Opp & Python, C, CPP**.  
 Currently sharpening my expertise through **Programming Hero Batch 13** and **CSE Phitron**, I focus on building scalable web applications, solving real‑world problems, and writing clean, maintainable code.
 
 ---
