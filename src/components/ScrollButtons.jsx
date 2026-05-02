@@ -7,7 +7,7 @@ const ScrollButtons = () => {
   const [showUp, setShowUp] = useState(false);
   const [showDown, setShowDown] = useState(true);
 
-  const sections = ["home", "projects", "skills", "timeline", "faq", "contact", "ai-chat"];
+  const sections = ["home", "achievements", "about", "process", "skills", "projects", "testimonials", "timeline", "faq", "contact"];
 
   useEffect(() => {
     const handleScroll = () => {

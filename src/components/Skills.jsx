@@ -30,13 +30,13 @@ const Skills = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="max-w-[1200px] mx-auto px-6 py-[120px]" id="skills">
-      <div className="grid md:grid-cols-2 gap-12">
+    <section ref={sectionRef} className="max-w-[1200px] mx-auto px-4 sm:px-6 py-[80px] sm:py-[120px]" id="skills">
+      <div className="grid md:grid-cols-2 gap-8 sm:gap-12">
         <div className="skill-card-wrap">
           <TiltCard className="h-full">
             <motion.div 
               whileHover={{ scale: 1.02 }}
-              className="glass-card p-[48px] h-full transition-colors hover:bg-surface-container-high/60 group"
+              className="glass-card p-8 sm:p-[48px] h-full transition-colors hover:bg-surface-container-high/60 group"
             >
               <div className="flex justify-between items-start mb-12">
                 <div className="p-5 bg-primary/10 rounded-[24px] group-hover:scale-110 transition-transform duration-500">
@@ -71,7 +71,7 @@ const Skills = () => {
           <TiltCard className="h-full">
             <motion.div 
               whileHover={{ scale: 1.02 }}
-              className="glass-card p-[48px] h-full transition-colors hover:bg-surface-container-high/60 group"
+              className="glass-card p-8 sm:p-[48px] h-full transition-colors hover:bg-surface-container-high/60 group"
             >
               <div className="flex justify-between items-start mb-12">
                 <div className="p-5 bg-secondary/10 rounded-[24px] group-hover:scale-110 transition-transform duration-500">

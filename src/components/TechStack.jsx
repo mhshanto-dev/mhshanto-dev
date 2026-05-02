@@ -50,7 +50,7 @@ const TechStack = () => {
   ];
 
   return (
-    <section className="max-w-[1200px] mx-auto px-6 py-[120px]" id="skills">
+    <section className="max-w-[1200px] mx-auto px-4 sm:px-6 py-[80px] sm:py-[120px]" id="skills">
       <div className="mb-16">
         <span className="text-primary font-bold tracking-[0.3em] uppercase text-[10px]">
           Technical Expertise

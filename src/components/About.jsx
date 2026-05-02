@@ -55,7 +55,7 @@ const About = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="max-w-[1200px] mx-auto px-6 py-[140px] relative overflow-hidden" id="about">
+    <section ref={sectionRef} className="max-w-[1200px] mx-auto px-4 sm:px-6 py-[80px] sm:py-[120px] lg:py-[140px] relative overflow-hidden" id="about">
       {/* Background Cartoon Layer (The "Image na dia" feel - integrated into background) */}
       <div className="absolute right-0 top-0 w-1/2 h-full opacity-10 pointer-events-none select-none">
         <Image
@@ -67,7 +67,7 @@ const About = () => {
         <div className="absolute inset-0 bg-gradient-to-l from-background via-background/80 to-background" />
       </div>
 
-      <div className="grid lg:grid-cols-12 gap-16 lg:gap-24 items-center relative z-10">
+      <div className="grid lg:grid-cols-12 gap-10 lg:gap-24 items-center relative z-10">
         {/* Left Side: About Info */}
         <div className="lg:col-span-6 space-y-10">
           <div className="about-heading space-y-4">
@@ -81,26 +81,15 @@ const About = () => {
 
           <div className="space-y-8">
             <div className="about-content-item">
-              <p className="text-xl font-medium text-on-background leading-relaxed">
+              <p className="text-lg sm:text-xl font-medium text-on-background leading-relaxed">
                 I'm Mehedi Hasan Shanto (MH Shanto), a Full-Stack Developer based in Bangladesh (Dhaka, Sirajganj, Rajshahi) with a deep-seated passion for high-performance digital experiences.
               </p>
             </div>
             
             <div className="about-content-item">
-              <p className="text-on-surface-variant leading-relaxed text-lg">
+              <p className="text-on-surface-variant leading-relaxed text-base sm:text-lg">
                 I specialize in Frontend and Backend development, bridging the gap between complex logic and intuitive interfaces. Whether it's building scalable architectures or crafting pixel-perfect interactive frontends, I focus on delivering code that is as clean as it is impactful.
               </p>
-            </div>
-
-            <div className="about-content-item grid grid-cols-2 gap-8 pt-6">
-              <div>
-                <h4 className="text-3xl font-black text-primary">30+</h4>
-                <p className="text-[10px] uppercase font-bold tracking-widest text-on-surface-variant opacity-60 mt-1">Projects Finished</p>
-              </div>
-              <div>
-                <h4 className="text-3xl font-black text-secondary">1+</h4>
-                <p className="text-[10px] uppercase font-bold tracking-widest text-on-surface-variant opacity-60 mt-1">Year Experience</p>
-              </div>
             </div>
           </div>
         </div>
@@ -108,7 +97,7 @@ const About = () => {
         {/* Right Side: Typing Visual (No "Image" Card) */}
         <div className="lg:col-span-6">
           <div className="relative group">
-            <div className="glass-card p-8 rounded-[32px] border-white/5 backdrop-blur-3xl overflow-hidden min-h-[400px] flex flex-col">
+            <div className="glass-card p-5 sm:p-8 rounded-[32px] border-white/5 backdrop-blur-3xl overflow-hidden min-h-[320px] sm:min-h-[400px] flex flex-col">
               {/* Terminal Header */}
               <div className="flex gap-2 mb-6 border-b border-white/5 pb-4">
                 <div className="w-3 h-3 rounded-full bg-[#FF5F56]"></div>

@@ -99,7 +99,7 @@ const Timeline = () => {
   ];
 
   return (
-    <section ref={sectionRef} className="max-w-[1200px] mx-auto px-6 py-[140px]" id="timeline">
+    <section ref={sectionRef} className="max-w-[1200px] mx-auto px-4 sm:px-6 py-[80px] sm:py-[120px] lg:py-[140px]" id="timeline">
       <div className="text-center mb-24">
         <span className="text-primary font-bold tracking-[0.3em] uppercase text-[10px]">
           Evolution

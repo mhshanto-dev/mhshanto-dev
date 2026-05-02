@@ -10,6 +10,9 @@ import Contact from "@/components/Contact";
 import AIChat from "@/components/AIChat";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import Achievements from "@/components/Achievements";
+import Testimonials from "@/components/Testimonials";
+import WorkingProcess from "@/components/WorkingProcess";
 
 export default function Home() {
   return (
@@ -17,10 +20,13 @@ export default function Home() {
       <Navbar />
       <div className="mt-16">
         <Hero />
+        <Achievements />
         <About />
+        <WorkingProcess />
         <TechStack />
         <Skills />
         <Projects />
+        <Testimonials />
         <Timeline />
         <FAQ />
         <Contact />

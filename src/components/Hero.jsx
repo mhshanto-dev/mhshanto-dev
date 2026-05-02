@@ -63,10 +63,10 @@ const Hero = () => {
   }, []);
 
   return (
-    <section 
-      id="home" 
+    <section
+      id="home"
       ref={containerRef}
-      className="max-w-[1200px] mx-auto px-6 pt-[140px] pb-[100px] min-h-[90vh] grid lg:grid-cols-2 items-center gap-24 relative overflow-visible"
+      className="max-w-[1200px] mx-auto px-4 sm:px-6 pt-[100px] sm:pt-[130px] lg:pt-[140px] pb-[60px] sm:pb-[100px] min-h-screen grid lg:grid-cols-2 items-center gap-10 lg:gap-24 relative overflow-visible"
     >
       {/* Background Cinematic Layer */}
       <motion.div style={{ y: bgY }} className="parallax-layer-bg">
@@ -83,8 +83,8 @@ const Hero = () => {
           </span>
         </div>
 
-        <div className="space-y-6">
-          <div className="h-[120px] md:h-[160px] flex items-center overflow-visible">
+        <div className="space-y-4 sm:space-y-6">
+          <div className="h-[90px] sm:h-[120px] md:h-[160px] flex items-center overflow-visible">
             <AnimatePresence mode="wait">
               <motion.h1
                 key={sequenceIndex}
@@ -92,9 +92,9 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                 exit={{ opacity: 0, y: -40, filter: "blur(10px)" }}
                 transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-                className={`text-h1 leading-tight tracking-tighter ${
-                  sequenceIndex === 2 
-                    ? "text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-black" 
+                className={`text-[2.4rem] sm:text-[3.5rem] md:text-h1 leading-tight tracking-tighter ${
+                  sequenceIndex === 2
+                    ? "text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-black"
                     : "text-on-background opacity-80"
                 }`}
               >
@@ -103,17 +103,17 @@ const Hero = () => {
             </AnimatePresence>
           </div>
           
-          <div className="flex flex-col gap-4">
-            <span className="block text-lg md:text-xl opacity-60 font-bold uppercase tracking-[0.2em]">
+          <div className="flex flex-col gap-3 sm:gap-4">
+            <span className="block text-sm sm:text-lg md:text-xl opacity-60 font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em]">
               Full-Stack Developer from Bangladesh
             </span>
 
             {/* Animated Role Rotator */}
-            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-2xl md:text-3xl font-heading font-bold text-on-surface-variant">
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xl sm:text-2xl md:text-3xl font-heading font-bold text-on-surface-variant">
               <span className="shrink-0">I&apos;m a</span>
               <div
-                className="relative h-12 overflow-hidden"
-                style={{ minWidth: "clamp(220px, 45vw, 380px)" }}
+                className="relative h-10 sm:h-12 overflow-hidden"
+                style={{ minWidth: "clamp(160px, 50vw, 380px)" }}
               >
                 <AnimatePresence mode="wait">
                   <motion.span
@@ -194,22 +194,22 @@ const Hero = () => {
           className="parallax-layer-fg flex flex-wrap gap-6 pt-4"
         >
           <Magnetic strength={0.2}>
-            <motion.button 
+            <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-primary text-white px-10 py-5 rounded-2xl font-bold shadow-2xl shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-500"
+              className="bg-primary text-white px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold shadow-2xl shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-500 text-sm sm:text-base"
             >
               Start a Project
             </motion.button>
           </Magnetic>
-          
+
           <Magnetic strength={0.2}>
-            <motion.button 
+            <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-              className="border border-outline-variant/20 bg-surface-container-high/40 backdrop-blur-xl text-on-surface px-10 py-5 rounded-2xl font-bold hover:bg-surface-container-high transition-all duration-500"
+              className="border border-outline-variant/20 bg-surface-container-high/40 backdrop-blur-xl text-on-surface px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold hover:bg-surface-container-high transition-all duration-500 text-sm sm:text-base"
             >
               View Projects
             </motion.button>
@@ -227,8 +227,8 @@ const Hero = () => {
         <div className="relative group">
           {/* Organic Glow behind image */}
           <div className="absolute inset-0 bg-primary/20 blur-[80px] rounded-full scale-110 opacity-0 group-hover:opacity-100 transition-opacity duration-1000" />
-          
-          <div className="w-[340px] h-[340px] lg:w-[400px] lg:h-[400px] rounded-full p-1.5 border border-white/10 bg-surface-container-lowest relative overflow-hidden shadow-2xl">
+
+          <div className="w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] lg:w-[400px] lg:h-[400px] rounded-full p-1.5 border border-white/10 bg-surface-container-lowest relative overflow-hidden shadow-2xl">
             <div className="w-full h-full rounded-full overflow-hidden bg-black/40 relative">
               <Image
                 src={profileImg}
@@ -247,26 +247,26 @@ const Hero = () => {
           <p className="text-sm font-medium text-primary uppercase tracking-[0.2em] opacity-60">mhshanto-dev</p>
         </div>
 
-        <motion.div 
+        <motion.div
           initial={{ x: -60, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 1.5, duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-          className="absolute -left-4 md:-left-2 lg:-left-16 top-1/4 glass-card p-4 md:p-6 rounded-2xl md:rounded-3xl shadow-2xl flex flex-col items-center backdrop-blur-3xl border-white/10 scale-90 md:scale-100"
+          className="absolute -left-2 sm:-left-4 lg:-left-16 top-1/4 glass-card p-3 sm:p-5 rounded-2xl shadow-2xl flex flex-col items-center backdrop-blur-3xl border-white/10"
         >
-          <span className="text-2xl md:text-3xl font-bold text-primary">1+</span>
-          <span className="text-[8px] md:text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mt-1">
+          <span className="text-xl sm:text-2xl md:text-3xl font-bold text-primary">1+</span>
+          <span className="text-[7px] sm:text-[9px] font-bold text-on-surface-variant uppercase tracking-widest mt-1">
             Years Exp
           </span>
         </motion.div>
-        
-        <motion.div 
+
+        <motion.div
           initial={{ x: 60, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 1.7, duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-          className="absolute -right-4 md:-right-2 lg:-right-16 bottom-1/4 glass-card p-4 md:p-6 rounded-2xl md:rounded-3xl shadow-2xl flex flex-col items-center backdrop-blur-3xl border-white/10 scale-90 md:scale-100"
+          className="absolute -right-2 sm:-right-4 lg:-right-16 bottom-1/4 glass-card p-3 sm:p-5 rounded-2xl shadow-2xl flex flex-col items-center backdrop-blur-3xl border-white/10"
         >
-          <span className="text-2xl md:text-3xl font-bold text-secondary">30+</span>
-          <span className="text-[8px] md:text-[10px] font-bold text-on-surface-variant uppercase tracking-widest mt-1">
+          <span className="text-xl sm:text-2xl md:text-3xl font-bold text-secondary">30+</span>
+          <span className="text-[7px] sm:text-[9px] font-bold text-on-surface-variant uppercase tracking-widest mt-1">
             Projects
           </span>
         </motion.div>

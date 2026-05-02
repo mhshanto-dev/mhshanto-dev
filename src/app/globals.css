@@ -82,8 +82,9 @@
   
   body {
     @apply bg-background text-on-background antialiased transition-colors duration-700 ease-in-out font-body;
-    overscroll-behavior: none;
+    overflow-x: hidden;
     cursor: default;
+    touch-action: pan-y;
   }
 
   h1, h2, h3, h4 {

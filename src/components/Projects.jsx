@@ -81,7 +81,7 @@ const Projects = () => {
   };
 
   return (
-    <section ref={sectionRef} className="max-w-[1400px] mx-auto px-6 py-[140px]" id="projects">
+    <section ref={sectionRef} className="max-w-[1400px] mx-auto px-4 sm:px-6 py-[80px] sm:py-[120px] lg:py-[140px]" id="projects">
       <div className="text-center mb-20 projects-title">
         <span className="text-primary font-bold tracking-[0.4em] uppercase text-[10px]">
           Selected Works
