@@ -32,6 +32,10 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 
 ### 📌 Projects
 
+<table>
+<tr>
+<td>
+
 | # | Project | Live |
 |---|---------|------|
 | 01 | 🧑‍💼 Portfolio | [Visit →](https://mhshanto-dev.vercel.app/) |
@@ -39,7 +43,16 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 | 03 | 📱 Keenkeeper Social Media | [Visit →](https://courageous-fox-f6c3ed.netlify.app/) |
 | 04 | 🛒 Modern Digitools Ecommerce | [Visit →](https://whimsical-entremet-c5c4f5.netlify.app/) |
 
----
+</td>
+<td>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2500&pause=800&color=00F7FF&width=380&height=200&lines=const+dev+%3D+%7B;++name%3A+'MH+Shanto'%2C;++stack%3A+'MERN+%2B+Next.js'%2C;++status%3A+'Building...'%2C;++goal%3A+'AI+Developer'%2C;%7D;" alt="Code Animation"/>
+</p>
+
+</td>
+</tr>
+</table>
 
 ### 🚀 Skills & Tools
 
