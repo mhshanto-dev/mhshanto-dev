@@ -81,6 +81,39 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 </p>
 
 ---
+---
+
+### 🎯 2025 Goals
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2000&pause=500&color=00F7FF&center=true&width=600&lines=✅+Complete+20+Projects;✅+Master+AI+Integration;✅+Land+First+Dev+Job;✅+Build+SaaS+Product;✅+Contribute+to+Open+Source" alt="Goals"/>
+</p>
+
+---
+
+### 💭 Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
+</p>
+
+---
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=3000&pause=1000&color=FF5733&center=true&width=500&lines=Thanks+for+visiting+my+profile!+%F0%9F%91%8B;Let's+build+something+amazing+together!" alt="Footer"/>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mhshanto-dev&color=00F7FF&style=for-the-badge" alt="Profile Views"/>
+</p>
 
 ### 📈 Contribution Graph
 
