@@ -7,13 +7,12 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import TiltCard from "./TiltCard";
 import Magnetic from "./Magnetic";
-import portfolioImg from "@/assets/portfolio.png";
-import socialImg from "@/assets/social.png";
-import smartImg from "@/assets/smart.png";
+import projPortfolioImg from "@/assets/proj_portfolio.png";
+import projTilesImg from "@/assets/proj_tiles.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const PROJECTS_PER_PAGE = 3;
+const PROJECTS_PER_PAGE = 4;
 
 const Projects = () => {
   const sectionRef = useRef(null);
@@ -21,52 +20,36 @@ const Projects = () => {
 
   const allProjects = [
     {
-      title: "Personal Portfolio v4",
-      description: "My high-performance developer portfolio built with Next.js 14, Framer Motion, and GSAP.",
-      tags: ["Next.js", "GSAP", "Tailwind"],
-      image: portfolioImg,
-      liveLink: "https://mhshanto-dev.netlify.app",
+      title: "Personal Portfolio",
+      description: "My high-performance developer portfolio built with Next.js, Framer Motion, and GSAP. Features cinematic animations, glassmorphism design, and full responsiveness.",
+      tags: ["Next.js", "Framer Motion", "GSAP", "Tailwind"],
+      image: projPortfolioImg,
+      liveLink: "https://mhshanto-dev.vercel.app/",
       repoLink: "https://github.com/mhshanto-dev/mhshanto"
     },
     {
-      title: "Social Keen-keeper",
-      description: "A modern social management and productivity platform designed for high-performance engagement.",
-      tags: ["React", "Firebase", "Tailwind"],
-      image: socialImg,
-      liveLink: "https://my-app-keen-keeper-ptpfk83ps-mhshanto-devs-projects.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev/my-app-keen-keeper"
+      title: "Tiles Gallery Ecommerce",
+      description: "A full-featured tile ecommerce platform with product gallery, authentication, pricing, and a clean aesthetic design. 'Discover Your Perfect Aesthetic.'",
+      tags: ["React", "Node.js", "MongoDB", "Vercel"],
+      image: projTilesImg,
+      liveLink: "https://tiles-gallery-ecommerce.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev"
     },
     {
-      title: "Smart Tools Platform",
-      description: "A comprehensive digital utility suite offering powerful productivity tools for developers and creators.",
-      tags: ["JavaScript", "React", "Netlify"],
-      image: smartImg,
+      title: "KeenKeeper — Social Media",
+      description: "Your personal shelf of meaningful connections. A relationship management app to browse, tend, and nurture the friendships that matter most.",
+      tags: ["React", "Firebase", "Netlify"],
+      image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://courageous-fox-f6c3ed.netlify.app/",
+      repoLink: "https://github.com/mhshanto-dev"
+    },
+    {
+      title: "Modern Digitools Ecommerce",
+      description: "A comprehensive digital tools & productivity software platform. Browse, purchase, and use powerful digital utilities designed for developers and creators.",
+      tags: ["React", "JavaScript", "Netlify"],
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://whimsical-entremet-c5c4f5.netlify.app/",
       repoLink: "https://github.com/mhshanto-dev/DigitalToolsPlatform"
-    },
-    {
-      title: "Insight Analytics Hub",
-      description: "AI-powered enterprise data visualization platform providing real-time insights.",
-      tags: ["Next.js", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1551288049-bbda0231f67d?auto=format&fit=crop&q=80&w=2426",
-      liveLink: "#",
-      repoLink: "#"
-    },
-    {
-      title: "Pulse Crypto Wallet",
-      description: "Secure, high-speed cryptocurrency management system.",
-      tags: ["React Native"],
-      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=2426",
-      liveLink: "#",
-      repoLink: "#"
-    },
-    {
-      title: "FoodieHub: Food App",
-      description: "Complete food ordering & delivery platform with real-time tracking.",
-      tags: ["React.js", "Node.js", "MongoDB"],
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&q=80&w=2426",
-      liveLink: "#",
-      repoLink: "#"
     }
   ];
 
@@ -106,7 +89,7 @@ const Projects = () => {
         <h2 className="text-h2 mt-3">Portfolio</h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 projects-grid min-h-[600px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 projects-grid">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentPage}
@@ -119,14 +102,19 @@ const Projects = () => {
             {displayedProjects.map((project, index) => (
               <div key={project.title} className="project-card-wrap">
                 <TiltCard className="h-full">
-                  <div className="h-[520px] relative rounded-[32px] overflow-hidden group cursor-default shadow-2xl border border-outline-variant/10 bg-surface-container-low">
+                  <div className="h-[460px] relative rounded-[32px] overflow-hidden group cursor-default shadow-2xl border border-outline-variant/10 bg-surface-container-low">
+                    {/* Project number badge */}
+                    <div className="absolute top-5 left-5 z-30 w-9 h-9 rounded-full bg-black/40 backdrop-blur-xl border border-white/10 flex items-center justify-center">
+                      <span className="text-[10px] font-black text-white/70">{String(index + 1 + (currentPage - 1) * PROJECTS_PER_PAGE).padStart(2, '0')}</span>
+                    </div>
                     <div className="absolute inset-0 z-0">
                       <Image
                         src={project.image}
                         alt={project.title}
                         className="w-full h-full object-cover transition-transform duration-[2.5s] ease-out group-hover:scale-110"
                         fill
-                        sizes="(max-width: 1200px) 100vw, 33vw"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        unoptimized={typeof project.image === 'string'}
                       />
                     </div>
                     <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent opacity-90 z-10 transition-opacity duration-700 group-hover:opacity-85" />
