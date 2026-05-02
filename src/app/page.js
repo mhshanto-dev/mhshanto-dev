@@ -11,7 +11,7 @@ import AIChat from "@/components/AIChat";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Achievements from "@/components/Achievements";
-import Testimonials from "@/components/Testimonials";
+import AssignmentShowcase from "@/components/AssignmentShowcase";
 import WorkingProcess from "@/components/WorkingProcess";
 
 export default function Home() {
@@ -26,7 +26,7 @@ export default function Home() {
         <TechStack />
         <Skills />
         <Projects />
-        <Testimonials />
+        <AssignmentShowcase />
         <Timeline />
         <FAQ />
         <Contact />

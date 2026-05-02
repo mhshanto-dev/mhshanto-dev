@@ -7,7 +7,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import TiltCard from "./TiltCard";
 import Magnetic from "./Magnetic";
-import projPortfolioImg from "@/assets/proj_portfolio.png";
+import projPortfolioImg from "@/assets/proj_portfolio_updated.png";
 import projTilesImg from "@/assets/proj_tiles.png";
 
 gsap.registerPlugin(ScrollTrigger);

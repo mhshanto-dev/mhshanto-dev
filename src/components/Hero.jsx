@@ -253,7 +253,7 @@ const Hero = () => {
           transition={{ delay: 1.5, duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           className="absolute -left-2 sm:-left-4 lg:-left-16 top-1/4 glass-card p-3 sm:p-5 rounded-2xl shadow-2xl flex flex-col items-center backdrop-blur-3xl border-white/10"
         >
-          <span className="text-xl sm:text-2xl md:text-3xl font-bold text-primary">1+</span>
+          <span className="text-xl sm:text-2xl md:text-3xl font-bold text-primary">2+</span>
           <span className="text-[7px] sm:text-[9px] font-bold text-on-surface-variant uppercase tracking-widest mt-1">
             Years Exp
           </span>

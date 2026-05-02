@@ -37,14 +37,14 @@ const Achievements = () => {
       bg: "bg-blue-400/10"
     },
     {
-      label: "Happy Clients",
+      label: "Course Success",
       value: "25+",
-      icon: "sentiment_very_satisfied",
+      icon: "school",
       color: "text-emerald-400",
       bg: "bg-emerald-400/10"
     },
     {
-      label: "Technologies Mastered",
+      label: "Tech Mastered",
       value: "15+",
       icon: "terminal",
       color: "text-amber-400",
@@ -52,7 +52,7 @@ const Achievements = () => {
     },
     {
       label: "Years Experience",
-      value: "03+",
+      value: "02+",
       icon: "calendar_today",
       color: "text-purple-400",
       bg: "bg-purple-400/10"
