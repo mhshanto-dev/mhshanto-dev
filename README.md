@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Animated Banner -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Hi+%F0%9F%91%8B%2C+I'm+Md+Mehedi+Hasan+Shanto;CSE+Student+%7C+Aspiring+MERN+Stack+Developer;JavaScript+%7C+React+%7C+Node.js+%7C+MongoDB;Me+vs+Me+%E2%9C%A6+Relentless+Learner" alt="Typing Banner"/>
+</p>
 
-## Getting Started
+---
 
-First, run the development server:
+### 💫 About Me
+I am a passionate Computer Science student and aspiring full‑stack developer, skilled in **HTML, CSS, JavaScript, React, Node.js, MongoDB, Next.js, Python**.  
+Currently sharpening my expertise through **Programming Hero Batch 13** and **CSE Phitron**, I focus on building scalable web applications, solving real‑world problems, and writing clean, maintainable code.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 👨‍💻 Personal Branding
+<p align="center">
+  <img src="https://img.shields.io/badge/MERN%20STACK%20DEVELOPER-00CFFF?style=for-the-badge&logo=react&logoColor=white" />
+</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<p align="center">
+  <b>MH Shanto</b><br/>
+  <i>Building Modern Web & AI Solutions</i><br/>
+  JavaScript | React | Node.js | Express | Next.js | MongoDB | Python
+</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<p align="center">
+  🌐 Website: <b>mhshanto.dev</b><br/>
+  📧 Email: <b>mhshanto.8989.t@gmail.com</b>
+</p>
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### 📌 Pinned Projects with Animated Code
+<table>
+<tr>
+<td>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 📂 [Programming Journey Archive](https://github.com/mhshanto-dev/programming-journey-archive)  
+- 📂 [Digital Tools Platform](https://github.com/mhshanto-dev/DigitalToolsPlatform)  
+- 📂 [Book Vibe](https://github.com/mhshanto-dev/Book-Vibe)  
+- 📂 [BPL Dream](https://github.com/mhshanto-dev/Bpl-Dream)  
+- 📂 [Beginner Portfolio](https://github.com/mhshanto-dev/Beginner--portfolio)  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+</td>
+<td>
 
-## Deploy on Vercel
+<!-- Animated React Code -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=4000&pause=1000&color=00FF00&width=500&height=200&lines=import+React+from+'react';function+App(){return(<div>Hello+World!</div>);}export+default+App;" alt="React Code Animation"/>
+</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+</td>
+</tr>
+</table>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### 🚀 Skills & Tools
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+</p>
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shanto-dev&show_icons=true&theme=tokyonight" alt="stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shanto-dev&theme=tokyonight" alt="streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shanto-dev&layout=compact&theme=tokyonight" alt="langs"/>
+</p>
+
+---
+
+### 🔥 Animated Section
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=4000&pause=1000&color=FF5733&width=600&height=200&lines=//+React+Component+Example;function+Navbar(){return(<nav>Home+|+About+|+Contact</nav>);}export+default+Navbar;" alt="React UI Animation"/>
+</p>
+
+---
+
+### 📈 Contribution Graph
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mehedi-hasan-shanto&theme=tokyo-night" alt="Contribution Graph"/>
+</p>
