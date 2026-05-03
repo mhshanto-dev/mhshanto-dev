@@ -46,6 +46,13 @@ const TechStack = () => {
       color: "text-purple-400",
       bg: "bg-purple-400/10 group-hover:bg-purple-400/20",
       skills: ["Vercel / Netlify Hosting", "Git Workflow & CI/CD"]
+    },
+    {
+      name: "Python, C/C++ & OOP",
+      icon: "data_object",
+      color: "text-teal-400",
+      bg: "bg-teal-400/10 group-hover:bg-teal-400/20",
+      skills: ["Object-Oriented Programming (OOP)", "Algorithms & Logic Building"]
     }
   ];
 
