@@ -20,7 +20,7 @@ const inter = Inter({
 
 const personalDetails = {
   name: "Mehedi Hasan Shanto",
-  alternateName: ["MH Shanto", "MD Shanto"],
+  alternateName: ["MH Shanto", "MD Shanto", "Md. Mehedi Hasan Shanto"],
   jobTitle: "Full-Stack Developer",
   url: "https://mhshanto-dev.vercel.app",
   email: "mhshanto.8989.t@gmail.com",
@@ -28,7 +28,7 @@ const personalDetails = {
   sameAs: [
     "https://www.linkedin.com/in/mehedi-hasan-shanto-dev/",
     "https://github.com/mhshanto-dev",
-    "https://www.facebook.com/"
+    "https://www.facebook.com/mehedi.hasan.shanto.dev"
   ]
 };
 
@@ -40,7 +40,7 @@ export const metadata = {
   },
   description: "Mehedi Hasan Shanto (MH Shanto) is a Full-Stack, Frontend & Backend Developer from Bangladesh (Dhaka, Sirajganj, Rajshahi) building modern, scalable web applications.",
   keywords: [
-    "MH Shanto", "Mehedi Hasan Shanto", "MD Shanto", 
+    "Md. Mehedi Hasan Shanto", "MH Shanto", "Mehedi Hasan Shanto", "MD Shanto", 
     "Full Stack Developer Bangladesh", "Frontend Developer Dhaka", 
     "Backend Developer Rajshahi", "Web Developer Sirajganj", 
     "Software Engineer Bangladesh", "React Developer Bangladesh"

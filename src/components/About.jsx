@@ -35,17 +35,17 @@ const About = () => {
         },
       });
 
-      // Animated code lines in background
-      gsap.to(".code-line", {
-        x: 50,
-        opacity: 0.3,
-        stagger: {
-          each: 0.1,
-          repeat: -1,
-          yoyo: true
+      gsap.from(".bento-item", {
+        opacity: 0,
+        scale: 0.8,
+        y: 40,
+        stagger: 0.15,
+        duration: 1,
+        ease: "back.out(1.7)",
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top 80%",
         },
-        duration: 2,
-        ease: "sine.inOut"
       });
     }, sectionRef);
 
@@ -81,63 +81,39 @@ const About = () => {
           </div>
         </div>
 
-        {/* Right Side: Typing Visual (No "Image" Card) */}
+        {/* Right Side: Professional Bento Grid */}
         <div className="lg:col-span-6 relative flex flex-col justify-center">
-          <div className="relative group w-full">
-            <div className="glass-card p-5 sm:p-8 rounded-[32px] border-white/5 backdrop-blur-3xl overflow-hidden min-h-[320px] sm:min-h-[400px] flex flex-col">
-              {/* Terminal Header */}
-              <div className="flex gap-2 mb-6 border-b border-white/5 pb-4">
-                <div className="w-3 h-3 rounded-full bg-[#FF5F56]"></div>
-                <div className="w-3 h-3 rounded-full bg-[#FFBD2E]"></div>
-                <div className="w-3 h-3 rounded-full bg-[#27C93F]"></div>
+          <div className="grid grid-cols-2 gap-4 w-full h-full">
+            {/* Box 1: Problem Solver */}
+            <div className="bento-item col-span-2 glass-card p-8 rounded-[32px] border border-white/5 hover:border-primary/30 transition-all duration-500 flex items-center justify-between group overflow-hidden relative min-h-[160px]">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+              <div className="relative z-10">
+                <h4 className="text-2xl sm:text-3xl font-black text-on-background mb-2">Problem Solver</h4>
+                <p className="text-on-surface-variant">Turning complex ideas into elegant, scalable solutions.</p>
               </div>
+              <span className="material-symbols-outlined text-6xl sm:text-7xl text-on-surface-variant/10 group-hover:text-primary/30 group-hover:scale-110 group-hover:rotate-12 transition-all duration-700 relative z-10">
+                extension
+              </span>
+            </div>
 
-              {/* Typing Animation Area */}
-              <div className="font-mono text-sm md:text-base space-y-3 opacity-80">
-                <div className="flex gap-3 code-line">
-                  <span className="text-secondary">const</span>
-                  <span className="text-primary">developer</span>
-                  <span className="text-white">=</span>
-                  <span className="text-white">{"{"}</span>
-                </div>
-                <div className="flex gap-3 pl-6 code-line">
-                  <span className="text-on-surface-variant">name:</span>
-                  <span className="text-secondary">'Md. Mehedi Hasan Shanto'</span>
-                  <span className="text-white">,</span>
-                </div>
-                <div className="flex gap-3 pl-6 code-line">
-                  <span className="text-on-surface-variant">role:</span>
-                  <span className="text-secondary">'Software Developer'</span>
-                  <span className="text-white">,</span>
-                </div>
-                <div className="flex gap-3 pl-6 code-line">
-                  <span className="text-on-surface-variant">passion:</span>
-                  <span className="text-secondary">'Elegant Code'</span>
-                  <span className="text-white">,</span>
-                </div>
-                <div className="flex gap-3 pl-6 code-line">
-                  <span className="text-on-surface-variant">motto:</span>
-                  <span className="text-secondary">'Innovate & Scale'</span>
-                  <span className="text-white">,</span>
-                </div>
-                <div className="flex gap-3 pl-6 code-line">
-                  <span className="text-on-surface-variant">email:</span>
-                  <span className="text-secondary">'mhshanto.8989.t@gmail.com'</span>
-                  <span className="text-white">,</span>
-                </div>
-                <div className="flex gap-3 pl-6 code-line">
-                  <span className="text-on-surface-variant">linkedin:</span>
-                  <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline transition-all">'mhshanto'</a>
-                </div>
-                <div className="flex gap-3 code-line">
-                  <span className="text-white">{"}"}</span>
-                  <span className="text-white">;</span>
-                </div>
-                <div className="pt-4 text-primary animate-pulse">
-                  &gt; _
-                </div>
+            {/* Box 2: Clean Code */}
+            <div className="bento-item col-span-2 sm:col-span-1 glass-card p-6 rounded-[32px] border border-white/5 hover:border-blue-500/30 transition-all duration-500 flex flex-col justify-center items-center text-center group min-h-[180px] relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-b from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="w-16 h-16 rounded-full bg-blue-500/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
+                <span className="material-symbols-outlined text-3xl text-blue-400">code_blocks</span>
               </div>
+              <h4 className="text-xl font-bold text-on-background">Clean Code</h4>
+              <p className="text-xs text-on-surface-variant mt-2 tracking-widest uppercase font-bold">Architecture</p>
+            </div>
 
+            {/* Box 3: Fast Performance */}
+            <div className="bento-item col-span-2 sm:col-span-1 glass-card p-6 rounded-[32px] border border-white/5 hover:border-[#FFD700]/30 transition-all duration-500 flex flex-col justify-center items-center text-center group min-h-[180px] relative overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-b from-[#FFD700]/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="w-16 h-16 rounded-full bg-[#FFD700]/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
+                <span className="material-symbols-outlined text-3xl text-[#FFD700]">rocket_launch</span>
+              </div>
+              <h4 className="text-xl font-bold text-on-background">Lightning Fast</h4>
+              <p className="text-xs text-on-surface-variant mt-2 tracking-widest uppercase font-bold">Performance</p>
             </div>
           </div>
         </div>
