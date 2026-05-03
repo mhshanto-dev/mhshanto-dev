@@ -105,7 +105,7 @@ const Hero = () => {
                 className={`text-[2.4rem] sm:text-[3.5rem] md:text-h1 leading-tight tracking-tighter ${
                   sequenceIndex === 2
                     ? "text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary font-black"
-                    : "text-on-background opacity-80"
+                    : "text-on-background"
                 }`}
               >
                 {sequence[sequenceIndex]}
@@ -114,7 +114,7 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-col gap-3 sm:gap-4">
-            <span className="block text-sm sm:text-lg md:text-xl opacity-60 font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em]">
+            <span className="block text-sm sm:text-lg md:text-xl opacity-90 font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-on-surface-variant">
               Full-Stack Developer from Bangladesh
             </span>
 
@@ -189,7 +189,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            className="text-body-lg font-body-lg text-on-surface-variant max-w-lg leading-relaxed opacity-70"
+            className="text-body-lg font-body-lg text-on-surface-variant max-w-lg leading-relaxed opacity-90"
           >
             I build high-performance, scalable web applications with a focus on
             modern architectures and seamless user experiences.
@@ -254,7 +254,7 @@ const Hero = () => {
         </div>
 
         <div className="mt-8 text-center">
-          <p className="text-sm font-medium text-primary uppercase tracking-[0.2em] opacity-60">mhshanto-dev</p>
+          <p className="text-sm font-medium text-primary uppercase tracking-[0.2em] opacity-80">mhshanto-dev</p>
         </div>
 
         <motion.div
