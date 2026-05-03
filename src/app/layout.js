@@ -4,6 +4,9 @@ import "./globals.css";
 import { Providers } from "./providers";
 import SmoothScroll from "@/components/SmoothScroll";
 import ScrollButtons from "@/components/ScrollButtons";
+import PageLoader from "@/components/PageLoader";
+import CustomCursor from "@/components/CustomCursor";
+import ScrollProgress from "@/components/ScrollProgress";
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -106,6 +109,9 @@ export default function RootLayout({ children }) {
       </head>
       <body suppressHydrationWarning className={`${plusJakartaSans.variable} ${inter.variable} bg-background text-on-background font-body-md overflow-x-hidden`}>
         <Providers>
+          <PageLoader />
+          <CustomCursor />
+          <ScrollProgress />
           <SmoothScroll>
             {children}
             <ScrollButtons />

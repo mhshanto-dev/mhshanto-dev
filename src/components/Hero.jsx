@@ -72,6 +72,16 @@ const Hero = () => {
       <motion.div style={{ y: bgY }} className="parallax-layer-bg">
         <div className="absolute -top-[10%] -left-[10%] w-[600px] h-[600px] bg-primary/5 rounded-full blur-[140px]"></div>
         <div className="absolute top-[20%] -right-[10%] w-[500px] h-[500px] bg-secondary/5 rounded-full blur-[140px]"></div>
+        
+        {/* Large Scrolling Branded Text */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full whitespace-nowrap pointer-events-none opacity-[0.03] select-none">
+          <motion.span 
+            style={{ x: useTransform(scrollY, [0, 1000], [0, -200]) }}
+            className="text-[25vw] font-black uppercase tracking-tighter block"
+          >
+            SHANTO — SHANTO — SHANTO — SHANTO
+          </motion.span>
+        </div>
       </motion.div>
       
       {/* Mid Content Layer */}

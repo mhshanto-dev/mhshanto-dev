@@ -16,6 +16,7 @@ import Services from "@/components/Services";
 import BackendArchitecture from "@/components/BackendArchitecture";
 import CodeShowcase from "@/components/CodeShowcase";
 import WorkingProcess from "@/components/WorkingProcess";
+import Stats from "@/components/Stats";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Navbar />
       <div className="mt-16">
         <Hero />
+        <Stats />
         <Achievements />
         <About />
         <Services />
