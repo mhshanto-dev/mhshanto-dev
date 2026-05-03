@@ -23,9 +23,9 @@ const Footer = () => {
             © 2026 MH Shanto. Full-Stack Developer from Bangladesh. Designing High-Performance Solutions.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center gap-x-10 gap-y-4 font-heading text-[10px] font-black uppercase tracking-[0.2em]">
+        <div className="flex flex-wrap justify-center gap-4 font-heading text-[10px] font-black uppercase tracking-[0.2em]">
           <a 
-            className="text-on-surface-variant/70 hover:text-primary transition-colors" 
+            className="px-5 py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-primary/20" 
             href="https://github.com/mhshanto-dev"
             target="_blank"
             rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Footer = () => {
             GitHub
           </a>
           <a 
-            className="text-on-surface-variant/70 hover:text-primary transition-colors" 
+            className="px-5 py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-primary/20" 
             href="https://www.linkedin.com/in/mehedi-hasan-shanto-dev/"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,16 +41,12 @@ const Footer = () => {
             LinkedIn
           </a>
           <a 
-            className="text-on-surface-variant/70 hover:text-primary transition-colors" 
-            href="/hire"
+            className="px-5 py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-primary/20" 
+            href="https://www.facebook.com/mehedi.hasan.shanto.dev"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Hire Me
-          </a>
-          <a 
-            className="text-on-surface-variant/40 hover:text-primary transition-colors" 
-            href="mailto:mhshanto.8989.t@gmail.com"
-          >
-            Email
+            Facebook
           </a>
         </div>
       </div>
