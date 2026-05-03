@@ -125,7 +125,7 @@ const Contact = () => {
           </p>
           <div className="glass-card p-10 space-y-6">
             <div className="space-y-2">
-              <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant/60 ml-1">
+              <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant/80 ml-1">
                 Name
               </label>
               <input
@@ -139,7 +139,7 @@ const Contact = () => {
               />
             </div>
             <div className="space-y-2">
-              <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant/60 ml-1">
+              <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant/80 ml-1">
                 Email
               </label>
               <input
@@ -153,7 +153,7 @@ const Contact = () => {
               />
             </div>
             <div className="space-y-2">
-              <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant/60 ml-1">
+              <label className="text-xs font-bold uppercase tracking-widest text-on-surface-variant/80 ml-1">
                 Project
               </label>
               <textarea

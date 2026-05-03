@@ -29,7 +29,7 @@ export default function HireMePage() {
                 Extraordinary Together
               </span>
             </h1>
-            <p className="text-on-surface-variant/70 max-w-2xl mx-auto text-lg leading-relaxed">
+            <p className="text-on-surface-variant/90 max-w-2xl mx-auto text-lg leading-relaxed">
               I help startups and businesses transform their ideas into high-performance digital products. 
               Whether you need a full-scale web application or a pixel-perfect landing page, I've got you covered.
             </p>
@@ -93,7 +93,7 @@ export default function HireMePage() {
                   {item.icon}
                 </span>
                 <h3 className="text-xl font-bold text-on-background mb-2">{item.title}</h3>
-                <p className="text-on-surface-variant/70 text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-on-surface-variant/90 text-sm leading-relaxed">{item.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -115,7 +115,7 @@ export default function HireMePage() {
               <h2 className="text-3xl md:text-5xl font-black text-on-background mb-6">
                 Prefer a face-to-face chat?
               </h2>
-              <p className="text-on-surface-variant/70 max-w-xl mx-auto mb-10 text-lg">
+              <p className="text-on-surface-variant/90 max-w-xl mx-auto mb-10 text-lg">
                 Schedule a discovery call to discuss your project requirements, goals, and timeline.
               </p>
               <Magnetic strength={0.2}>
@@ -129,7 +129,7 @@ export default function HireMePage() {
                   Book a Free Discovery Call
                 </a>
               </Magnetic>
-              <p className="text-[10px] uppercase font-bold tracking-widest text-on-surface-variant/40 mt-8">
+              <p className="text-[10px] uppercase font-bold tracking-widest text-on-surface-variant/60 mt-8">
                 30-min Video Consultation • Completely Free
               </p>
             </div>

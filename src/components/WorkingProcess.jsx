@@ -41,7 +41,7 @@ const WorkingProcess = () => {
             How I Bring Ideas <br className="hidden md:block" /> to Life
           </h2>
         </div>
-        <p className="text-on-surface-variant/60 max-w-sm text-sm leading-relaxed mb-2">
+        <p className="text-on-surface-variant/80 max-w-sm text-sm leading-relaxed mb-2">
           A structured approach ensures that every project I undertake is delivered with precision and excellence.
         </p>
       </div>
@@ -68,7 +68,7 @@ const WorkingProcess = () => {
                 <span className="text-[10px] font-black text-primary/40 font-heading">0{i + 1}</span>
                 <h3 className="text-xl font-bold text-on-background font-heading">{step.title}</h3>
               </div>
-              <p className="text-on-surface-variant/60 text-sm leading-relaxed">
+              <p className="text-on-surface-variant/80 text-sm leading-relaxed">
                 {step.desc}
               </p>
             </div>

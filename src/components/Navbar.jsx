@@ -93,7 +93,7 @@ const Navbar = () => {
             onClick={(e) => handleLinkClick(e, "/#home")}
             className="flex items-center gap-3 group"
           >
-            <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-xl overflow-hidden group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-primary/20">
+            <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-xl overflow-hidden group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-primary/20 bg-black border border-outline-variant/20 dark:border-white/10">
               <Image
                 src="/logo.jpeg"
                 alt="MH Shanto Logo"

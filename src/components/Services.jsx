@@ -52,7 +52,7 @@ const Services = () => {
             Premium Services <br className="hidden md:block" /> For Your Business
           </h2>
         </div>
-        <p className="text-on-surface-variant/60 max-w-sm text-sm leading-relaxed mb-2">
+        <p className="text-on-surface-variant/80 max-w-sm text-sm leading-relaxed mb-2">
           I provide end-to-end digital solutions that focus on performance, accessibility, and high-impact results.
         </p>
       </div>
@@ -79,7 +79,7 @@ const Services = () => {
               <h3 className="text-xl font-bold text-on-background mb-3 font-heading">
                 {service.title}
               </h3>
-              <p className="text-on-surface-variant/70 text-sm leading-relaxed">
+              <p className="text-on-surface-variant/80 text-sm leading-relaxed">
                 {service.description}
               </p>
               

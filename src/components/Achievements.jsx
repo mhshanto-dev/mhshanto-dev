@@ -79,7 +79,7 @@ const Achievements = () => {
             <h3 className="text-4xl md:text-5xl font-bold text-on-background mb-2 font-heading">
               {stat.value}
             </h3>
-            <p className="text-on-surface-variant/60 font-medium uppercase tracking-wider text-xs">
+            <p className="text-on-surface-variant/80 font-medium uppercase tracking-wider text-xs">
               {stat.label}
             </p>
           </motion.div>
