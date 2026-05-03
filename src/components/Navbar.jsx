@@ -103,7 +103,7 @@ const Navbar = () => {
               />
             </div>
             <span className="hidden sm:block text-xl md:text-2xl font-black tracking-tight text-on-background transition-colors">
-              M<span className="text-[#FFD700]">H</span>
+              M<span className="text-[#FFD700] -ml-[0.35em]">H</span>
             </span>
           </Link>
         </Magnetic>

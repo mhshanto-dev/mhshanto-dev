@@ -16,7 +16,7 @@ const Footer = () => {
               />
             </div>
             <span className="text-2xl font-black tracking-tight text-on-background transition-colors">
-              M<span className="text-[#FFD700]">H</span>
+              M<span className="text-[#FFD700] -ml-[0.35em]">H</span>
             </span>
           </Link>
           <p className="font-heading text-[11px] font-bold uppercase tracking-[0.2em] text-on-surface-variant/80">
