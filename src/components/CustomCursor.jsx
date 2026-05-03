@@ -6,7 +6,6 @@ import { motion, useSpring, useMotionValue } from "framer-motion";
 const CustomCursor = () => {
   const [mounted, setMounted] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  const [isTouchDevice, setIsTouchDevice] = useState(false);
 
   const cursorX = useMotionValue(-100);
   const cursorY = useMotionValue(-100);
@@ -16,16 +15,16 @@ const CustomCursor = () => {
   const cursorYSpring = useSpring(cursorY, springConfig);
 
   useEffect(() => {
-    // Touch device হলে cursor দেখাবো না
-    const isTouch = window.matchMedia("(hover: none) and (pointer: coarse)").matches;
-    setIsTouchDevice(isTouch);
     setMounted(true);
 
-    if (isTouch) return;
-
     const moveCursor = (e) => {
-      cursorX.set(e.clientX);
-      cursorY.set(e.clientY);
+      if (e.touches && e.touches.length > 0) {
+        cursorX.set(e.touches[0].clientX);
+        cursorY.set(e.touches[0].clientY);
+      } else {
+        cursorX.set(e.clientX);
+        cursorY.set(e.clientY);
+      }
     };
 
     const handleHover = (e) => {
@@ -44,16 +43,19 @@ const CustomCursor = () => {
     };
 
     window.addEventListener("mousemove", moveCursor);
+    window.addEventListener("touchmove", moveCursor);
+    window.addEventListener("touchstart", moveCursor);
     window.addEventListener("mouseover", handleHover);
 
     return () => {
       window.removeEventListener("mousemove", moveCursor);
+      window.removeEventListener("touchmove", moveCursor);
+      window.removeEventListener("touchstart", moveCursor);
       window.removeEventListener("mouseover", handleHover);
     };
   }, []);
 
-  // Touch device বা mount না হলে render করবো না
-  if (!mounted || isTouchDevice) return null;
+  if (!mounted) return null;
 
   return (
     <div className="fixed inset-0 pointer-events-none z-[9999]">
