@@ -41,13 +41,11 @@ const CTA = () => {
           >
             <Magnetic strength={0.3}>
               <a 
-                href="https://wa.me/8801871758989"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/hire"
                 className="bg-primary text-white px-12 py-6 rounded-2xl font-bold shadow-2xl shadow-primary/30 hover:shadow-primary/50 transition-all text-xl md:text-2xl flex items-center gap-4 group"
               >
-                Book a Call via WhatsApp
-                <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">chat</span>
+                Hire Me Now
+                <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">rocket_launch</span>
               </a>
             </Magnetic>
           </motion.div>

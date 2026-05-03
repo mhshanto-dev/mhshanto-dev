@@ -47,19 +47,18 @@ const Contact = () => {
       color: "bg-red-500/10"
     },
     {
+      icon: "💬",
+      title: "WHATSAPP",
+      value: "+8801871758989",
+      link: "https://wa.me/8801871758989",
+      color: "bg-green-500/10"
+    },
+    {
       icon: "in",
       title: "LINKEDIN",
       value: "mehedi-hasan-shanto-dev",
       link: "https://www.linkedin.com/in/mehedi-hasan-shanto-dev/",
       color: "bg-blue-500/10",
-      isTextIcon: true
-    },
-    {
-      icon: "f",
-      title: "FACEBOOK",
-      value: "mhshanto",
-      link: "https://www.facebook.com/",
-      color: "bg-blue-600/10",
       isTextIcon: true
     }
   ];

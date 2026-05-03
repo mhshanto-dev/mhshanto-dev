@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import Magnetic from "./Magnetic";
 
@@ -50,15 +51,16 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", href: "/#home", id: "home" },
-    { name: "About", href: "#about", id: "about" },
-    { name: "Services", href: "#services", id: "services" },
-    { name: "Code", href: "#codeshowcase", id: "codeshowcase" },
-    { name: "Projects", href: "#projects", id: "projects" },
-    { name: "Contact", href: "#contact", id: "contact" },
+    { name: "About", href: "/#about", id: "about" },
+    { name: "Services", href: "/#services", id: "services" },
+    { name: "Code", href: "/#codeshowcase", id: "codeshowcase" },
+    { name: "Projects", href: "/#projects", id: "projects" },
+    { name: "Contact", href: "/#contact", id: "contact" },
   ];
 
   const handleLinkClick = (e, href) => {
-    if (href.startsWith("#") || href === "/#home") {
+    const isHomePage = window.location.pathname === "/";
+    if (isHomePage && (href.startsWith("#") || href.startsWith("/#"))) {
       e.preventDefault();
       const targetId = href.replace("/#", "").replace("#", "");
       const el = document.getElementById(targetId);
@@ -89,15 +91,20 @@ const Navbar = () => {
           <Link 
             href="/#home" 
             onClick={(e) => handleLinkClick(e, "/#home")}
-            className="flex items-center gap-2 group"
+            className="flex items-center gap-3 group"
           >
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-tr from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform duration-500">
-              <span className="text-white font-black text-xl sm:text-2xl tracking-tighter">M</span>
+            <div className="relative w-10 h-10 sm:w-12 sm:h-12 rounded-xl overflow-hidden group-hover:scale-110 transition-transform duration-500 shadow-lg shadow-primary/20">
+              <Image
+                src="/logo.jpeg"
+                alt="MH Shanto Logo"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
-            <div className="flex flex-col -gap-1">
-              <span className="text-xl sm:text-2xl font-black tracking-tighter text-on-background leading-none">H</span>
-              <div className="w-full h-1 bg-gradient-to-r from-primary to-transparent rounded-full mt-1 opacity-0 group-hover:opacity-100 transition-opacity" />
-            </div>
+            <span className="hidden sm:block text-sm font-black tracking-tight text-on-background group-hover:text-primary transition-colors">
+              MH Shanto
+            </span>
           </Link>
         </Magnetic>
 
@@ -144,17 +151,12 @@ const Navbar = () => {
             )}
           </div>
 
-          <Magnetic strength={0.3}>
-            <motion.a 
-              href="https://wa.me/8801871758989"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileTap={{ scale: 0.95 }}
-              className="hidden sm:flex bg-on-background text-background px-6 py-2.5 rounded-2xl font-bold text-xs hover:opacity-90 transition-opacity shadow-lg items-center justify-center cursor-pointer"
-            >
-              Hire Me
-            </motion.a>
-          </Magnetic>
+          <Link 
+            href="/hire"
+            className="hidden sm:flex bg-on-background text-background px-6 py-2.5 rounded-2xl font-bold text-xs hover:opacity-90 transition-opacity shadow-lg items-center justify-center cursor-pointer"
+          >
+            Hire Me
+          </Link>
 
           <button 
             className="md:hidden text-on-background p-2"

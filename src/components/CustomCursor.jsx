@@ -6,16 +6,23 @@ import { motion, useSpring, useMotionValue } from "framer-motion";
 const CustomCursor = () => {
   const [mounted, setMounted] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  
+  const [isTouchDevice, setIsTouchDevice] = useState(false);
+
   const cursorX = useMotionValue(-100);
   const cursorY = useMotionValue(-100);
-  
+
   const springConfig = { damping: 25, stiffness: 700 };
   const cursorXSpring = useSpring(cursorX, springConfig);
   const cursorYSpring = useSpring(cursorY, springConfig);
 
   useEffect(() => {
+    // Touch device হলে cursor দেখাবো না
+    const isTouch = window.matchMedia("(hover: none) and (pointer: coarse)").matches;
+    setIsTouchDevice(isTouch);
     setMounted(true);
+
+    if (isTouch) return;
+
     const moveCursor = (e) => {
       cursorX.set(e.clientX);
       cursorY.set(e.clientY);
@@ -24,9 +31,9 @@ const CustomCursor = () => {
     const handleHover = (e) => {
       const target = e.target;
       if (
-        target.tagName === "A" || 
-        target.tagName === "BUTTON" || 
-        target.closest("a") || 
+        target.tagName === "A" ||
+        target.tagName === "BUTTON" ||
+        target.closest("a") ||
         target.closest("button") ||
         target.classList.contains("cursor-pointer")
       ) {
@@ -45,10 +52,11 @@ const CustomCursor = () => {
     };
   }, []);
 
-  if (!mounted) return null;
+  // Touch device বা mount না হলে render করবো না
+  if (!mounted || isTouchDevice) return null;
 
   return (
-    <div className="fixed inset-0 pointer-events-none z-[9999] hidden lg:block">
+    <div className="fixed inset-0 pointer-events-none z-[9999]">
       {/* Main cursor dot */}
       <motion.div
         className="w-3 h-3 bg-primary rounded-full fixed top-0 left-0"
@@ -59,7 +67,7 @@ const CustomCursor = () => {
           translateY: "-50%",
         }}
       />
-      
+
       {/* Outer ring */}
       <motion.div
         className="w-8 h-8 border border-primary/30 rounded-full fixed top-0 left-0"
@@ -80,17 +88,17 @@ const CustomCursor = () => {
       {/* Label on hover */}
       {isHovered && (
         <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={{ opacity: 1, scale: 1 }}
-            style={{
-                x: cursorXSpring,
-                y: cursorYSpring,
-                translateX: "20px",
-                translateY: "20px",
-            }}
-            className="px-2 py-1 bg-primary rounded text-[8px] font-black text-white uppercase tracking-tighter"
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          style={{
+            x: cursorXSpring,
+            y: cursorYSpring,
+            translateX: "20px",
+            translateY: "20px",
+          }}
+          className="px-2 py-1 bg-primary rounded text-[8px] font-black text-white uppercase tracking-tighter"
         >
-            View
+          View
         </motion.div>
       )}
     </div>
