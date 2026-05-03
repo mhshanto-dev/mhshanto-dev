@@ -102,8 +102,8 @@ const Navbar = () => {
                 priority
               />
             </div>
-            <span className="hidden sm:block text-sm font-black tracking-tight text-on-background group-hover:text-primary transition-colors">
-              MH Shanto
+            <span className="hidden sm:block text-xl md:text-2xl font-black tracking-tight text-on-background transition-colors">
+              M<span className="text-[#FFD700]">H</span>
             </span>
           </Link>
         </Magnetic>
