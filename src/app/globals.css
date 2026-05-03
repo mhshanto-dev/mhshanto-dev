@@ -78,6 +78,7 @@
   html {
     scroll-behavior: auto; /* Lenis handles this */
     overflow-x: hidden;
+    scroll-padding-top: 5rem;
   }
   
   body {

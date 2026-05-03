@@ -27,7 +27,7 @@ const AssignmentShowcase = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4">
+      <div className="flex flex-wrap justify-center gap-4">
         {assignments.map((item, i) => (
           <motion.div
             key={i}
@@ -35,7 +35,7 @@ const AssignmentShowcase = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1, duration: 0.5 }}
-            className="glass-card p-6 flex flex-col items-center justify-center text-center relative group hover:border-primary/40 transition-all duration-500"
+            className="glass-card p-6 flex flex-col items-center justify-center text-center relative group hover:border-primary/40 transition-all duration-500 w-[calc(50%-1rem)] sm:w-[calc(33.33%-1rem)] lg:w-[calc(20%-1rem)] xl:w-[calc(14.28%-1rem)] min-w-[140px]"
           >
             {/* Glow effect on hover */}
             <div className="absolute inset-0 bg-primary/5 blur-xl opacity-0 group-hover:opacity-100 transition-opacity" />

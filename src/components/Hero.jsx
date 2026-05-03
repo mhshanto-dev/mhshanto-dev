@@ -191,14 +191,14 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 1.2, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="parallax-layer-fg flex flex-wrap gap-6 pt-4"
+          className="parallax-layer-fg flex flex-col sm:flex-row gap-4 sm:gap-6 pt-4"
         >
           <Magnetic strength={0.2}>
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-primary text-white px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold shadow-2xl shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-500 text-sm sm:text-base"
+              className="w-full sm:w-auto bg-primary text-white px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold shadow-2xl shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-500 text-sm sm:text-base"
             >
               Start a Project
             </motion.button>
@@ -209,7 +209,7 @@ const Hero = () => {
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-              className="border border-outline-variant/20 bg-surface-container-high/40 backdrop-blur-xl text-on-surface px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold hover:bg-surface-container-high transition-all duration-500 text-sm sm:text-base"
+              className="w-full sm:w-auto border border-outline-variant/20 bg-surface-container-high/40 backdrop-blur-xl text-on-surface px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold hover:bg-surface-container-high transition-all duration-500 text-sm sm:text-base"
             >
               View Projects
             </motion.button>

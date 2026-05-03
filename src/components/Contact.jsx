@@ -15,16 +15,27 @@ const Contact = () => {
     }
     
     setLoading(true);
-    setStatus("⚡ Processing your inquiry...");
+    setStatus("⚡ Connecting to server...");
     
-    // Simulate API collection
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    
-    setStatus("✅ Message successfully sent! I'll reach out within 24 hours.");
-    setFormData({ name: "", email: "", msg: "" });
-    setLoading(false);
-    
-    setTimeout(() => setStatus(""), 6000);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("✅ Message successfully sent! I'll reach out within 24 hours.");
+        setFormData({ name: "", email: "", msg: "" });
+      } else {
+        setStatus("❌ Failed to send message. Please try again later.");
+      }
+    } catch (error) {
+      setStatus("❌ An error occurred. Please check your connection.");
+    } finally {
+      setLoading(false);
+      setTimeout(() => setStatus(""), 6000);
+    }
   };
 
   const contactMethods = [

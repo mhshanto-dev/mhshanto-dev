@@ -11,9 +11,12 @@ const Navbar = () => {
   const [activeSection, setActiveSection] = useState("home");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [hidden, setHidden] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const { theme, setTheme } = useTheme();
   const { scrollY } = useScroll();
 
+  // Navbar visibility logic removed to keep it visible on scroll as requested
+  /*
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious();
     if (latest > previous && latest > 150) {
@@ -22,10 +25,12 @@ const Navbar = () => {
       setHidden(false);
     }
   });
+  */
 
   useEffect(() => {
     setMounted(true);
     const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
       const sections = ["home", "achievements", "about", "services", "backend", "process", "skills", "projects", "codeshowcase", "assignments", "timeline", "faq", "contact"];
       const scrollPosition = window.scrollY + 100;
       for (const section of sections) {
@@ -74,7 +79,11 @@ const Navbar = () => {
       className="fixed top-0 w-full z-[100] px-6 py-4 flex justify-center pointer-events-none"
     >
       <div 
-        className="glass-card flex justify-between items-center w-full max-w-[1200px] h-16 px-6 pointer-events-auto shadow-2xl shadow-black/5"
+        className={`glass-card flex justify-between items-center w-full max-w-[1200px] h-16 px-6 pointer-events-auto transition-all duration-500 ${
+          scrolled 
+            ? "shadow-2xl shadow-primary/5 border-primary/10 bg-surface-container-highest/90" 
+            : "shadow-xl shadow-black/5 border-transparent bg-surface-container-low/70"
+        }`}
       >
         <Magnetic strength={0.3}>
           <Link 
@@ -82,11 +91,11 @@ const Navbar = () => {
             onClick={(e) => handleLinkClick(e, "/#home")}
             className="flex items-center gap-2 group"
           >
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform duration-500">
-              <span className="text-white font-black text-xl tracking-tighter">M</span>
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-tr from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform duration-500">
+              <span className="text-white font-black text-xl sm:text-2xl tracking-tighter">M</span>
             </div>
             <div className="flex flex-col -gap-1">
-              <span className="text-xl font-black tracking-tighter text-on-background leading-none">H</span>
+              <span className="text-xl sm:text-2xl font-black tracking-tighter text-on-background leading-none">H</span>
               <div className="w-full h-1 bg-gradient-to-r from-primary to-transparent rounded-full mt-1 opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
           </Link>

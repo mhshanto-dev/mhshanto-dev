@@ -1,13 +1,14 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import TiltCard from "./TiltCard";
 import Magnetic from "./Magnetic";
-import projPortfolioImg from "@/assets/proj_portfolio_updated.png";
+import projPortfolioImg from "@/assets/proj_portfolio.png";
 import projTilesImg from "@/assets/proj_tiles.png";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -205,6 +206,16 @@ const Projects = () => {
           Next
           <span className="material-symbols-outlined text-lg">east</span>
         </button>
+      </div>
+
+      <div className="mt-16 text-center">
+        <Link 
+          href="/projects"
+          className="inline-flex items-center gap-4 px-8 py-4 bg-surface-container-high border border-outline-variant/10 rounded-2xl font-bold text-sm hover:bg-primary hover:text-white hover:border-primary transition-all duration-500 group"
+        >
+          View More Archive Projects
+          <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">east</span>
+        </Link>
       </div>
     </section>
   );
