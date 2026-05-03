@@ -100,6 +100,7 @@ const Navbar = () => {
                 fill
                 className="object-cover"
                 priority
+                unoptimized
               />
             </div>
             <span className="hidden sm:block text-xl md:text-2xl font-black tracking-tight text-on-background transition-colors">

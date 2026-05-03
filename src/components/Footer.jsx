@@ -13,6 +13,7 @@ const Footer = () => {
                 alt="MH Shanto Logo"
                 fill
                 className="object-cover"
+                unoptimized
               />
             </div>
             <span className="text-2xl font-black tracking-tight text-on-background transition-colors">
