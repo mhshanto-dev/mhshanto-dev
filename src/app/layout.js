@@ -123,7 +123,7 @@ export default function RootLayout({ children }) {
       "Software Engineer"
     ],
     "url": personalDetails.url,
-    "image": `${personalDetails.url}/og-image.png`,
+    "image": `${personalDetails.url}/icon.png`,
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Dhaka",
