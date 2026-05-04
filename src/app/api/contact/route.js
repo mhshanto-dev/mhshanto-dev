@@ -35,7 +35,18 @@ export async function POST(request) {
       }),
     });
 
-    const data = await response.json();
+    const contentType = response.headers.get("content-type");
+    let data;
+    if (contentType && contentType.includes("application/json")) {
+      data = await response.json();
+    } else {
+      const text = await response.text();
+      console.error("Web3Forms non-JSON response:", text);
+      return NextResponse.json(
+        { success: false, message: "Web3Forms returned an unexpected response format. Please try again later." },
+        { status: 502 }
+      );
+    }
 
     if (data.success) {
       return NextResponse.json(
