@@ -76,6 +76,10 @@ export const metadata = {
   verification: {
     google: "3xTfRXUs6iW9698yGww7p4GRMFnWWqcvUKyTpjR-3mw",
   },
+  icons: {
+    icon: "/icon.jpeg",
+    apple: "/icon.jpeg",
+  },
 };
 
 export default function RootLayout({ children }) {
