@@ -5,63 +5,61 @@ export async function POST(request) {
     const body = await request.json();
     const { name, email, msg } = body;
 
-    // Web3Forms Integration for actual email delivery
-    const accessKey = process.env.WEB3FORMS_ACCESS_KEY || "YOUR_WEB3FORMS_ACCESS_KEY_HERE";
-    
-    if (accessKey === "YOUR_WEB3FORMS_ACCESS_KEY_HERE") {
-      console.warn("⚠️ Web3Forms Access Key is missing! Contact form is in test mode.");
-      // Simulate success for local testing if no key is provided
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+    const accessKey = process.env.WEB3FORMS_ACCESS_KEY;
+
+    if (!accessKey) {
+      console.warn("⚠️ WEB3FORMS_ACCESS_KEY is missing!");
       return NextResponse.json(
-        { message: "Form submitted (Test Mode). Add WEB3FORMS_ACCESS_KEY to receive real emails." },
-        { status: 200 }
+        { success: false, message: "Server configuration error. Please contact me directly via email." },
+        { status: 500 }
       );
     }
 
-    // Create FormData for Web3Forms
-    const formData = new FormData();
-    formData.append("access_key", accessKey);
-    formData.append("name", name);
-    formData.append("from_name", name);
-    formData.append("email", email);
-    formData.append("replyto", email);
-    formData.append("message", msg);
-    formData.append("subject", `New Portfolio Message from ${name}`);
-
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData,
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+      },
+      body: JSON.stringify({
+        access_key: accessKey,
+        name: name,
+        email: email,
+        message: msg,
+        subject: `New Portfolio Message from ${name}`,
+        from_name: name,
+        replyto: email,
+      }),
     });
 
-    const contentType = response.headers.get("content-type");
     let data;
-    if (contentType && contentType.includes("application/json")) {
+    try {
       data = await response.json();
-    } else {
-      const text = await response.text();
-      console.error("Web3Forms non-JSON response:", text);
+    } catch (parseError) {
+      const text = await response.text().catch(() => "");
+      console.error("Web3Forms non-JSON response (status " + response.status + "):", text.slice(0, 500));
       return NextResponse.json(
-        { success: false, message: "Server returned an unexpected format. Please try again." },
-        { status: 502 }
+        { success: false, message: "Email service is temporarily unavailable. Please try again in a moment." },
+        { status: 503 }
       );
     }
 
     if (data.success) {
       return NextResponse.json(
-        { success: true, message: "Message received successfully!" },
+        { success: true, message: "Message sent successfully! I'll get back to you within 24 hours." },
         { status: 200 }
       );
     } else {
       console.error("Web3Forms error:", data);
       return NextResponse.json(
-        { success: false, message: data.message || "Failed to send message" },
-        { status: response.status || 500 }
+        { success: false, message: data.message || "Failed to send message. Please try again." },
+        { status: 400 }
       );
     }
   } catch (error) {
     console.error("Contact API error:", error);
     return NextResponse.json(
-      { success: false, message: "Error processing request: " + error.message },
+      { success: false, message: "An unexpected error occurred. Please try again later." },
       { status: 500 }
     );
   }
