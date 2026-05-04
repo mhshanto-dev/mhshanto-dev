@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Personal Portfolio",
       description: "My high-performance developer portfolio built with Next.js, Framer Motion, and GSAP. Features cinematic animations, glassmorphism design, and full responsiveness.",
       tags: ["Next.js", "Framer Motion", "GSAP", "Tailwind"],
-      image: projPortfolioImg,
+      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://mhshanto-dev.vercel.app/",
       repoLink: "https://github.com/mhshanto-dev/mhshanto"
     },
@@ -40,7 +40,7 @@ const Projects = () => {
       title: "KeenKeeper — Social Media",
       description: "Your personal shelf of meaningful connections. A relationship management app to browse, tend, and nurture the friendships that matter most.",
       tags: ["React", "Firebase", "Netlify"],
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200&h=675",
+      image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://courageous-fox-f6c3ed.netlify.app/",
       repoLink: "https://github.com/mhshanto-dev"
     },
