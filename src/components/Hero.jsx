@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Magnetic from "./Magnetic";
-import profileImg from "@/assets/99.png";
+import profileImg from "@/assets/7.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -243,12 +243,12 @@ const Hero = () => {
               <Image
                 src={profileImg}
                 alt="Mehedi Hasan Shanto (MH Shanto) - Full-Stack Developer"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover grayscale opacity-90 dark:opacity-80 hover:opacity-100 hover:grayscale-0 hover:scale-105 transition-all duration-700 ease-out"
                 priority
               />
               {/* Cinematic Vignette / Edge Blending Mask */}
-              <div className="absolute inset-0 bg-[radial-gradient(circle,transparent_20%,var(--background)_80%)]" />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90" />
+              <div className="absolute inset-0 bg-[radial-gradient(circle,transparent_20%,var(--background)_80%)] pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90 pointer-events-none" />
             </div>
           </div>
         </div>
