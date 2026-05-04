@@ -6,7 +6,7 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Magnetic from "./Magnetic";
-import profileImg from "@/assets/7.png";
+import profileImg from "@/assets/mh-shanto-profile-picture.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
