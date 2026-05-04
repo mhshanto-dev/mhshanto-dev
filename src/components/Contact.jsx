@@ -15,22 +15,33 @@ const Contact = () => {
     }
     
     setLoading(true);
-    setStatus("⚡ Connecting to server...");
+    setStatus("⚡ Sending message...");
     
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "f95a479b-79ad-4e82-a433-dd58ff568fab",
+          name: formData.name,
+          email: formData.email,
+          message: formData.msg,
+          subject: `New Portfolio Message from ${formData.name}`,
+          from_name: formData.name,
+          replyto: formData.email,
+        }),
       });
 
       const data = await response.json();
 
-      if (response.ok) {
+      if (data.success) {
         setStatus("✅ Message successfully sent! I'll reach out within 24 hours.");
         setFormData({ name: "", email: "", msg: "" });
       } else {
-        setStatus(`❌ ${data.message || "Failed to send message. Please try again later."}`);
+        setStatus(`❌ ${data.message || "Failed to send message. Please try again."}`);
       }
     } catch (error) {
       setStatus("❌ An error occurred. Please check your connection.");
