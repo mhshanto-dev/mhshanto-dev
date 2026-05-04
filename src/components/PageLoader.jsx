@@ -41,17 +41,26 @@ const PageLoader = () => {
             </motion.div>
             
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-primary to-secondary flex items-center justify-center shadow-2xl shadow-primary/20 mb-8 animate-pulse">
-                    <span className="text-white font-black text-3xl">M</span>
-                </div>
+                <motion.div 
+                  initial={{ y: 20, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  className="mb-8 text-center"
+                >
+                  <h1 className="text-5xl md:text-6xl font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-primary via-on-background to-primary bg-[length:200%_auto] animate-shimmer">
+                    MH SHANTO
+                  </h1>
+                </motion.div>
                 
-                <div className="flex flex-col items-center gap-2">
-                    <p className="text-[10px] font-black uppercase tracking-[0.4em] text-primary">
-                        System Initializing
-                    </p>
-                    <div className="w-48 h-1 bg-surface-container-high rounded-full overflow-hidden">
+                <div className="flex flex-col items-center gap-4">
+                    <div className="flex items-center gap-3">
+                      <span className="w-2 h-2 rounded-full bg-primary animate-ping" />
+                      <p className="text-[10px] font-black uppercase tracking-[0.5em] text-on-surface-variant/60">
+                          System Initializing
+                      </p>
+                    </div>
+                    <div className="w-64 h-[2px] bg-surface-container-high rounded-full overflow-hidden">
                         <motion.div 
-                            className="h-full bg-primary"
+                            className="h-full bg-primary shadow-[0_0_15px_rgba(var(--color-primary-rgb),0.5)]"
                             initial={{ width: 0 }}
                             animate={{ width: `${progress}%` }}
                         />
