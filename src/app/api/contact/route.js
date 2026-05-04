@@ -18,21 +18,19 @@ export async function POST(request) {
       );
     }
 
+    // Create FormData for Web3Forms
+    const formData = new FormData();
+    formData.append("access_key", accessKey);
+    formData.append("name", name);
+    formData.append("from_name", name);
+    formData.append("email", email);
+    formData.append("replyto", email);
+    formData.append("message", msg);
+    formData.append("subject", `New Portfolio Message from ${name}`);
+
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({
-        access_key: accessKey,
-        name: name,
-        from_name: name,
-        email: email,
-        replyto: email,
-        message: msg,
-        subject: `New Portfolio Message from ${name}`,
-      }),
+      body: formData,
     });
 
     const contentType = response.headers.get("content-type");
@@ -43,7 +41,7 @@ export async function POST(request) {
       const text = await response.text();
       console.error("Web3Forms non-JSON response:", text);
       return NextResponse.json(
-        { success: false, message: "Web3Forms returned an unexpected response format. Please try again later." },
+        { success: false, message: "Server returned an unexpected format. Please try again." },
         { status: 502 }
       );
     }
@@ -56,7 +54,7 @@ export async function POST(request) {
     } else {
       console.error("Web3Forms error:", data);
       return NextResponse.json(
-        { success: false, message: data.message || "Failed to send message via Web3Forms" },
+        { success: false, message: data.message || "Failed to send message" },
         { status: response.status || 500 }
       );
     }
