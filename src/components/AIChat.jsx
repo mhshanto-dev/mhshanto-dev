@@ -7,7 +7,7 @@ About Shanto:
 - Software Developer / Full Stack Engineer with 1+ year experience
 - Skills: React, Next.js, TypeScript, Node.js, PostgreSQL, MongoDB, Tailwind CSS, GSAP
 - Email: mhshanto.8989.t@gmail.com
-- LinkedIn: mehedi-hasan-shanto-dev
+- LinkedIn: mh-shanto
 - Completed 30+ projects focused on performance and modern UI/UX
 - Open to high-impact freelance / contract work
 Answer visitor questions concisely (2-4 sentences) and in a friendly, professional tone.
@@ -68,7 +68,7 @@ const AIChat = () => {
       } else if (lowerText.includes("freelance") || lowerText.includes("work")) {
         reply = "Absolutely! Shanto is currently open to selective high-impact freelance projects. You can reach out directly via the contact section or by clicking the WhatsApp button.";
       } else if (lowerText.includes("contact") || lowerText.includes("email")) {
-        reply = "You can contact him directly at mhshanto.8989.t@gmail.com or connect on LinkedIn at 'mehedi-hasan-shanto-dev'.";
+        reply = "You can contact him directly at mhshanto.8989.t@gmail.com or connect on LinkedIn at 'mh-shanto'.";
       } else {
         reply = "That's a great question! Mehedi Hasan Shanto is a Software Developer focused on building modern, high-performance digital solutions. For more specific details, feel free to email him at mhshanto.8989.t@gmail.com.";
       }

@@ -26,7 +26,7 @@ const personalDetails = {
   email: "mhshanto.8989.t@gmail.com",
   location: "Bangladesh (Dhaka, Sirajganj, Rajshahi)",
   sameAs: [
-    "https://www.linkedin.com/in/mehedi-hasan-shanto-dev/",
+    "https://www.linkedin.com/in/mh-shanto/",
     "https://github.com/mhshanto-dev",
     "https://www.facebook.com/mehedi.hasan.shanto.dev"
   ]

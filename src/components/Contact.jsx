@@ -24,11 +24,13 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
 
+      const data = await response.json();
+
       if (response.ok) {
         setStatus("✅ Message successfully sent! I'll reach out within 24 hours.");
         setFormData({ name: "", email: "", msg: "" });
       } else {
-        setStatus("❌ Failed to send message. Please try again later.");
+        setStatus(`❌ ${data.message || "Failed to send message. Please try again later."}`);
       }
     } catch (error) {
       setStatus("❌ An error occurred. Please check your connection.");
@@ -56,8 +58,8 @@ const Contact = () => {
     {
       icon: "in",
       title: "LINKEDIN",
-      value: "mehedi-hasan-shanto-dev",
-      link: "https://www.linkedin.com/in/mehedi-hasan-shanto-dev/",
+      value: "mh-shanto",
+      link: "https://www.linkedin.com/in/mh-shanto/",
       color: "bg-blue-500/10",
       isTextIcon: true
     }

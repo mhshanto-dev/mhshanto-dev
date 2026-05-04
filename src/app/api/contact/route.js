@@ -27,7 +27,9 @@ export async function POST(request) {
       body: JSON.stringify({
         access_key: accessKey,
         name: name,
+        from_name: name,
         email: email,
+        replyto: email,
         message: msg,
         subject: `New Portfolio Message from ${name}`,
       }),
@@ -37,20 +39,20 @@ export async function POST(request) {
 
     if (data.success) {
       return NextResponse.json(
-        { message: "Message received successfully!" },
+        { success: true, message: "Message received successfully!" },
         { status: 200 }
       );
     } else {
       console.error("Web3Forms error:", data);
       return NextResponse.json(
-        { message: "Failed to send message via Web3Forms" },
-        { status: 500 }
+        { success: false, message: data.message || "Failed to send message via Web3Forms" },
+        { status: response.status || 500 }
       );
     }
   } catch (error) {
     console.error("Contact API error:", error);
     return NextResponse.json(
-      { message: "Error processing request" },
+      { success: false, message: "Error processing request: " + error.message },
       { status: 500 }
     );
   }
