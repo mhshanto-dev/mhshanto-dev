@@ -39,11 +39,12 @@ export const metadata = {
     default: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer Bangladesh",
     template: "%s | MH Shanto"
   },
-  description: "Mehedi Hasan Shanto (MH Shanto) is a Full-Stack Developer & Software Engineer from Bangladesh specializing in React, Next.js, and Node.js. Building modern, scalable web applications.",
+  description: "Mehedi Hasan Shanto (MH Shanto) is a professional Full-Stack Developer and Software Engineer from Sirajganj, Rajshahi, Dhaka, Bangladesh. Specializing in React, Next.js, and Node.js to build modern web applications.",
   keywords: [
     "Mehedi Hasan Shanto", "MH Shanto", "Shanto developer", "MD Shanto",
     "Md. Mehedi Hasan Shanto", "mhshanto", "mh shanto developer",
     "M H Shanto", "Mehedi Hassan Shanto", "Mehedi Hasan", "Shanto",
+    "Sirajganj Developer", "Rajshahi Developer", "Dhaka Developer",
     "Shanto Full Stack Developer", "Shanto Bangladesh developer",
     "Full Stack Developer Bangladesh", "Frontend Developer Dhaka",
     "Backend Developer Rajshahi", "Web Developer Sirajganj",
@@ -63,7 +64,7 @@ export const metadata = {
     locale: "en_US",
     url: personalDetails.url,
     title: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer Bangladesh",
-    description: "Mehedi Hasan Shanto (MH Shanto) – Full-Stack Developer from Bangladesh building high-performance web applications with React, Next.js & Node.js.",
+    description: "Mehedi Hasan Shanto (MH Shanto) – Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh. Building high-performance web applications with React, Next.js & Node.js.",
     siteName: "MH Shanto – Portfolio",
     firstName: "Mehedi Hasan",
     lastName: "Shanto",
@@ -80,7 +81,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer",
-    description: "Mehedi Hasan Shanto (MH Shanto) – Software Engineer & Full-Stack Developer from Bangladesh.",
+    description: "Mehedi Hasan Shanto (MH Shanto) – Software Engineer & Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh.",
     images: ["/og-image.png"],
     creator: "@mhshanto_dev",
   },
