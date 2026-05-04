@@ -20,7 +20,7 @@ const inter = Inter({
 
 const personalDetails = {
   name: "Mehedi Hasan Shanto",
-  alternateName: ["MH Shanto", "MD Shanto", "Md. Mehedi Hasan Shanto"],
+  alternateName: ["MH Shanto", "MD Shanto", "Md. Mehedi Hasan Shanto", "M.H. Shanto", "Mehedi Shanto", "Shanto"],
   jobTitle: "Full-Stack Developer",
   url: "https://mhshanto-dev.vercel.app",
   email: "mhshanto.8989.t@gmail.com",
@@ -43,11 +43,13 @@ export const metadata = {
   keywords: [
     "Mehedi Hasan Shanto", "MH Shanto", "Shanto developer", "MD Shanto",
     "Md. Mehedi Hasan Shanto", "mhshanto", "mh shanto developer",
+    "M H Shanto", "Mehedi Hassan Shanto", "Mehedi Hasan", "Shanto",
     "Shanto Full Stack Developer", "Shanto Bangladesh developer",
     "Full Stack Developer Bangladesh", "Frontend Developer Dhaka",
     "Backend Developer Rajshahi", "Web Developer Sirajganj",
     "Software Engineer Bangladesh", "React Developer Bangladesh",
-    "Next.js developer Bangladesh", "Node.js developer Bangladesh"
+    "Next.js developer Bangladesh", "Node.js developer Bangladesh",
+    "M.H. Shanto", "M. H. Shanto", "Mehedi Shanto"
   ],
   authors: [{ name: "Mehedi Hasan Shanto", url: personalDetails.url }],
   creator: "Mehedi Hasan Shanto",
