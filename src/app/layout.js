@@ -34,44 +34,64 @@ const personalDetails = {
 
 export const metadata = {
   metadataBase: new URL(personalDetails.url),
+  applicationName: "MH Shanto Portfolio",
   title: {
-    default: "MH Shanto | Full-Stack Developer in Bangladesh",
+    default: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer Bangladesh",
     template: "%s | MH Shanto"
   },
-  description: "Mehedi Hasan Shanto (MH Shanto) is a Full-Stack, Frontend & Backend Developer from Bangladesh (Dhaka, Sirajganj, Rajshahi) building modern, scalable web applications.",
+  description: "Mehedi Hasan Shanto (MH Shanto) is a Full-Stack Developer & Software Engineer from Bangladesh specializing in React, Next.js, and Node.js. Building modern, scalable web applications.",
   keywords: [
-    "Md. Mehedi Hasan Shanto", "MH Shanto", "Mehedi Hasan Shanto", "MD Shanto", 
-    "Full Stack Developer Bangladesh", "Frontend Developer Dhaka", 
-    "Backend Developer Rajshahi", "Web Developer Sirajganj", 
-    "Software Engineer Bangladesh", "React Developer Bangladesh"
+    "Mehedi Hasan Shanto", "MH Shanto", "Shanto developer", "MD Shanto",
+    "Md. Mehedi Hasan Shanto", "mhshanto", "mh shanto developer",
+    "Shanto Full Stack Developer", "Shanto Bangladesh developer",
+    "Full Stack Developer Bangladesh", "Frontend Developer Dhaka",
+    "Backend Developer Rajshahi", "Web Developer Sirajganj",
+    "Software Engineer Bangladesh", "React Developer Bangladesh",
+    "Next.js developer Bangladesh", "Node.js developer Bangladesh"
   ],
-  authors: [{ name: "Mehedi Hasan Shanto" }],
+  authors: [{ name: "Mehedi Hasan Shanto", url: personalDetails.url }],
   creator: "Mehedi Hasan Shanto",
+  publisher: "Mehedi Hasan Shanto",
+  category: "technology",
+  alternates: {
+    canonical: personalDetails.url,
+  },
   openGraph: {
-    type: "website",
+    type: "profile",
     locale: "en_US",
     url: personalDetails.url,
-    title: "MH Shanto | Full-Stack Developer in Bangladesh",
-    description: "Mehedi Hasan Shanto (MH Shanto) - High-performance web solutions from Bangladesh.",
-    siteName: "MH Shanto Portfolio",
+    title: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer Bangladesh",
+    description: "Mehedi Hasan Shanto (MH Shanto) – Full-Stack Developer from Bangladesh building high-performance web applications with React, Next.js & Node.js.",
+    siteName: "MH Shanto – Portfolio",
+    firstName: "Mehedi Hasan",
+    lastName: "Shanto",
+    username: "mhshanto-dev",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "MH Shanto - Full-Stack Developer Bangladesh",
+        alt: "MH Shanto (Mehedi Hasan Shanto) - Full-Stack Developer Bangladesh",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MH Shanto | Full-Stack Developer",
-    description: "Mehedi Hasan Shanto (MH Shanto) - Software Engineer in Bangladesh.",
+    title: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer",
+    description: "Mehedi Hasan Shanto (MH Shanto) – Software Engineer & Full-Stack Developer from Bangladesh.",
     images: ["/og-image.png"],
+    creator: "@mhshanto_dev",
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   verification: {
     google: "3xTfRXUs6iW9698yGww7p4GRMFnWWqcvUKyTpjR-3mw",
@@ -79,6 +99,7 @@ export const metadata = {
   icons: {
     icon: "/icon.png",
     apple: "/icon.png",
+    shortcut: "/icon.png",
   },
 };
 
@@ -88,6 +109,8 @@ export default function RootLayout({ children }) {
     "@type": "Person",
     "name": personalDetails.name,
     "alternateName": personalDetails.alternateName,
+    "givenName": "Mehedi Hasan",
+    "familyName": "Shanto",
     "jobTitle": [
       "Full-Stack Developer",
       "Frontend Developer",
@@ -95,15 +118,24 @@ export default function RootLayout({ children }) {
       "Software Engineer"
     ],
     "url": personalDetails.url,
-    "image": `${personalDetails.url}/profile.png`,
+    "image": `${personalDetails.url}/og-image.png`,
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Dhaka, Sirajganj, Rajshahi",
-      "addressCountry": "Bangladesh"
+      "addressLocality": "Dhaka",
+      "addressRegion": "Dhaka Division",
+      "addressCountry": "BD"
     },
     "sameAs": personalDetails.sameAs,
-    "description": metadata.description,
-    "email": personalDetails.email
+    "description": "Mehedi Hasan Shanto, also known as MH Shanto, is a Full-Stack Developer and Software Engineer from Bangladesh specializing in React, Next.js, Node.js, and modern web technologies.",
+    "email": personalDetails.email,
+    "knowsAbout": [
+      "React", "Next.js", "Node.js", "JavaScript", "TypeScript",
+      "Full-Stack Development", "Web Development", "Software Engineering"
+    ],
+    "nationality": {
+      "@type": "Country",
+      "name": "Bangladesh"
+    }
   };
 
   return (

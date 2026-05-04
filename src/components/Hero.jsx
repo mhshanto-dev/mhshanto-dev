@@ -68,6 +68,11 @@ const Hero = () => {
       ref={containerRef}
       className="max-w-[1200px] mx-auto px-4 sm:px-6 pt-[100px] sm:pt-[130px] lg:pt-[140px] pb-[60px] sm:pb-[100px] min-h-screen grid lg:grid-cols-2 items-center gap-10 lg:gap-24 relative overflow-visible"
     >
+      {/* Hidden SEO H1 — visually hidden, fully readable by Google */}
+      <h1 className="sr-only">
+        Mehedi Hasan Shanto (MH Shanto) — Full-Stack Developer &amp; Software Engineer from Bangladesh
+      </h1>
+
       {/* Background Cinematic Layer */}
       <motion.div style={{ y: bgY }} className="parallax-layer-bg">
         <div className="absolute -top-[10%] -left-[10%] w-[600px] h-[600px] bg-primary/5 rounded-full blur-[140px]"></div>
