@@ -98,6 +98,9 @@ export const metadata = {
   verification: {
     google: "3xTfRXUs6iW9698yGww7p4GRMFnWWqcvUKyTpjR-3mw",
   },
+  // Next.js automatically handles icon.png in the app directory.
+  // No manual icons metadata needed if using the file-based convention.
+  // However, we can keep it for absolute clarity if the file is in public.
   icons: {
     icon: "/icon.png",
     apple: "/icon.png",
