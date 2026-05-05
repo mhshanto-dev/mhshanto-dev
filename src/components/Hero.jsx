@@ -220,6 +220,18 @@ const Hero = () => {
           </Magnetic>
 
           <Magnetic strength={0.2}>
+            <motion.a
+              href="/resume"
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.95 }}
+              className="w-full sm:w-auto border border-primary/30 bg-primary/5 text-primary px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold hover:bg-primary/10 transition-all duration-500 text-sm sm:text-base flex items-center justify-center gap-2"
+            >
+              <span className="material-symbols-outlined text-[20px]">visibility</span>
+              View Resume
+            </motion.a>
+          </Magnetic>
+
+          <Magnetic strength={0.2}>
             <motion.button
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.95 }}
