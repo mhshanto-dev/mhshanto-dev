@@ -47,7 +47,7 @@ Currently sharpening my expertise through **Programming Hero Batch 13** and **CS
 <td>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=16&duration=2500&pause=800&color=00F7FF&width=380&height=200&lines=const+dev+%3D+%7B;++name%3A+'MH+Shanto'%2C;++stack%3A+'MERN+%2B+Next.js'%2C;++status%3A+'Building...'%2C;++goal%3A+'AI+Developer'%2C;%7D;" alt="Code Animation"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=15&duration=2500&pause=800&color=00F7FF&width=380&height=250&lines=🚀+Tech+Stack+Details:;---;✦+Core:+Next.js+15+%2B+React+19;✦+Animations:+GSAP+3+%2B+Framer;✦+Styling:+Tailwind+CSS;✦+Scroll:+Lenis+Smooth+Scroll;✦+Database:+MongoDB+%2B+Node.js;✦+UX:+Premium+Interactive+UI;---;Ready+for+Next+Innovation!;" alt="Code Animation"/>
 </p>
 
 </td>
