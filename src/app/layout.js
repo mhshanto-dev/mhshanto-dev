@@ -71,9 +71,7 @@ export const metadata = {
     username: "mhshanto-dev",
     images: [
       {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
+        url: "/icon.png",
         alt: "MH Shanto (Mehedi Hasan Shanto) - Full-Stack Developer Bangladesh",
       },
     ],
@@ -82,7 +80,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer",
     description: "Mehedi Hasan Shanto (MH Shanto) – Software Engineer & Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh.",
-    images: ["/og-image.png"],
+    images: ["/icon.png"],
     creator: "@mhshanto_dev",
   },
   robots: {
