@@ -40,6 +40,7 @@ export const metadata = {
     template: "%s | MH Shanto"
   },
   description: "Mehedi Hasan Shanto (MH Shanto) is a professional Full-Stack Developer and Software Engineer from Sirajganj, Rajshahi, Dhaka, Bangladesh. Specializing in React, Next.js, and Node.js to build modern web applications.",
+  keywords: [
     "Mehedi Hasan Shanto", "MH Shanto", "Shanto developer", "MD Shanto",
     "Md. Mehedi Hasan Shanto", "mhshanto", "mh shanto developer",
     "M H Shanto", "Mehedi Hassan Shanto", "Mehedi Hasan", "Shanto",
