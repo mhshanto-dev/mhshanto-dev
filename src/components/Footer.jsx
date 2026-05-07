@@ -24,6 +24,15 @@ const Footer = () => {
             © 2026 MH Shanto. Full-Stack Developer from Bangladesh. Designing High-Performance Solutions.
           </p>
         </div>
+
+        {/* Quick Links for SEO */}
+        <div className="flex flex-wrap justify-center gap-6 font-heading text-[10px] font-black uppercase tracking-[0.2em] text-on-surface-variant/60">
+          <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+          <Link href="/projects" className="hover:text-primary transition-colors">Projects Archive</Link>
+          <Link href="/hire" className="hover:text-primary transition-colors">Hire Me</Link>
+          <Link href="/resume" className="hover:text-primary transition-colors">Resume</Link>
+        </div>
+
         <div className="flex flex-wrap justify-center gap-4 font-heading text-[10px] font-black uppercase tracking-[0.2em]">
           <a 
             className="px-5 py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-primary/20" 
