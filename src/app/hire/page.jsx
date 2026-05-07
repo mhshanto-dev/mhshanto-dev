@@ -11,7 +11,7 @@ export const metadata = {
     "frond end developer", "hire frond end developer", "hiring frond end developer",
     "hiring web developer Bangladesh", "best software engineer for hire",
     "web development", "web developer", "software engineer", "ai", "ai developer",
-    "artificial intelligence", "ai integration"
+    "artificial intelligence", "ai integration", "Ai powered developer"
   ],
   openGraph: {
     title: "Hire Me | Mehedi Hasan Shanto",
