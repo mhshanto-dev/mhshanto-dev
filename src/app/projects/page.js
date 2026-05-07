@@ -6,7 +6,9 @@ export const metadata = {
   keywords: [
     "MH Shanto projects", "Mehedi Hasan Shanto portfolio", "web development projects",
     "Next.js projects", "React projects", "full stack projects Bangladesh",
-    "software engineering portfolio"
+    "software engineering portfolio", "full stack developer projects",
+    "frontend developer portfolio", "backend developer projects",
+    "hiring full stack developer portfolio", "frond end developer showcase"
   ],
   openGraph: {
     title: "Projects & Masterpieces | Mehedi Hasan Shanto",

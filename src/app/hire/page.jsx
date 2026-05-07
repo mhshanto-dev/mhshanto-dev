@@ -6,7 +6,10 @@ export const metadata = {
   keywords: [
     "hire developer Bangladesh", "hire Next.js developer", "freelance full stack developer",
     "Mehedi Hasan Shanto hire", "MH Shanto developer for hire", "web development services",
-    "software engineer for hire"
+    "software engineer for hire", "hiring full stack developer", "hiring web developer",
+    "hiring software engineer", "hiring front end developer", "hiring backend developer",
+    "frond end developer", "hire frond end developer", "hiring frond end developer",
+    "hiring web developer Bangladesh", "best software engineer for hire"
   ],
   openGraph: {
     title: "Hire Me | Mehedi Hasan Shanto",
