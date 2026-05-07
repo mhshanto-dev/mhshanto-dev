@@ -53,7 +53,9 @@ export const metadata = {
     "hiring full stack developer", "hiring web developer", "hiring software engineer",
     "hire full stack developer", "hire web developer", "hire software engineer",
     "frond end developer", "backend developer", "front end developer",
-    "hiring react developer", "hiring nextjs developer", "best developer for hire"
+    "hiring react developer", "hiring nextjs developer", "best developer for hire",
+    "web development", "web developer", "software engineer", "ai", "ai developer",
+    "artificial intelligence", "ai web developer", "machine learning"
   ],
   authors: [{ name: "Mehedi Hasan Shanto", url: personalDetails.url }],
   creator: "Mehedi Hasan Shanto",

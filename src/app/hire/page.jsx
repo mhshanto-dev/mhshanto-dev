@@ -9,7 +9,9 @@ export const metadata = {
     "software engineer for hire", "hiring full stack developer", "hiring web developer",
     "hiring software engineer", "hiring front end developer", "hiring backend developer",
     "frond end developer", "hire frond end developer", "hiring frond end developer",
-    "hiring web developer Bangladesh", "best software engineer for hire"
+    "hiring web developer Bangladesh", "best software engineer for hire",
+    "web development", "web developer", "software engineer", "ai", "ai developer",
+    "artificial intelligence", "ai integration"
   ],
   openGraph: {
     title: "Hire Me | Mehedi Hasan Shanto",
