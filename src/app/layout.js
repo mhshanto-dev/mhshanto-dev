@@ -76,8 +76,10 @@ export const metadata = {
     username: "mhshanto-dev",
     images: [
       {
-        url: "/icon.png",
+        url: `${personalDetails.url}/icon.png`,
         alt: "MH Shanto (Mehedi Hasan Shanto) - Full-Stack Developer Bangladesh",
+        width: 512,
+        height: 512,
       },
     ],
   },
@@ -85,7 +87,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer",
     description: "Mehedi Hasan Shanto (MH Shanto) – Software Engineer & Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh.",
-    images: ["/icon.png"],
+    images: [`${personalDetails.url}/icon.png`],
     creator: "@mhshanto_dev",
   },
   robots: {
@@ -119,36 +121,68 @@ export const metadata = {
 export default function RootLayout({ children }) {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": personalDetails.name,
-    "alternateName": personalDetails.alternateName,
-    "givenName": "Mehedi Hasan",
-    "familyName": "Shanto",
-    "jobTitle": [
-      "Full-Stack Developer",
-      "Frontend Developer",
-      "Backend Developer",
-      "Software Engineer"
-    ],
-    "url": personalDetails.url,
-    "image": `${personalDetails.url}/icon.png`,
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Dhaka",
-      "addressRegion": "Dhaka Division",
-      "addressCountry": "BD"
-    },
-    "sameAs": personalDetails.sameAs,
-    "description": "Mehedi Hasan Shanto, also known as MH Shanto, is a Full-Stack Developer and Software Engineer from Bangladesh specializing in React, Next.js, Node.js, and modern web technologies.",
-    "email": personalDetails.email,
-    "knowsAbout": [
-      "React", "Next.js", "Node.js", "JavaScript", "TypeScript",
-      "Full-Stack Development", "Web Development", "Software Engineering"
-    ],
-    "nationality": {
-      "@type": "Country",
-      "name": "Bangladesh"
-    }
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": `${personalDetails.url}/#person`,
+        "name": personalDetails.name,
+        "alternateName": personalDetails.alternateName,
+        "givenName": "Mehedi Hasan",
+        "familyName": "Shanto",
+        "jobTitle": [
+          "Full-Stack Developer",
+          "Frontend Developer",
+          "Backend Developer",
+          "Software Engineer"
+        ],
+        "url": personalDetails.url,
+        "image": {
+          "@type": "ImageObject",
+          "@id": `${personalDetails.url}/#personImage`,
+          "url": `${personalDetails.url}/icon.png`,
+          "contentUrl": `${personalDetails.url}/icon.png`,
+          "width": "512",
+          "height": "512",
+          "caption": "Mehedi Hasan Shanto (MH Shanto)"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dhaka",
+          "addressRegion": "Dhaka Division",
+          "addressCountry": "BD"
+        },
+        "sameAs": personalDetails.sameAs,
+        "description": "Mehedi Hasan Shanto, also known as MH Shanto, is a Full-Stack Developer and Software Engineer from Bangladesh specializing in React, Next.js, Node.js, and modern web technologies.",
+        "email": personalDetails.email,
+        "knowsAbout": [
+          "React", "Next.js", "Node.js", "JavaScript", "TypeScript",
+          "Full-Stack Development", "Web Development", "Software Engineering"
+        ],
+        "nationality": {
+          "@type": "Country",
+          "name": "Bangladesh"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${personalDetails.url}/#website`,
+        "url": personalDetails.url,
+        "name": "MH Shanto Portfolio",
+        "description": "Professional Portfolio of Mehedi Hasan Shanto",
+        "publisher": { "@id": `${personalDetails.url}/#person` },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": `${personalDetails.url}/#webpage`,
+        "url": personalDetails.url,
+        "name": "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer",
+        "isPartOf": { "@id": `${personalDetails.url}/#website` },
+        "about": { "@id": `${personalDetails.url}/#person` },
+        "description": "Mehedi Hasan Shanto (MH Shanto) – Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh.",
+        "primaryImageOfPage": { "@id": `${personalDetails.url}/#personImage` }
+      }
+    ]
   };
 
   return (
