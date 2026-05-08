@@ -79,7 +79,7 @@ const CustomCursor = () => {
         animate={{
           scale: isHovered ? 2.5 : 1,
           opacity: isHovered ? 0.5 : 1,
-          backgroundColor: isHovered ? "rgba(37, 99, 235, 0.1)" : "transparent",
+          backgroundColor: isHovered ? "rgba(37, 99, 235, 0.1)" : "rgba(37, 99, 235, 0)",
         }}
         style={{
           x: cursorXSpring,

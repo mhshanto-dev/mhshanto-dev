@@ -144,8 +144,8 @@ const Hero = () => {
                         ? [0, -4, 4, -2, 2, 0]
                         : 0,
                       color: isGlitching
-                        ? ["var(--primary)", "#ff4ecd", "var(--primary)"]
-                        : "var(--primary)",
+                        ? ["#2563eb", "#ff4ecd", "#2563eb"]
+                        : "#2563eb",
                     }}
                     exit={{ y: -40, opacity: 0, filter: "blur(8px)" }}
                     transition={{
@@ -182,7 +182,7 @@ const Hero = () => {
                     width: i === roleIndex ? 24 : 6,
                     opacity: i === roleIndex ? 1 : 0.3,
                     backgroundColor:
-                      i === roleIndex ? "var(--primary)" : "var(--outline)",
+                      i === roleIndex ? "#2563eb" : "#919094",
                   }}
                   transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
                   className="h-1.5 rounded-full cursor-pointer"

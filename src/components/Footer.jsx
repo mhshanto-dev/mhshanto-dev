@@ -12,6 +12,7 @@ const Footer = () => {
                 src="/logo.jpeg"
                 alt="MH Shanto Logo"
                 fill
+                sizes="40px"
                 className="object-cover"
                 unoptimized
               />

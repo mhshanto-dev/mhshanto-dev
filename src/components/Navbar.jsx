@@ -102,6 +102,7 @@ const Navbar = () => {
                 alt="MH Shanto Logo"
                 fill
                 className="object-cover"
+                sizes="(max-width: 768px) 36px, 40px"
                 priority
                 unoptimized
               />
