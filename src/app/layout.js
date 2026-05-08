@@ -152,11 +152,12 @@ export default function RootLayout({ children }) {
           "addressCountry": "BD"
         },
         "sameAs": personalDetails.sameAs,
-        "description": "Mehedi Hasan Shanto, also known as MH Shanto, is a Full-Stack Developer and Software Engineer from Bangladesh specializing in React, Next.js, Node.js, and modern web technologies.",
+        "description": "Mehedi Hasan Shanto, also known as MH Shanto, is a professional Full-Stack Developer and Software Engineer from Bangladesh specializing in React, Next.js, and Node.js.",
         "email": personalDetails.email,
         "knowsAbout": [
           "React", "Next.js", "Node.js", "JavaScript", "TypeScript",
-          "Full-Stack Development", "Web Development", "Software Engineering"
+          "Full-Stack Development", "Web Development", "Software Engineering",
+          "MERN Stack", "SaaS Development"
         ],
         "nationality": {
           "@type": "Country",
@@ -167,7 +168,7 @@ export default function RootLayout({ children }) {
         "@type": "WebSite",
         "@id": `${personalDetails.url}/#website`,
         "url": personalDetails.url,
-        "name": "MH Shanto Portfolio",
+        "name": "MH Shanto",
         "description": "Professional Portfolio of Mehedi Hasan Shanto",
         "publisher": { "@id": `${personalDetails.url}/#person` },
         "inLanguage": "en-US"
@@ -180,7 +181,8 @@ export default function RootLayout({ children }) {
         "isPartOf": { "@id": `${personalDetails.url}/#website` },
         "about": { "@id": `${personalDetails.url}/#person` },
         "description": "Mehedi Hasan Shanto (MH Shanto) – Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh.",
-        "primaryImageOfPage": { "@id": `${personalDetails.url}/#personImage` }
+        "primaryImageOfPage": { "@id": `${personalDetails.url}/#personImage` },
+        "thumbnailUrl": `${personalDetails.url}/icon.png`
       }
     ]
   };
@@ -189,6 +191,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" />
+        <link rel="image_src" href={`${personalDetails.url}/icon.png`} />
       </head>
       <body suppressHydrationWarning className={`${plusJakartaSans.variable} ${inter.variable} bg-background text-on-background font-body-md overflow-x-hidden`}>
         <Providers>
