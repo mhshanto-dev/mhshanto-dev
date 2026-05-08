@@ -106,9 +106,13 @@ export const metadata = {
   // No manual icons metadata needed if using the file-based convention.
   // However, we can keep it for absolute clarity if the file is in public.
   icons: {
-    icon: "/icon.png",
-    apple: "/icon.png",
-    shortcut: "/icon.png",
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+    ],
+    shortcut: ["/icon.png"],
+    apple: [
+      { url: "/icon.png", sizes: "180x180", type: "image/png" },
+    ],
   },
 };
 
