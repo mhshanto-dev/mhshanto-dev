@@ -115,7 +115,7 @@ const Contact = () => {
                 <a
                   href={method.link}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="me noopener noreferrer"
                   className="text-primary text-xs font-bold uppercase tracking-widest hover:underline flex items-center gap-2 group-hover:gap-3 transition-all"
                 >
                   Write me
