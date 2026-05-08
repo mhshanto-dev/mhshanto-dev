@@ -28,8 +28,8 @@ const CTA = () => {
             transition={{ delay: 0.1 }}
             className="text-xl md:text-2xl text-on-surface-variant leading-relaxed opacity-80 max-w-2xl mx-auto"
           >
-            Let's collaborate to build something that pushes the boundaries of
-            what's possible on the web.
+            Let&apos;s collaborate to build something that pushes the boundaries of
+            what&apos;s possible on the web.
           </motion.p>
           
           <motion.div 

@@ -12,7 +12,10 @@ export const metadata = {
     description: "Detailed professional background, technical skills, and experience of MH Shanto.",
     url: "https://mhshanto-dev.vercel.app/resume",
     type: "website",
-  }
+  },
+  alternates: {
+    canonical: "https://mhshanto-dev.vercel.app/resume",
+  },
 };
 
 export default function ResumePage() {

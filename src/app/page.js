@@ -18,6 +18,12 @@ import CodeShowcase from "@/components/CodeShowcase";
 import WorkingProcess from "@/components/WorkingProcess";
 import Stats from "@/components/Stats";
 
+export const metadata = {
+  alternates: {
+    canonical: "https://mhshanto-dev.vercel.app",
+  },
+};
+
 export default function Home() {
   return (
     <main className="min-h-screen">

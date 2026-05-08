@@ -36,17 +36,17 @@ const AIChat = () => {
     scrollToBottom();
   }, [messages, isTyping]);
 
-  useEffect(() => {
-    // Greeting
-    const timer = setTimeout(() => {
-      addMessage("ai", "Hi! 👋 I'm Shanto's AI assistant. Ask me about his skills, projects, or how to work together!");
-    }, 500);
-    return () => clearTimeout(timer);
-  }, []);
-
   const addMessage = (role, text) => {
     setMessages((prev) => [...prev, { role, text }]);
   };
+
+  useEffect(() => {
+    // Greeting
+    const timer = setTimeout(() => {
+      addMessage("ai", "Hi! 👋 I&apos;m Shanto&apos;s AI assistant. Ask me about his skills, projects, or how to work together!");
+    }, 500);
+    return () => clearTimeout(timer);
+  }, []);
 
   const sendMsg = async (text) => {
     if (!text.trim() || isTyping) return;
@@ -123,7 +123,7 @@ const AIChat = () => {
               </div>
               <div>
                 <p className="text-sm font-bold text-white font-heading">
-                  Shanto's AI Assistant
+                  Shanto&apos;s AI Assistant
                 </p>
                 <p className="text-xs text-green-400">
                   <span className="ai-status-dot"></span>Online — ready to chat

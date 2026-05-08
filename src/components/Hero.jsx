@@ -10,21 +10,23 @@ import profileImg from "@/assets/mh-shanto-profile-picture.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
+const roles = [
+  "Full Stack Developer",
+  "Software Engineer",
+  "Problem Solver",
+  "Mern Stack Developer",
+];
+
+const sequence = ["Hey,", "this is", "Mehedi Hasan Shanto"];
+
 const Hero = () => {
   const containerRef = useRef(null);
   const { scrollY } = useScroll();
   
   const [roleIndex, setRoleIndex] = useState(0);
   const [isGlitching, setIsGlitching] = useState(false);
-  const roles = [
-    "Full Stack Developer",
-    "Software Engineer",
-    "Problem Solver",
-    "Mern Stack Developer",
-  ];
   
   const [sequenceIndex, setSequenceIndex] = useState(0);
-  const sequence = ["Hey,", "this is", "Mehedi Hasan Shanto"];
 
   // Cinematic Parallax
   const bgY = useTransform(scrollY, [0, 800], [0, 200]);

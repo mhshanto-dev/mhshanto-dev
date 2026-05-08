@@ -44,7 +44,7 @@ const BackendArchitecture = () => {
             Building the <br /> Engine Room
           </h2>
           <p className="text-on-surface-variant/70 text-lg leading-relaxed mb-10 max-w-lg">
-            I don't just build websites; I engineer high-performance backends. From complex database architectures to secure authentication layers, I ensure your application is as powerful on the inside as it is beautiful on the outside.
+            I don&apos;t just build websites; I engineer high-performance backends. From complex database architectures to secure authentication layers, I ensure your application is as powerful on the inside as it is beautiful on the outside.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-8">

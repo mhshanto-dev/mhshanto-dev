@@ -24,14 +24,14 @@ export default function HireMeContent() {
               Available for New Projects
             </span>
             <h1 className="text-5xl md:text-7xl font-black text-on-background mt-6 mb-8 leading-[1.1]">
-              Let's Build Something <br />
+              Let&apos;s Build Something <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
                 Extraordinary Together
               </span>
             </h1>
             <p className="text-on-surface-variant/90 max-w-2xl mx-auto text-lg leading-relaxed">
               I help startups and businesses transform their ideas into high-performance digital products. 
-              Whether you need a full-scale web application or a pixel-perfect landing page, I've got you covered.
+              Whether you need a full-scale web application or a pixel-perfect landing page, I&apos;ve got you covered.
             </p>
             
             <div className="flex flex-wrap justify-center gap-6 mt-12">
@@ -72,7 +72,7 @@ export default function HireMeContent() {
               },
               {
                 title: "Weekly Updates",
-                desc: "You'll get a detailed progress report and demo every week.",
+                desc: "You&apos;ll get a detailed progress report and demo every week.",
                 icon: "update"
               },
               {

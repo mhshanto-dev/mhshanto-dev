@@ -15,7 +15,10 @@ export const metadata = {
     description: "A showcase of innovative web solutions and full-stack projects by MH Shanto.",
     url: "https://mhshanto-dev.vercel.app/projects",
     type: "website",
-  }
+  },
+  alternates: {
+    canonical: "https://mhshanto-dev.vercel.app/projects",
+  },
 };
 
 export default function ProjectsPage() {

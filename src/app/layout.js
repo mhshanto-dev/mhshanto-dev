@@ -63,9 +63,7 @@ export const metadata = {
   creator: "Mehedi Hasan Shanto",
   publisher: "Mehedi Hasan Shanto",
   category: "technology",
-  alternates: {
-    canonical: personalDetails.url,
-  },
+
   openGraph: {
     type: "profile",
     locale: "en_US",
@@ -151,12 +149,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-        />
-      </head>
+      <head />
       <body suppressHydrationWarning className={`${plusJakartaSans.variable} ${inter.variable} bg-background text-on-background font-body-md overflow-x-hidden`}>
         <Providers>
           <PageLoader />

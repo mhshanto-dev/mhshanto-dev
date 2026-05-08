@@ -29,7 +29,10 @@ const Navbar = () => {
   */
 
   useEffect(() => {
-    setMounted(true);
+    setTimeout(() => setMounted(true), 0);
+  }, []);
+
+  useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
       const sections = ["home", "achievements", "about", "services", "backend", "process", "skills", "projects", "codeshowcase", "assignments", "timeline", "faq", "contact"];

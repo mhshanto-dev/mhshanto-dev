@@ -76,13 +76,13 @@ const About = () => {
           <div className="space-y-6">
             <div className="about-content-item">
               <p className="text-base sm:text-lg lg:text-xl font-medium text-on-background leading-relaxed">
-                I'm Mehedi Hasan Shanto (MH Shanto), a Full-Stack Developer based in Bangladesh with a passion for high-performance digital experiences.
+                I&apos;m Mehedi Hasan Shanto (MH Shanto), a Full-Stack Developer based in Bangladesh with a passion for high-performance digital experiences.
               </p>
             </div>
             
             <div className="about-content-item">
               <p className="text-on-surface-variant leading-relaxed text-sm sm:text-base lg:text-lg">
-                I specialize in Frontend and Backend development, bridging the gap between complex logic and intuitive interfaces. Whether it's building scalable architectures or crafting pixel-perfect interactive frontends, I focus on delivering code that is as clean as it is impactful.
+                I specialize in Frontend and Backend development, bridging the gap between complex logic and intuitive interfaces. Whether it&apos;s building scalable architectures or crafting pixel-perfect interactive frontends, I focus on delivering code that is as clean as it is impactful.
               </p>
             </div>
           </div>

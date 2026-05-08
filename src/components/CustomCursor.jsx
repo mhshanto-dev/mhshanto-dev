@@ -15,8 +15,10 @@ const CustomCursor = () => {
   const cursorYSpring = useSpring(cursorY, springConfig);
 
   useEffect(() => {
-    setMounted(true);
+    setTimeout(() => setMounted(true), 0);
+  }, []);
 
+  useEffect(() => {
     const moveCursor = (e) => {
       if (e.touches && e.touches.length > 0) {
         cursorX.set(e.touches[0].clientX);
@@ -53,6 +55,7 @@ const CustomCursor = () => {
       window.removeEventListener("touchstart", moveCursor);
       window.removeEventListener("mouseover", handleHover);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (!mounted) return null;

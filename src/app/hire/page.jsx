@@ -18,7 +18,10 @@ export const metadata = {
     description: "Partner with MH Shanto to build extraordinary digital products. Available for new projects.",
     url: "https://mhshanto-dev.vercel.app/hire",
     type: "website",
-  }
+  },
+  alternates: {
+    canonical: "https://mhshanto-dev.vercel.app/hire",
+  },
 };
 
 export default function HirePage() {
