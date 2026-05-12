@@ -110,8 +110,10 @@ export const metadata = {
   icons: {
     icon: [
       { url: "/icon.png", type: "image/png" },
+      { url: "/icon.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon.png", sizes: "48x48", type: "image/png" },
     ],
-    shortcut: ["/icon.png"],
+    shortcut: "/icon.png",
     apple: [
       { url: "/icon.png", sizes: "180x180", type: "image/png" },
     ],
@@ -190,6 +192,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/icon.png" sizes="any" />
+        <link rel="shortcut icon" href="/icon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/icon.png" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" />
         <link rel="image_src" href={`${personalDetails.url}/og-image.png`} />
       </head>
