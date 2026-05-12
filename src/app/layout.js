@@ -76,10 +76,10 @@ export const metadata = {
     username: "mhshanto-dev",
     images: [
       {
-        url: `${personalDetails.url}/icon.png`,
+        url: `${personalDetails.url}/og-image.png`,
         alt: "MH Shanto (Mehedi Hasan Shanto) - Full-Stack Developer Bangladesh",
-        width: 512,
-        height: 512,
+        width: 1200,
+        height: 630,
       },
     ],
   },
@@ -87,7 +87,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "MH Shanto | Mehedi Hasan Shanto – Full-Stack Developer",
     description: "Mehedi Hasan Shanto (MH Shanto) – Software Engineer & Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh.",
-    images: [`${personalDetails.url}/icon.png`],
+    images: [`${personalDetails.url}/og-image.png`],
     creator: "@mhshanto_dev",
   },
   robots: {
@@ -139,8 +139,8 @@ export default function RootLayout({ children }) {
         "image": {
           "@type": "ImageObject",
           "@id": `${personalDetails.url}/#personImage`,
-          "url": `${personalDetails.url}/icon.png`,
-          "contentUrl": `${personalDetails.url}/icon.png`,
+          "url": `${personalDetails.url}/og-image.png`,
+          "contentUrl": `${personalDetails.url}/og-image.png`,
           "width": "512",
           "height": "512",
           "caption": "Mehedi Hasan Shanto (MH Shanto)"
@@ -182,7 +182,7 @@ export default function RootLayout({ children }) {
         "about": { "@id": `${personalDetails.url}/#person` },
         "description": "Mehedi Hasan Shanto (MH Shanto) – Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh.",
         "primaryImageOfPage": { "@id": `${personalDetails.url}/#personImage` },
-        "thumbnailUrl": `${personalDetails.url}/icon.png`
+        "thumbnailUrl": `${personalDetails.url}/og-image.png`
       }
     ]
   };
@@ -191,7 +191,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=block" />
-        <link rel="image_src" href={`${personalDetails.url}/icon.png`} />
+        <link rel="image_src" href={`${personalDetails.url}/og-image.png`} />
       </head>
       <body suppressHydrationWarning className={`${plusJakartaSans.variable} ${inter.variable} bg-background text-on-background font-body-md overflow-x-hidden`}>
         <Providers>
