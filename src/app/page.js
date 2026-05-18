@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import TechStack from "@/components/TechStack";
 import Skills from "@/components/Skills";
+import AIExperience from "@/components/AIExperience";
 import Projects from "@/components/Projects";
 import Timeline from "@/components/Timeline";
 import FAQ from "@/components/FAQ";
@@ -38,6 +39,7 @@ export default function Home() {
         <WorkingProcess />
         <TechStack />
         <Skills />
+        <AIExperience />
         <Projects />
         <CodeShowcase />
         <AssignmentShowcase />

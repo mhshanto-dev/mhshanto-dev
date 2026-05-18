@@ -5,36 +5,36 @@ import { motion } from "framer-motion";
 const Services = () => {
   const services = [
     {
-      title: "Full-Stack Development",
-      description: "Building robust, scalable applications from ground up using MERN stack and modern architectures.",
+      title: "Interactive SaaS & Next.js Systems",
+      description: "Developing robust, server-rendered full-stack systems from the ground up using React, Next.js, and the MERN stack with modern component architectures.",
       icon: "layers",
       color: "from-blue-500/20 to-blue-500/5",
       size: "lg:col-span-2 lg:row-span-2",
     },
     {
-      title: "Clean Code",
-      description: "Writing maintainable, well-documented code that stays scalable.",
-      icon: "code",
+      title: "Secure Web APIs & Session Control",
+      description: "Building production-ready, secure REST APIs with Express and Node.js. Implementing secure JWT handling and HTTP-only cookie validation.",
+      icon: "security",
       color: "from-emerald-500/20 to-emerald-500/5",
       size: "lg:col-span-1 lg:row-span-1",
     },
     {
-      title: "Fast Delivery",
-      description: "Optimized workflow ensuring quick turnaround times without quality loss.",
-      icon: "bolt",
+      title: "Database Modeling & Aggregation",
+      description: "Designing optimized MongoDB and relational data schemas, indexes, and aggregate pipelines for clean, fast query resolution.",
+      icon: "database",
       color: "from-amber-500/20 to-amber-500/5",
       size: "lg:col-span-1 lg:row-span-1",
     },
     {
-      title: "Modern UI/UX",
-      description: "Creating pixel-perfect, interactive interfaces with smooth animations.",
+      title: "Cinematic Customs UI (GSAP/Framer)",
+      description: "Crafting highly customized, fluid interfaces with micro-interactions, responsive design systems, and rich organic scroll timelines.",
       icon: "palette",
       color: "from-purple-500/20 to-purple-500/5",
       size: "lg:col-span-1 lg:row-span-1",
     },
     {
-      title: "SEO Optimized",
-      description: "Ensuring your application ranks high and performs well on search engines.",
+      title: "SEO Audits & Crawl Compliance",
+      description: "Ensuring web assets have structured JSON-LD schemas, proper heading hierarchy, dynamic sitemaps, and strict Core Web Vitals success.",
       icon: "search_check",
       color: "from-cyan-500/20 to-cyan-500/5",
       size: "lg:col-span-1 lg:row-span-1",
@@ -46,14 +46,14 @@ const Services = () => {
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
         <div>
           <span className="text-primary font-bold tracking-[0.3em] uppercase text-[10px]">
-            Value Proposition
+            Capabilities Framework
           </span>
-          <h2 className="text-h2 text-on-background mt-3">
-            Premium Services <br className="hidden md:block" /> For Your Business
+          <h2 className="text-h2 text-on-background mt-3 font-heading font-bold">
+            What I Can Build <br className="hidden md:block" /> For Your Team
           </h2>
         </div>
         <p className="text-on-surface-variant/80 max-w-sm text-sm leading-relaxed mb-2">
-          I provide end-to-end digital solutions that focus on performance, accessibility, and high-impact results.
+          I engineer robust, end-to-end full-stack architectures and intelligent features focused on security, speed, and real-world impact.
         </p>
       </div>
 

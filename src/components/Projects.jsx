@@ -21,32 +21,32 @@ const Projects = () => {
 
   const allProjects = [
     {
-      title: "Personal Portfolio",
-      description: "My high-performance developer portfolio built with Next.js, Framer Motion, and GSAP. Features cinematic animations, glassmorphism design, and full responsiveness.",
+      title: "DevSphere — High-Performance Cinematic Portfolio Engine",
+      description: "• Problem: Standard portfolios suffer from poor search indexing, slow loads, and static, unengaging visuals.\n• Solution: Engineered a high-performance portfolio using Next.js, GSAP, and Framer Motion with deep crawl compliance.\n• Key Features: Cinematic parallax, custom GSAP scroll-triggered timelines, and complete JSON-LD search schema.\n• Tech Stack: Next.js, Framer Motion, GSAP, Tailwind CSS, Vercel.\n• Deployment: Automated Vercel hosting with live GitHub CI/CD integrations.",
       tags: ["Next.js", "Framer Motion", "GSAP", "Tailwind"],
       image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://mhshanto-dev.vercel.app/",
       repoLink: "https://github.com/mhshanto-dev/mhshanto"
     },
     {
-      title: "Tiles Gallery Ecommerce",
-      description: "A full-featured tile ecommerce platform with product gallery, authentication, pricing, and a clean aesthetic design. 'Discover Your Perfect Aesthetic.'",
+      title: "AuraTiles — High-Performance B2B E-Commerce Platform",
+      description: "• Problem: Home decor retailers struggle with slow catalog renderings, complex filtering, and unsafe checkouts.\n• Solution: Developed a full MERN stack e-commerce catalog with optimized database queries and secure API endpoints.\n• Key Features: Reactive product categories, real-time client-side queries, custom state, and encrypted user auth.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: API on Render, Client on Vercel, database on MongoDB Atlas.",
       tags: ["React", "Node.js", "MongoDB", "Vercel"],
       image: projTilesImg,
       liveLink: "https://tiles-gallery-ecommerce.vercel.app/",
       repoLink: "https://github.com/mhshanto-dev"
     },
     {
-      title: "KeenKeeper — Social Media",
-      description: "Your personal shelf of meaningful connections. A relationship management app to browse, tend, and nurture the friendships that matter most.",
+      title: "KeenKeeper — Personal Relationship CRM & Social Hub",
+      description: "• Problem: Algorithm-heavy social networks distract professionals from nurturing critical human and business connections.\n• Solution: Created a secure personal relationship CRM offering a clean environment to track and maintain connections.\n• Key Features: Firebase real-time data sync, secure authentication dashboard, contact categories, and reminders.\n• Tech Stack: React, Firebase, Netlify, Tailwind CSS.\n• Deployment: Powered by Firebase Realtime DB, frontend hosted on Netlify.",
       tags: ["React", "Firebase", "Netlify"],
       image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://courageous-fox-f6c3ed.netlify.app/",
       repoLink: "https://github.com/mhshanto-dev"
     },
     {
-      title: "Modern Digitools Ecommerce",
-      description: "A comprehensive digital tools & productivity software platform. Browse, purchase, and use powerful digital utilities designed for developers and creators.",
+      title: "Digitools Hub — Developer Utilities & SaaS Store",
+      description: "• Problem: Developers and content creators waste time searching for vetted, safe utilities and code assets.\n• Solution: Engineered a streamlined assets directory allowing rapid exploring, filtering, and secure downloads.\n• Key Features: Fast client-side catalog search, local storage cart persistence, and secure download schemas.\n• Tech Stack: React, ES6+ JavaScript, Netlify, Tailwind CSS.\n• Deployment: Hosted on Netlify, highly optimized for speed and responsiveness.",
       tags: ["React", "JavaScript", "Netlify"],
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://whimsical-entremet-c5c4f5.netlify.app/",
@@ -133,7 +133,7 @@ const Projects = () => {
                         <h4 className="font-h2 text-2xl md:text-3xl text-white tracking-tight mb-3 drop-shadow-xl">
                           {project.title}
                         </h4>
-                        <p className="text-white/80 text-sm leading-relaxed mb-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500 line-clamp-3">
+                        <p className="text-white/80 text-[11px] leading-relaxed mb-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-pre-line text-left">
                           {project.description}
                         </p>
                         

@@ -11,10 +11,10 @@ import profileImg from "@/assets/mh-shanto-profile-picture.png";
 gsap.registerPlugin(ScrollTrigger);
 
 const roles = [
-  "Full Stack Developer",
-  "Software Engineer",
-  "Problem Solver",
-  "Mern Stack Developer",
+  "AI-Ready Full Stack Developer",
+  "Next.js & React Specialist",
+  "MERN Stack Architect",
+  "API & Security Developer",
 ];
 
 const sequence = ["Hey,", "this is", "Mehedi Hasan Shanto"];
@@ -122,7 +122,7 @@ const Hero = () => {
           
           <div className="flex flex-col gap-3 sm:gap-4">
             <span className="block text-sm sm:text-lg md:text-xl opacity-90 font-bold uppercase tracking-[0.15em] sm:tracking-[0.2em] text-on-surface-variant">
-              Full-Stack Developer from Bangladesh
+              AI-Ready Full Stack Developer
             </span>
 
             {/* Animated Role Rotator */}
@@ -198,8 +198,7 @@ const Hero = () => {
             transition={{ delay: 1, duration: 1, ease: [0.16, 1, 0.3, 1] }}
             className="text-body-lg font-body-lg text-on-surface-variant max-w-lg leading-relaxed opacity-90"
           >
-            I build high-performance, scalable web applications with a focus on
-            modern architectures and seamless user experiences.
+            I architect high-performance, secure web applications leveraging the MERN Stack, Next.js, and modern AI models. Focused on building production-ready REST APIs, secure authentication, and seamless AI integrations.
           </motion.p>
         </div>
 
@@ -217,7 +216,7 @@ const Hero = () => {
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="w-full sm:w-auto bg-primary text-white px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold shadow-2xl shadow-primary/20 hover:shadow-primary/40 transition-shadow duration-500 text-sm sm:text-base"
             >
-              Start a Project
+              Let&apos;s Collaborate
             </motion.button>
           </Magnetic>
 
@@ -240,7 +239,7 @@ const Hero = () => {
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               className="w-full sm:w-auto border border-outline-variant/20 bg-surface-container-high/40 backdrop-blur-xl text-on-surface px-7 sm:px-10 py-4 sm:py-5 rounded-2xl font-bold hover:bg-surface-container-high transition-all duration-500 text-sm sm:text-base"
             >
-              View Projects
+              Explore Selected Works
             </motion.button>
           </Magnetic>
         </motion.div>
