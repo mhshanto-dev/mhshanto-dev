@@ -30,10 +30,14 @@ const Counter = ({ value, duration = 2 }) => {
 
 const Stats = () => {
   const stats = [
-    { label: "Completed Projects", value: "30", suffix: "+", icon: "task_alt" },
-    { label: "Satisfied Clients", value: "15", suffix: "+", icon: "groups" },
+    { label: "Projects Built", value: "7", suffix: "+", icon: "rocket_launch" },
+    { label: "Collaborative Exp.", value: "5", suffix: "+", icon: "work" },
     { label: "Lines of Code", value: "50", suffix: "k+", icon: "data_object" },
-    { label: "Cups of Coffee", value: "200", suffix: "+", icon: "coffee" },
+    { label: "Courses Completed", value: "25", suffix: "+", icon: "menu_book" },
+    { label: "Technologies Explored", value: "15", suffix: "+", icon: "bolt" },
+    { label: "Git Commits", value: "100", suffix: "+", icon: "local_fire_department" },
+    { label: "Full Stack Apps", value: "5", suffix: "+", icon: "public" },
+    { label: "Years Learning Journey", value: "2", suffix: "+", icon: "trending_up" },
   ];
 
   return (

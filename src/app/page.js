@@ -11,7 +11,7 @@ import Contact from "@/components/Contact";
 import AIChat from "@/components/AIChat";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
-import Achievements from "@/components/Achievements";
+
 import AssignmentShowcase from "@/components/AssignmentShowcase";
 import Services from "@/components/Services";
 import BackendArchitecture from "@/components/BackendArchitecture";
@@ -32,7 +32,7 @@ export default function Home() {
       <div className="mt-16">
         <Hero />
         <Stats />
-        <Achievements />
+
         <About />
         <Services />
         <BackendArchitecture />

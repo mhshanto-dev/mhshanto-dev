@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Final AI-Era Full Stack Roadmap 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #04040f;
+  font-family: 'Inter', sans-serif;
+  padding: 36px 16px 56px;
+}
+
+.page {
+  max-width: 1020px;
+  margin: 0 auto;
+  background: #070714;
+  border-radius: 24px;
+  border: 1px solid #13133a;
+  overflow: hidden;
+}
+
+/* ═══ HEADER ═══ */
+.header {
+  background: #0a0a1f;
+  border-bottom: 1px solid #13133a;
+  padding: 44px 52px 40px;
+  position: relative;
+  overflow: hidden;
+}
+.header::before {
+  content:''; position:absolute; top:-100px; right:-80px;
+  width:360px; height:360px;
+  background: radial-gradient(circle, rgba(99,102,241,0.15) 0%, transparent 65%);
+  pointer-events:none;
+}
+.header::after {
+  content:''; position:absolute; bottom:-80px; left:20%;
+  width:280px; height:280px;
+  background: radial-gradient(circle, rgba(16,185,129,0.09) 0%, transparent 65%);
+  pointer-events:none;
+}
+
+.top-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.top-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  color: #6366f1;
+  background: rgba(99,102,241,0.1);
+  border: 1px solid rgba(99,102,241,0.22);
+  padding: 5px 14px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.top-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: #34d399;
+  background: rgba(52,211,153,0.08);
+  border: 1px solid rgba(52,211,153,0.2);
+  padding: 5px 14px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 900;
+  color: #eeecff;
+  line-height: 1.12;
+  letter-spacing: -1.8px;
+  margin-bottom: 12px;
+}
+h1 .accent { color: #818cf8; }
+h1 .green  { color: #34d399; }
+
+.tagline {
+  font-size: 12px;
+  color: #2e2e60;
+  font-family: 'JetBrains Mono', monospace;
+  margin-bottom: 24px;
+}
+
+.have-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.have-lbl {
+  font-size: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  color: #34d399;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.have-pill {
+  font-size: 11px;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 4px 12px;
+  border-radius: 6px;
+  background: rgba(52,211,153,0.07);
+  border: 1px solid rgba(52,211,153,0.18);
+  color: #34d399;
+}
+
+/* ═══ BODY ═══ */
+.body { padding: 0 52px 52px; }
+
+/* Section */
+.sec { margin-top: 38px; }
+.sec-hdr {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.sec-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.sec-rule { flex:1; height:1px; }
+.sec-time {
+  font-size: 10px;
+  font-family: 'JetBrains Mono', monospace;
+  color: #202050;
+  white-space: nowrap;
+}
+
+/* theme vars per section */
+.t0{--c:#34d399;--bg:rgba(52,211,153,0.07);--br:rgba(52,211,153,0.16);}
+.t1{--c:#a78bfa;--bg:rgba(167,139,250,0.07);--br:rgba(167,139,250,0.16);}
+.t2{--c:#fb923c;--bg:rgba(251,146,60,0.07); --br:rgba(251,146,60,0.16);}
+.t3{--c:#818cf8;--bg:rgba(129,140,248,0.07);--br:rgba(129,140,248,0.16);}
+.t4{--c:#f472b6;--bg:rgba(244,114,182,0.07);--br:rgba(244,114,182,0.16);}
+.t5{--c:#38bdf8;--bg:rgba(56,189,248,0.07); --br:rgba(56,189,248,0.16);}
+
+.sec-badge.t0{background:rgba(52,211,153,0.12);color:#34d399;border:1px solid rgba(52,211,153,0.22);}
+.sec-badge.t1{background:rgba(167,139,250,0.12);color:#a78bfa;border:1px solid rgba(167,139,250,0.22);}
+.sec-badge.t2{background:rgba(251,146,60,0.12);color:#fb923c;border:1px solid rgba(251,146,60,0.22);}
+.sec-badge.t3{background:rgba(129,140,248,0.12);color:#818cf8;border:1px solid rgba(129,140,248,0.22);}
+.sec-badge.t4{background:rgba(244,114,182,0.12);color:#f472b6;border:1px solid rgba(244,114,182,0.22);}
+.sec-badge.t5{background:rgba(56,189,248,0.12);color:#38bdf8;border:1px solid rgba(56,189,248,0.22);}
+
+.sec-rule.t0{background:#34d399;}
+.sec-rule.t1{background:#a78bfa;}
+.sec-rule.t2{background:#fb923c;}
+.sec-rule.t3{background:#818cf8;}
+.sec-rule.t4{background:#f472b6;}
+.sec-rule.t5{background:#38bdf8;}
+
+/* Grid */
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;}
+
+/* Card */
+.card {
+  background: var(--bg);
+  border: 1px solid var(--br);
+  border-radius: 12px;
+  padding: 15px 14px 12px;
+  position: relative;
+  overflow: hidden;
+}
+.card::before {
+  content:''; position:absolute;
+  top:0;left:0;right:0;height:2px;
+  background:var(--c);opacity:0.4;
+}
+.card-icon{font-size:18px;margin-bottom:8px;display:block;line-height:1;}
+.card-name{
+  font-size:12px;font-weight:700;
+  color:#dddcff;
+  font-family:'JetBrains Mono',monospace;
+  margin-bottom:5px;line-height:1.3;
+}
+.card-desc{font-size:10.5px;color:#383870;line-height:1.55;}
+.tag{
+  display:inline-block;margin-top:8px;
+  font-size:9px;font-family:'JetBrains Mono',monospace;
+  color:var(--c);border:1px solid var(--br);
+  padding:2px 8px;border-radius:4px;letter-spacing:.5px;
+  background:rgba(255,255,255,0.02);
+}
+
+/* Sub-list inside card */
+.sub-list{margin-top:7px;padding-left:0;list-style:none;}
+.sub-list li{
+  font-size:10px;color:#383870;padding:2px 0;
+  border-bottom:1px solid rgba(255,255,255,0.03);
+  display:flex;gap:6px;line-height:1.4;
+}
+.sub-list li:last-child{border:none;}
+.sub-list li::before{content:'›';color:var(--c);flex-shrink:0;}
+
+/* Arrow divider */
+.arr{text-align:center;color:#13133a;font-size:18px;margin:6px 0;letter-spacing:6px;}
+
+/* AI special box */
+.ai-wrap {
+  background: linear-gradient(135deg,rgba(167,139,250,0.06),rgba(56,189,248,0.04));
+  border:1px solid rgba(167,139,250,0.18);
+  border-radius:14px;padding:20px 22px;position:relative;overflow:hidden;
+}
+.ai-wrap::after{
+  content:'AI TOOLKIT';position:absolute;top:14px;right:18px;
+  font-size:9px;font-family:'JetBrains Mono',monospace;
+  letter-spacing:3px;color:rgba(167,139,250,0.2);font-weight:700;
+}
+.ai-title{font-size:12px;font-weight:700;color:#c4b5fd;font-family:'JetBrains Mono',monospace;margin-bottom:5px;}
+.ai-desc{font-size:10.5px;color:#383870;line-height:1.6;margin-bottom:12px;}
+.ai-tools{display:flex;flex-wrap:wrap;gap:7px;}
+.ai-tool{
+  font-size:10.5px;font-family:'JetBrains Mono',monospace;
+  padding:4px 12px;border-radius:7px;
+  background:rgba(167,139,250,0.07);
+  border:1px solid rgba(167,139,250,0.16);
+  color:#a78bfa;
+}
+
+/* 6-month plan */
+.plan-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px;}
+.plan-card{
+  background:rgba(56,189,248,0.05);
+  border:1px solid rgba(56,189,248,0.12);
+  border-radius:10px;padding:14px 13px;
+}
+.plan-month{
+  font-size:9px;font-family:'JetBrains Mono',monospace;
+  letter-spacing:2px;color:#38bdf8;text-transform:uppercase;margin-bottom:6px;
+}
+.plan-focus{font-size:11px;font-weight:700;color:#bae6fd;margin-bottom:5px;}
+.plan-tasks{list-style:none;padding:0;}
+.plan-tasks li{
+  font-size:10px;color:#2a4a6a;padding:2px 0;
+  border-bottom:1px solid rgba(56,189,248,0.06);
+  display:flex;gap:5px;line-height:1.4;
+}
+.plan-tasks li:last-child{border:none;}
+.plan-tasks li::before{content:'▸';color:#38bdf8;flex-shrink:0;}
+
+/* Projects */
+.proj-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:14px;}
+.proj-card{
+  background:rgba(52,211,153,0.05);
+  border:1px solid rgba(52,211,153,0.12);
+  border-radius:10px;padding:13px 11px;text-align:center;
+}
+.proj-icon{font-size:20px;margin-bottom:6px;}
+.proj-name{font-size:10px;font-weight:700;color:#6ee7b7;font-family:'JetBrains Mono',monospace;line-height:1.3;margin-bottom:4px;}
+.proj-skills{font-size:9px;color:#1a4a3a;line-height:1.4;}
+
+/* Truth */
+.truth-wrap{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px;}
+.truth-card{border-radius:12px;padding:18px 17px;}
+.truth-card.bad{background:rgba(239,68,68,0.05);border:1px solid rgba(239,68,68,0.15);}
+.truth-card.good{background:rgba(52,211,153,0.04);border:1px solid rgba(52,211,153,0.15);}
+.truth-head{font-size:10px;font-family:'JetBrains Mono',monospace;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:9px;}
+.truth-card.bad .truth-head{color:#f87171;}
+.truth-card.good .truth-head{color:#34d399;}
+.truth-item{font-size:10.5px;color:#383870;padding:4px 0;border-bottom:1px solid rgba(255,255,255,0.03);display:flex;gap:7px;line-height:1.4;}
+.truth-item:last-child{border:none;}
+
+/* Salary */
+.salary-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px;}
+.sal-card{background:#0a0a20;border:1px solid #13133a;border-radius:10px;padding:14px;text-align:center;}
+.sal-level{font-size:9px;font-family:'JetBrains Mono',monospace;letter-spacing:1.5px;color:#2e2e60;text-transform:uppercase;margin-bottom:5px;}
+.sal-amount{font-size:15px;font-weight:800;font-family:'JetBrains Mono',monospace;line-height:1.2;margin-bottom:3px;}
+.sal-note{font-size:9px;color:#202050;font-family:'JetBrains Mono',monospace;}
+.sal-card.c0 .sal-amount{color:#383870;}
+.sal-card.c1 .sal-amount{color:#818cf8;}
+.sal-card.c2 .sal-amount{color:#fb923c;}
+.sal-card.c3 .sal-amount{color:#34d399;}
+
+/* Goal */
+.goal {
+  margin-top:32px;
+  background:linear-gradient(135deg,rgba(99,102,241,0.09),rgba(52,211,153,0.06));
+  border:1px solid rgba(99,102,241,0.22);
+  border-radius:18px;padding:28px 32px;
+  display:flex;align-items:center;justify-content:space-between;gap:24px;
+}
+.goal-lbl{font-size:9px;font-family:'JetBrains Mono',monospace;letter-spacing:2.5px;color:#3a3a7a;text-transform:uppercase;margin-bottom:8px;}
+.goal-title{font-size:26px;font-weight:900;color:#eeecff;letter-spacing:-1px;margin-bottom:12px;}
+.goal-title span{color:#34d399;}
+.goal-cos{display:flex;flex-wrap:wrap;gap:6px;}
+.goal-co{
+  font-size:9.5px;font-family:'JetBrains Mono',monospace;
+  padding:3px 10px;border-radius:20px;
+  background:rgba(99,102,241,0.08);border:1px solid rgba(99,102,241,0.16);color:#818cf8;
+}
+.goal-r{text-align:right;flex-shrink:0;}
+.gr-lbl{font-size:9px;font-family:'JetBrains Mono',monospace;color:#2a2a55;letter-spacing:2px;text-transform:uppercase;margin-bottom:4px;}
+.gr-val{font-size:13px;font-weight:700;font-family:'JetBrains Mono',monospace;line-height:1.6;}
+.gr-val.g1{color:#818cf8;}
+.gr-val.g2{color:#fb923c;}
+.gr-val.g3{color:#34d399;}
+
+/* Footer */
+.footer{
+  margin-top:28px;padding-top:20px;
+  border-top:1px solid #0e0e28;
+  display:flex;justify-content:space-between;align-items:center;
+}
+.ft{font-size:10px;color:#1a1a38;font-family:'JetBrains Mono',monospace;}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- ═══ HEADER ═══ -->
+<div class="header">
+  <div class="top-row">
+    <span class="top-tag">◉ Final Roadmap · 2026–2030</span>
+    <span class="top-badge">✓ Claude + ChatGPT reviewed</span>
+  </div>
+  <h1>MERN + Next.js → <span class="accent">Full Stack</span> <span class="green">AI-Ready</span> Engineer</h1>
+  <div class="tagline">// সর্বশেষ reviewed · সবচেয়ে realistic · ২০২৬-২০৩০ এর জন্য perfect</div>
+  <div class="have-row">
+    <span class="have-lbl">✅ তোমার আছে →</span>
+    <span class="have-pill">MongoDB</span>
+    <span class="have-pill">Express.js</span>
+    <span class="have-pill">React.js</span>
+    <span class="have-pill">Node.js</span>
+    <span class="have-pill">Next.js</span>
+    <span class="have-pill">REST API</span>
+    <span class="have-pill">JavaScript</span>
+    <span class="have-pill">HTML/CSS</span>
+  </div>
+</div>
+
+<!-- ═══ BODY ═══ -->
+<div class="body">
+
+<!-- PHASE 00 -->
+<div class="sec t0">
+  <div class="sec-hdr">
+    <span class="sec-badge t0">Phase 00 — Foundation Fix</span>
+    <div class="sec-rule t0"></div>
+    <span class="sec-time">এখনই শুরু · ১–২ মাস</span>
+  </div>
+  <div class="g4 t0">
+    <div class="card t0">
+      <span class="card-icon">⚡</span>
+      <div class="card-name">TypeScript</div>
+      <div class="card-desc">Start now + daily use। Next.js + React + Node সবকিছু TS-এ convert করো।</div>
+      <span class="tag">START NOW</span>
+    </div>
+    <div class="card t0">
+      <span class="card-icon">🔐</span>
+      <div class="card-name">Auth + Security (Deep)</div>
+      <ul class="sub-list">
+        <li>JWT + Refresh token</li>
+        <li>Cookie auth</li>
+        <li>RBAC (Role Based)</li>
+        <li>Rate limiting</li>
+        <li>OWASP Top 10</li>
+      </ul>
+    </div>
+    <div class="card t0">
+      <span class="card-icon">🧪</span>
+      <div class="card-name">Testing (Full)</div>
+      <ul class="sub-list">
+        <li>Jest (unit tests)</li>
+        <li>Supertest (API)</li>
+        <li>React Testing Library</li>
+        <li>Integration tests</li>
+      </ul>
+    </div>
+    <div class="card t0">
+      <span class="card-icon">🌿</span>
+      <div class="card-name">Git Advanced</div>
+      <ul class="sub-list">
+        <li>Branch strategy</li>
+        <li>PR review workflow</li>
+        <li>Merge conflict</li>
+        <li>GitHub Actions basics</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- PHASE 01 — AI -->
+<div class="sec t1">
+  <div class="sec-hdr">
+    <span class="sec-badge t1">Phase 01 — AI Toolkit (সবচেয়ে গুরুত্বপূর্ণ নতুন phase)</span>
+    <div class="sec-rule t1"></div>
+    <span class="sec-time">১–৩ মাস</span>
+  </div>
+  <div class="ai-wrap">
+    <div class="ai-title">🤖 AI কে Tool মনে করো, Competitor না</div>
+    <div class="ai-desc">Tool মুখস্থ না — workflow শেখো। AI দিয়ে কাজ ১০গুণ দ্রুত করা, AI output validate করা, এবং AI কে সঠিক direction দেওয়াটাই আসল skill।</div>
+    <div class="ai-tools">
+      <span class="ai-tool">GitHub Copilot</span>
+      <span class="ai-tool">Cursor AI</span>
+      <span class="ai-tool">v0 by Vercel</span>
+      <span class="ai-tool">OpenAI API</span>
+      <span class="ai-tool">Claude API</span>
+    </div>
+  </div>
+  <div class="g3 t1" style="margin-top:10px;">
+    <div class="card t1">
+      <span class="card-icon">📡</span>
+      <div class="card-name">AI API Integration</div>
+      <div class="card-desc">OpenAI / Claude API দিয়ে app এ AI feature add করা। Chatbot, summarizer, code helper।</div>
+      <span class="tag">NEW SKILL</span>
+    </div>
+    <div class="card t1">
+      <span class="card-icon">🧠</span>
+      <div class="card-name">RAG + Vector DB</div>
+      <ul class="sub-list">
+        <li>Embeddings concept</li>
+        <li>Vector search (Pinecone)</li>
+        <li>Context retrieval</li>
+        <li>LLM + DB pipeline</li>
+      </ul>
+    </div>
+    <div class="card t1">
+      <span class="card-icon">🛡️</span>
+      <div class="card-name">AI Code Review</div>
+      <div class="card-desc">AI generate করা code blindly নেওয়া না। Bug ধরা, security check, refactor করা। এটাই senior developer এর কাজ।</div>
+      <span class="tag">CRITICAL</span>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- PHASE 02 — Backend -->
+<div class="sec t2">
+  <div class="sec-hdr">
+    <span class="sec-badge t2">Phase 02 — Backend & Database Depth</span>
+    <div class="sec-rule t2"></div>
+    <span class="sec-time">২–৪ মাস</span>
+  </div>
+  <div class="g4 t2">
+    <div class="card t2">
+      <span class="card-icon">🗄️</span>
+      <div class="card-name">PostgreSQL (SQL)</div>
+      <div class="card-desc">MongoDB জানা আছে — SQL ছাড়া big company তে job পাওয়া কঠিন। এটা #1 priority।</div>
+      <span class="tag">PRIORITY #1</span>
+    </div>
+    <div class="card t2">
+      <span class="card-icon">⚡</span>
+      <div class="card-name">Redis Caching</div>
+      <div class="card-desc">Session store, API cache, rate limiting। Performance বাড়ানোর সবচেয়ে সহজ উপায়।</div>
+      <span class="tag">PRIORITY #2</span>
+    </div>
+    <div class="card t2">
+      <span class="card-icon">🔄</span>
+      <div class="card-name">WebSockets</div>
+      <div class="card-desc">Real-time features। Chat app, live notification, live dashboard। Real project এ দরকার হবেই।</div>
+      <span class="tag">PRIORITY #3</span>
+    </div>
+    <div class="card t2">
+      <span class="card-icon">📡</span>
+      <div class="card-name">GraphQL</div>
+      <div class="card-desc">Shopify, GitHub এ used। Next.js এর সাথে fit। SQL শেখার পর add করো — rush না।</div>
+      <span class="tag">PRIORITY #4</span>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- PHASE 03 — DevOps -->
+<div class="sec t3">
+  <div class="sec-hdr">
+    <span class="sec-badge t3">Phase 03 — DevOps & Cloud</span>
+    <div class="sec-rule t3"></div>
+    <span class="sec-time">৩–৬ মাস</span>
+  </div>
+  <div class="g4 t3">
+    <div class="card t3">
+      <span class="card-icon">🐳</span>
+      <div class="card-name">Docker</div>
+      <div class="card-desc">App containerize করা। Dockerfile, docker-compose। Production ready করার জন্য must।</div>
+      <span class="tag">INDUSTRY STD</span>
+    </div>
+    <div class="card t3">
+      <span class="card-icon">🐧</span>
+      <div class="card-name">Linux + Nginx</div>
+      <ul class="sub-list">
+        <li>Terminal commands</li>
+        <li>Nginx reverse proxy</li>
+        <li>Production debug</li>
+        <li>Server log reading</li>
+      </ul>
+    </div>
+    <div class="card t3">
+      <span class="card-icon">☁️</span>
+      <div class="card-name">AWS Basics</div>
+      <ul class="sub-list">
+        <li>S3 — file storage</li>
+        <li>EC2 — server</li>
+        <li>Lambda — serverless</li>
+        <li>RDS — database</li>
+      </ul>
+    </div>
+    <div class="card t3">
+      <span class="card-icon">📊</span>
+      <div class="card-name">Monitoring & Logs</div>
+      <ul class="sub-list">
+        <li>CI/CD (GitHub Actions)</li>
+        <li>Lighthouse (frontend)</li>
+        <li>Error tracking</li>
+        <li>Performance metrics</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- PHASE 04 — System Design -->
+<div class="sec t4">
+  <div class="sec-hdr">
+    <span class="sec-badge t4">Phase 04 — System Design (Correct Order)</span>
+    <div class="sec-rule t4"></div>
+    <span class="sec-time">৬–১২ মাস</span>
+  </div>
+  <div class="g4 t4">
+    <div class="card t4">
+      <span class="card-icon">🏛️</span>
+      <div class="card-name">Monolith First</div>
+      <div class="card-desc">Junior level এ monolith architecture আগে বোঝো। Scaling কেন দরকার সেটা আগে feel করো।</div>
+      <span class="tag">START HERE</span>
+    </div>
+    <div class="card t4">
+      <span class="card-icon">📈</span>
+      <div class="card-name">Scaling Basics</div>
+      <ul class="sub-list">
+        <li>Horizontal vs vertical</li>
+        <li>Load balancing</li>
+        <li>Caching strategy</li>
+        <li>DB indexing</li>
+      </ul>
+    </div>
+    <div class="card t4">
+      <span class="card-icon">📨</span>
+      <div class="card-name">Queue Systems</div>
+      <ul class="sub-list">
+        <li>RabbitMQ basics</li>
+        <li>Apache Kafka concept</li>
+        <li>Async job processing</li>
+        <li>Event-driven arch</li>
+      </ul>
+    </div>
+    <div class="card t4">
+      <span class="card-icon">🔗</span>
+      <div class="card-name">Microservices (Last)</div>
+      <div class="card-desc">Monolith ভালো করে বুঝলে তারপর microservices। Rush করলে confuse হবে।</div>
+      <span class="tag">AFTER MONO</span>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- PHASE 05 — Soft Skills -->
+<div class="sec t5">
+  <div class="sec-hdr">
+    <span class="sec-badge t5">Phase 05 — Career Skills (সারাজীবন)</span>
+    <div class="sec-rule t5"></div>
+    <span class="sec-time">সবসময়</span>
+  </div>
+  <div class="g3 t5">
+    <div class="card t5">
+      <span class="card-icon">🗣️</span>
+      <div class="card-name">English Communication</div>
+      <div class="card-desc">Remote job এ English ছাড়া হবে না। PR review, Slack, standup meeting, client call।</div>
+      <span class="tag">DAILY PRACTICE</span>
+    </div>
+    <div class="card t5">
+      <span class="card-icon">📁</span>
+      <div class="card-name">GitHub Portfolio</div>
+      <div class="card-desc">৩-৫টা deployed live project। Clean README, live demo link। CV এর চেয়ে বেশি কাজে আসে।</div>
+      <span class="tag">BUILD NOW</span>
+    </div>
+    <div class="card t5">
+      <span class="card-icon">🔄</span>
+      <div class="card-name">Agile / Scrum</div>
+      <div class="card-desc">Sprint, standup, Jira/Linear। সব company এই workflow তে কাজ করে।</div>
+      <span class="tag">TEAM WORK</span>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- 6 MONTH PLAN -->
+<div class="sec">
+  <div class="sec-hdr">
+    <span class="sec-badge" style="background:rgba(251,146,60,0.1);color:#fb923c;border:1px solid rgba(251,146,60,0.2);">📅 Next 6 Months — Month by Month Plan</span>
+    <div class="sec-rule" style="background:#fb923c;opacity:0.15;flex:1;height:1px;"></div>
+  </div>
+  <div class="plan-grid">
+    <div class="plan-card">
+      <div class="plan-month">Month 1–2</div>
+      <div class="plan-focus">Foundation Lock</div>
+      <ul class="plan-tasks">
+        <li>TypeScript daily use</li>
+        <li>JWT + Refresh token + RBAC</li>
+        <li>Jest + Supertest + RTL</li>
+        <li>Advanced Git workflow</li>
+        <li>Project: Auth system build</li>
+      </ul>
+    </div>
+    <div class="plan-card">
+      <div class="plan-month">Month 2–4</div>
+      <div class="plan-focus">AI + Backend</div>
+      <ul class="plan-tasks">
+        <li>OpenAI / Claude API integration</li>
+        <li>RAG + Vector DB basics</li>
+        <li>PostgreSQL replace MongoDB</li>
+        <li>Redis caching add</li>
+        <li>Project: AI SaaS app</li>
+      </ul>
+    </div>
+    <div class="plan-card">
+      <div class="plan-month">Month 4–6</div>
+      <div class="plan-focus">Deploy + Portfolio</div>
+      <ul class="plan-tasks">
+        <li>Docker containerize</li>
+        <li>Vercel + Railway deploy</li>
+        <li>Linux + Nginx basics</li>
+        <li>GitHub Actions CI/CD</li>
+        <li>3 projects live করো</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- PROJECTS -->
+<div class="sec">
+  <div class="sec-hdr">
+    <span class="sec-badge" style="background:rgba(52,211,153,0.1);color:#34d399;border:1px solid rgba(52,211,153,0.2);">🚀 5 Projects — Portfolio এ থাকলে CRUD থেকে ১০গুণ বেশি value</span>
+    <div class="sec-rule" style="background:#34d399;opacity:0.15;flex:1;height:1px;"></div>
+  </div>
+  <div class="proj-grid">
+    <div class="proj-card">
+      <div class="proj-icon">🤖</div>
+      <div class="proj-name">AI SaaS App</div>
+      <div class="proj-skills">Next.js · OpenAI API · PostgreSQL · Stripe · Auth</div>
+    </div>
+    <div class="proj-card">
+      <div class="proj-icon">💬</div>
+      <div class="proj-name">Real-time Chat</div>
+      <div class="proj-skills">WebSocket · Node.js · Redis · JWT · Docker</div>
+    </div>
+    <div class="proj-card">
+      <div class="proj-icon">🛒</div>
+      <div class="proj-name">E-commerce App</div>
+      <div class="proj-skills">Next.js · PostgreSQL · Redis · Stripe · TypeScript</div>
+    </div>
+    <div class="proj-card">
+      <div class="proj-icon">📋</div>
+      <div class="proj-name">Project Manager</div>
+      <div class="proj-skills">Next.js · WebSocket · PostgreSQL · RBAC · Docker</div>
+    </div>
+    <div class="proj-card">
+      <div class="proj-icon">📄</div>
+      <div class="proj-name">AI Doc Summarizer</div>
+      <div class="proj-skills">RAG · Vector DB · OpenAI · Next.js · TypeScript</div>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- AI TRUTH -->
+<div class="sec">
+  <div class="sec-hdr">
+    <span class="sec-badge" style="background:rgba(239,68,68,0.08);color:#f87171;border:1px solid rgba(239,68,68,0.18);">⚠️ AI Job Reality — সৎ কথা</span>
+    <div class="sec-rule" style="background:#ef4444;opacity:0.15;flex:1;height:1px;"></div>
+  </div>
+  <div class="truth-wrap">
+    <div class="truth-card bad">
+      <div class="truth-head">❌ যারা বিপদে পড়বে</div>
+      <div class="truth-item"><span>▸</span>শুধু tutorial copy করে code লেখে</div>
+      <div class="truth-item"><span>▸</span>AI output blindly নেয়, validate করে না</div>
+      <div class="truth-item"><span>▸</span>শুধু CRUD app বানাতে পারে, deploy নেই</div>
+      <div class="truth-item"><span>▸</span>System design বোঝে না, শুধু code জানে</div>
+      <div class="truth-item"><span>▸</span>নতুন কিছু শিখতে চায় না, comfort zone এ থাকে</div>
+    </div>
+    <div class="truth-card good">
+      <div class="truth-head">✅ যারা এগিয়ে থাকবে</div>
+      <div class="truth-item"><span>▸</span>AI কে tool হিসেবে use করে, কাজ ১০গুণ দ্রুত</div>
+      <div class="truth-item"><span>▸</span>AI এর output review + validate করতে পারে</div>
+      <div class="truth-item"><span>▸</span>Real deployed projects আছে GitHub এ</div>
+      <div class="truth-item"><span>▸</span>Business problem বোঝে, code এ translate করে</div>
+      <div class="truth-item"><span>▸</span>Team এ communicate করতে পারে — English ও</div>
+    </div>
+  </div>
+</div>
+
+<div class="arr">↓ ↓ ↓</div>
+
+<!-- SALARY REALITY -->
+<div class="sec">
+  <div class="sec-hdr">
+    <span class="sec-badge" style="background:rgba(129,140,248,0.1);color:#818cf8;border:1px solid rgba(129,140,248,0.2);">💰 Salary Reality — Context সহ (Misleading না)</span>
+    <div class="sec-rule" style="background:#818cf8;opacity:0.15;flex:1;height:1px;"></div>
+  </div>
+  <div class="salary-row">
+    <div class="sal-card c0">
+      <div class="sal-level">BD Junior</div>
+      <div class="sal-amount">৩–৮ লাখ</div>
+      <div class="sal-note">per year · onsite</div>
+    </div>
+    <div class="sal-card c1">
+      <div class="sal-level">BD Mid-level</div>
+      <div class="sal-amount">৮–২০ লাখ+</div>
+      <div class="sal-note">per year · onsite/remote</div>
+    </div>
+    <div class="sal-card c2">
+      <div class="sal-level">Remote Int'l Mid</div>
+      <div class="sal-amount">$40K–80K</div>
+      <div class="sal-note">per year · full remote</div>
+    </div>
+    <div class="sal-card c3">
+      <div class="sal-level">Remote Senior</div>
+      <div class="sal-amount">$90K–200K</div>
+      <div class="sal-note">per year · US market</div>
+    </div>
+  </div>
+</div>
+
+<!-- GOAL -->
+<div class="goal">
+  <div class="goal-l">
+    <div class="goal-lbl">🎯 final destination</div>
+    <div class="goal-title">AI-Ready <span>Full Stack Engineer</span></div>
+    <div class="goal-cos">
+      <span class="goal-co">Google</span>
+      <span class="goal-co">Microsoft</span>
+      <span class="goal-co">Shopify</span>
+      <span class="goal-co">Stripe</span>
+      <span class="goal-co">Atlassian</span>
+      <span class="goal-co">Canva</span>
+      <span class="goal-co">Vercel</span>
+      <span class="goal-co">OpenAI</span>
+      <span class="goal-co">Wipro</span>
+      <span class="goal-co">TCS</span>
+      <span class="goal-co">Brain Station 23</span>
+    </div>
+  </div>
+  <div class="goal-r">
+    <div class="gr-lbl">salary path</div>
+    <div class="gr-val g1">৩–৮ লাখ/yr · Junior</div>
+    <div class="gr-val g2">৮–২০ লাখ/yr · Mid</div>
+    <div class="gr-val g3">$40K–200K/yr · Remote</div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="ft">// final roadmap · claude.ai + chatgpt reviewed · 2026–2030</div>
+  <div class="ft">next.js ✓ express ✓ mern ✓ → start today 🚀</div>
+</div>
+
+</div><!-- /body -->
+</div><!-- /page -->
+</body>
+</html>
