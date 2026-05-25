@@ -24,7 +24,7 @@ export default function ResumeContent() {
       linkedin: "linkedin.com/in/mh-shanto",
       github: "github.com/mhshanto-dev",
     },
-    summary: "Passionate and self-driven Junior Full-Stack Developer with hands-on experience building responsive and scalable web applications using the MERN stack and Next.js. Built 30+ practical projects focused on modern UI, authentication systems, REST APIs, and user-centered experiences. Continuously learning new technologies and eager to contribute to real-world products while growing as a software engineer.",
+    summary: "Passionate and self-driven Junior Full-Stack Developer with hands-on experience building responsive and scalable web applications using the MERN stack and Next.js. Built 7+ practical projects focused on modern UI, authentication systems, REST APIs, and user-centered experiences. Continuously learning new technologies and eager to contribute to real-world products while growing as a software engineer.",
     skills: {
       frontend: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Next.js", "Tailwind CSS", "Redux", "GSAP", "Framer Motion"],
       backend: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Firebase", "JWT", "REST API"],
