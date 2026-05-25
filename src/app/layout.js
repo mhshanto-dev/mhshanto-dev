@@ -28,7 +28,8 @@ const personalDetails = {
   sameAs: [
     "https://www.linkedin.com/in/mh-shanto/",
     "https://github.com/mhshanto-dev",
-    "https://www.facebook.com/mehedi.hasan.shanto.dev"
+    "https://www.facebook.com/mehedi.hasan.shanto.dev",
+    "https://www.facebook.com/share/1AvgG6z7Xm/"
   ]
 };
 
