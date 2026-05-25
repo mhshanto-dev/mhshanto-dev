@@ -82,7 +82,7 @@ export default function ResumeContent() {
         result: "GPA: 5.00 / 5.00",
       }
     ],
-    languages: ["Bengali — Native", "English — Intermediate"]
+    languages: ["Bengali — Native", "English — Intermediate", "Hindi — Intermediate"]
   };
 
   const handlePrint = () => {
