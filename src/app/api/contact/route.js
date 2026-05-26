@@ -20,6 +20,7 @@ export async function POST(request) {
       headers: {
         "Content-Type": "application/json",
         "Accept": "application/json",
+        "User-Agent": "Portfolio-Contact-Form",
       },
       body: JSON.stringify({
         access_key: accessKey,
