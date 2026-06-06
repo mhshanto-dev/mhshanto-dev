@@ -53,7 +53,7 @@ const Footer = () => {
           </a>
           <a 
             className="px-5 py-2.5 rounded-full border border-outline-variant/20 text-on-surface-variant/70 hover:text-primary hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-1 transition-all duration-300 shadow-sm hover:shadow-md hover:shadow-primary/20" 
-            href="https://www.facebook.com/mehedi.hasan.shanto.dev"
+            href="https://www.facebook.com/share/17q5PiqDe6/"
             target="_blank"
             rel="me noopener noreferrer"
           >
