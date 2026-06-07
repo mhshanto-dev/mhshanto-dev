@@ -58,7 +58,7 @@ export const metadata = {
     "hiring react developer", "hiring nextjs developer", "best developer for hire",
     "web development", "web developer", "software engineer", "ai", "ai developer",
     "artificial intelligence", "ai web developer", "machine learning",
-    "Ai powered developer", "AI-driven developer"
+    "Ai powered developer", "AI-driven developer", "ResumePilot", "AI Resume Builder", "Resume Pilot"
   ],
   authors: [{ name: "Mehedi Hasan Shanto", url: personalDetails.url }],
   creator: "Mehedi Hasan Shanto",
@@ -186,6 +186,16 @@ export default function RootLayout({ children }) {
         "description": "Mehedi Hasan Shanto (MH Shanto) – Full-Stack Developer from Sirajganj, Rajshahi, Dhaka, Bangladesh.",
         "primaryImageOfPage": { "@id": `${personalDetails.url}/#personImage` },
         "thumbnailUrl": `${personalDetails.url}/og-image.png`
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://resumepilot-eight.vercel.app/#application",
+        "name": "ResumePilot - AI Resume Builder",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://resumepilot-eight.vercel.app/",
+        "author": { "@id": `${personalDetails.url}/#person` },
+        "description": "ResumePilot is a comprehensive AI-powered Full-Stack platform for building and managing professional resumes. Developed by Mehedi Hasan Shanto."
       }
     ]
   };

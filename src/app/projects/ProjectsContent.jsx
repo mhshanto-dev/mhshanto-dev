@@ -23,7 +23,7 @@ const ProjectsContent = () => {
       tags: ["React", "Node.js", "Tailwind", "MongoDB"],
       image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://resumepilot-eight.vercel.app/",
-      repoLink: "https://github.com/mhshanto-dev"
+      repoLink: "https://github.com/mhshanto-dev/AI-Resume-Builder-complete"
     },
     {
       title: "Personal Portfolio V2",
