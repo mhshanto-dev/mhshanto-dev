@@ -17,6 +17,15 @@ const ProjectsContent = () => {
 
   const projects = [
     {
+      title: "ResumePilot",
+      category: "Full-Stack",
+      description: "A comprehensive full-stack platform for building and managing professional resumes.",
+      tags: ["React", "Node.js", "Tailwind", "MongoDB"],
+      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://resumepilot-eight.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev"
+    },
+    {
       title: "Personal Portfolio V2",
       category: "Frontend",
       description: "High-performance developer portfolio with cinematic animations.",

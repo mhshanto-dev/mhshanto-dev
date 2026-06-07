@@ -21,6 +21,14 @@ const Projects = () => {
 
   const allProjects = [
     {
+      title: "ResumePilot — Professional Resume Builder Platform",
+      description: "• Problem: Users struggle to create and format professional resumes easily.\n• Solution: Developed a full-stack platform for dynamic resume generation with customizable templates.\n• Key Features: Real-time preview, multiple templates, secure user authentication, and PDF export.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend on Render.",
+      tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://resumepilot-eight.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev"
+    },
+    {
       title: "DevSphere — High-Performance Cinematic Portfolio Engine",
       description: "• Problem: Standard portfolios suffer from poor search indexing, slow loads, and static, unengaging visuals.\n• Solution: Engineered a high-performance portfolio using Next.js, GSAP, and Framer Motion with deep crawl compliance.\n• Key Features: Cinematic parallax, custom GSAP scroll-triggered timelines, and complete JSON-LD search schema.\n• Tech Stack: Next.js, Framer Motion, GSAP, Tailwind CSS, Vercel.\n• Deployment: Automated Vercel hosting with live GitHub CI/CD integrations.",
       tags: ["Next.js", "Framer Motion", "GSAP", "Tailwind"],
