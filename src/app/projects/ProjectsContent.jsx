@@ -17,6 +17,24 @@ const ProjectsContent = () => {
 
   const projects = [
     {
+      title: "StudyNook - Study Space Booking",
+      category: "Full-Stack",
+      description: "Find, book, and list quiet, private study spaces designed for students.",
+      tags: ["Next.js", "React", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://studynook-two.vercel.app",
+      repoLink: "https://github.com/mhshanto-dev"
+    },
+    {
+      title: "MediCare Connect",
+      category: "Full-Stack",
+      description: "Premium healthcare platform to book appointments with top medical professionals effortlessly.",
+      tags: ["Next.js", "React", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://frontend-orpin-eight-50.vercel.app",
+      repoLink: "https://github.com/mhshanto-dev"
+    },
+    {
       title: "ResumePilot",
       category: "Full-Stack",
       description: "A comprehensive full-stack platform for building and managing professional resumes.",

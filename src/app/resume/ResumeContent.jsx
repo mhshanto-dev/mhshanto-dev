@@ -42,19 +42,18 @@ export default function ResumeContent() {
           "RESTful API integration with MongoDB",
           "Responsive design optimized for desktop and mobile devices"
         ],
-        links: { live: "#", client: "#", server: "#" }
+        links: { live: "https://studynook-two.vercel.app", client: "https://github.com/mhshanto-dev", server: "https://github.com/mhshanto-dev" }
       },
       {
-        title: "TaskMate — Task Management Application",
-        technologies: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS"],
-        description: "Built a task management application designed to organize and track daily tasks efficiently.",
+        title: "MediCare Connect — Premium Healthcare Platform",
+        technologies: ["Next.js", "React.js", "Tailwind CSS"],
+        description: "Built a premium healthcare platform connecting patients with top doctors, allowing seamless appointment booking and medical management.",
         features: [
-          "Drag-and-drop task organization",
-          "Authentication and secure access",
-          "Real-time task updates",
+          "Advanced doctor search and filtering",
+          "Instant appointment scheduling",
           "Responsive UI optimized for all devices"
         ],
-        links: { live: "#", client: "#" }
+        links: { live: "https://frontend-orpin-eight-50.vercel.app", client: "https://github.com/mhshanto-dev" }
       }
     ],
     experience: [
