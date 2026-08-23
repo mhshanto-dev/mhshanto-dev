@@ -100,9 +100,8 @@
 | Project Name | Live Demo | Code Repository | Core Stack | Key Highlights |
 | :--- | :--- | :--- | :--- | :--- |
 | **🏥 MediCare Connect** | [Live Link](https://frontend-orpin-eight-50.vercel.app/) | [Client](https://github.com/mhshanto-dev/MedicareConnect) · [Server](https://github.com/mhshanto-dev/MedicareConnect-Server) | Next.js 15, Node.js, Express.js, MongoDB, Better Auth, Stripe | Healthcare appointment platform with patient/doctor/admin dashboards, JWT & Google auth, Stripe payments, and digital prescriptions. |
-| **📚 StudyNook** | [Live Link](https://studynook-client-bice.vercel.app/) | [Repository](https://github.com/mhshanto-dev/assignment-9) | Next.js 16, React 19, Node.js, Express.js, MongoDB, Better Auth, HeroUI | Study room booking platform with room management, booking system, Google sign-in, and a fully responsive HeroUI interface. |
+| **📚 StudyNook** | [Live Link](https://studynook-client-bice.vercel.app/) | [Client](https://github.com/mhshanto-dev/assignment-9) · [Server](https://github.com/mhshanto-dev/assingment-9-server) | Next.js 16, React 19, Node.js, Express.js, MongoDB, Better Auth, HeroUI | Study room booking platform with room management, booking system, Google sign-in, and a fully responsive HeroUI interface. |
 | **📄 ResumePilot** | [Live Link](https://resumepilot-eight.vercel.app/) | [Repository](https://github.com/mhshanto-dev/AI-Resume-Builder-complete) | Next.js, React, TypeScript, MongoDB, Clerk Auth, Google Gemini AI | AI-powered resume & portfolio builder — extracts skills/experience from uploaded PDFs, generates AI summaries, and creates shareable portfolios. |
-
 ---
 
 # 🔥 GitHub Streak
