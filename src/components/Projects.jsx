@@ -21,20 +21,20 @@ const Projects = () => {
 
   const allProjects = [
     {
-      title: "StudyNook — Study Space Booking Platform",
-      description: "• Problem: Students struggle to find and book quiet, private study spaces when they need them.\n• Solution: Developed a platform for finding, booking, and listing study spaces.\n• Key Features: Real-time availability, secure booking, space filtering by amenities.\n• Tech Stack: Next.js, React, Tailwind CSS.\n• Deployment: Frontend on Vercel.",
-      tags: ["Next.js", "React", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "https://studynook-two.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev"
-    },
-    {
       title: "MediCare Connect — Premium Healthcare Platform",
       description: "• Problem: Booking appointments with top healthcare professionals is often tedious and inefficient.\n• Solution: Built a premium platform connecting patients with top doctors seamlessly.\n• Key Features: Advanced doctor search by specialty, instant appointment booking, and patient reviews.\n• Tech Stack: Next.js, React, Tailwind CSS.\n• Deployment: Frontend on Vercel.",
       tags: ["Next.js", "React", "Tailwind"],
       image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://frontend-orpin-eight-50.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev"
+      repoLink: "https://github.com/mhshanto-dev/MedicareConnect"
+    },
+    {
+      title: "StudyNook — Study Space Booking Platform",
+      description: "• Problem: Students struggle to find and book quiet, private study spaces when they need them.\n• Solution: Developed a platform for finding, booking, and listing study spaces.\n• Key Features: Real-time availability, secure booking, space filtering by amenities.\n• Tech Stack: Next.js, React, Tailwind CSS.\n• Deployment: Frontend on Vercel.",
+      tags: ["Next.js", "React", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://studynook-client-bice.vercel.app",
+      repoLink: "https://github.com/mhshanto-dev/assignment-9"
     },
     {
       title: "ResumePilot — Professional Resume Builder Platform",
@@ -157,11 +157,11 @@ const Projects = () => {
                         <h4 className="font-h2 text-2xl md:text-3xl text-white tracking-tight mb-3 drop-shadow-xl">
                           {project.title}
                         </h4>
-                        <p className="text-white/80 text-[11px] leading-relaxed mb-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-pre-line text-left">
+                        <p className="text-white/80 text-[11px] leading-relaxed mb-6 opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-pre-line text-left line-clamp-3 md:line-clamp-none">
                           {project.description}
                         </p>
                         
-                        <div className="flex flex-wrap gap-3 translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-700 delay-100">
+                        <div className="flex flex-wrap gap-3 translate-y-0 opacity-100 md:translate-y-4 md:opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-700 delay-100 mt-4 md:mt-0">
                           <a 
                             href={project.liveLink}
                             target="_blank"

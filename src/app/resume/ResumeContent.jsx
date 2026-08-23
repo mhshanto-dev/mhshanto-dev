@@ -33,6 +33,17 @@ export default function ResumeContent() {
     },
     projects: [
       {
+        title: "MediCare Connect — Premium Healthcare Platform",
+        technologies: ["Next.js", "React.js", "Tailwind CSS"],
+        description: "Built a premium healthcare platform connecting patients with top doctors, allowing seamless appointment booking and medical management.",
+        features: [
+          "Advanced doctor search and filtering",
+          "Instant appointment scheduling",
+          "Responsive UI optimized for all devices"
+        ],
+        links: { live: "https://frontend-orpin-eight-50.vercel.app", client: "https://github.com/mhshanto-dev/MedicareConnect", server: "https://github.com/mhshanto-dev/MedicareConnect-Server" }
+      },
+      {
         title: "StudyNook — Study Management Platform",
         technologies: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
         description: "Developed a modern study management platform designed to help students organize study resources, improve productivity, and manage learning activities through a clean and user-friendly experience.",
@@ -42,18 +53,18 @@ export default function ResumeContent() {
           "RESTful API integration with MongoDB",
           "Responsive design optimized for desktop and mobile devices"
         ],
-        links: { live: "https://studynook-two.vercel.app", client: "https://github.com/mhshanto-dev", server: "https://github.com/mhshanto-dev" }
+        links: { live: "https://studynook-client-bice.vercel.app", client: "https://github.com/mhshanto-dev/assignment-9", server: "https://github.com/mhshanto-dev/assingment-9-server" }
       },
       {
-        title: "MediCare Connect — Premium Healthcare Platform",
-        technologies: ["Next.js", "React.js", "Tailwind CSS"],
-        description: "Built a premium healthcare platform connecting patients with top doctors, allowing seamless appointment booking and medical management.",
+        title: "ResumePilot — Professional Resume Builder Platform",
+        technologies: ["React.js", "Next.js", "MongoDB", "Tailwind CSS"],
+        description: "A comprehensive full-stack platform for dynamic resume generation with customizable templates and PDF export.",
         features: [
-          "Advanced doctor search and filtering",
-          "Instant appointment scheduling",
-          "Responsive UI optimized for all devices"
+          "Real-time preview and multiple templates",
+          "Secure user authentication",
+          "PDF export functionality"
         ],
-        links: { live: "https://frontend-orpin-eight-50.vercel.app", client: "https://github.com/mhshanto-dev" }
+        links: { live: "https://resumepilot-eight.vercel.app/", client: "https://github.com/mhshanto-dev/AI-Resume-Builder-complete" }
       }
     ],
     experience: [

@@ -17,22 +17,22 @@ const ProjectsContent = () => {
 
   const projects = [
     {
-      title: "StudyNook - Study Space Booking",
-      category: "Full-Stack",
-      description: "Find, book, and list quiet, private study spaces designed for students.",
-      tags: ["Next.js", "React", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "https://studynook-two.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev"
-    },
-    {
       title: "MediCare Connect",
       category: "Full-Stack",
       description: "Premium healthcare platform to book appointments with top medical professionals effortlessly.",
       tags: ["Next.js", "React", "Tailwind"],
       image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://frontend-orpin-eight-50.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev"
+      repoLink: "https://github.com/mhshanto-dev/MedicareConnect"
+    },
+    {
+      title: "StudyNook - Study Space Booking",
+      category: "Full-Stack",
+      description: "Find, book, and list quiet, private study spaces designed for students.",
+      tags: ["Next.js", "React", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://studynook-client-bice.vercel.app",
+      repoLink: "https://github.com/mhshanto-dev/assignment-9"
     },
     {
       title: "ResumePilot",
@@ -78,24 +78,6 @@ const ProjectsContent = () => {
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://whimsical-entremet-c5c4f5.netlify.app/",
       repoLink: "https://github.com/mhshanto-dev/DigitalToolsPlatform"
-    },
-    {
-      title: "EduFlow LMS",
-      category: "Full-Stack",
-      description: "Learning management system with course tracking and assessments.",
-      tags: ["Next.js", "Prisma", "PostgreSQL"],
-      image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "#",
-      repoLink: "#"
-    },
-    {
-      title: "CryptoDash",
-      category: "UI/UX",
-      description: "Real-time cryptocurrency tracking dashboard with dark mode.",
-      tags: ["React", "Chart.js", "API"],
-      image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "#",
-      repoLink: "#"
     }
   ];
 

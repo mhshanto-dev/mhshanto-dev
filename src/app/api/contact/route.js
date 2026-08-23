@@ -1,66 +1,49 @@
 import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
 export async function POST(request) {
   try {
     const body = await request.json();
     const { name, email, msg } = body;
 
-    const accessKey = process.env.WEB3FORMS_ACCESS_KEY;
+    const emailUser = process.env.EMAIL_USER;
+    const emailPass = process.env.EMAIL_PASS;
 
-    if (!accessKey) {
-      console.warn("⚠️ WEB3FORMS_ACCESS_KEY is missing!");
+    if (!emailUser || !emailPass) {
+      console.warn("⚠️ EMAIL_USER or EMAIL_PASS is missing!");
       return NextResponse.json(
         { success: false, message: "Server configuration error. Please contact me directly via email." },
         { status: 500 }
       );
     }
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-        "User-Agent": "Portfolio-Contact-Form",
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: emailUser,
+        pass: emailPass,
       },
-      body: JSON.stringify({
-        access_key: accessKey,
-        name: name,
-        email: email,
-        message: msg,
-        subject: `New Portfolio Message from ${name}`,
-        from_name: name,
-        replyto: email,
-      }),
     });
 
-    let data;
-    try {
-      data = await response.json();
-    } catch (parseError) {
-      const text = await response.text().catch(() => "");
-      console.error("Web3Forms non-JSON response (status " + response.status + "):", text.slice(0, 500));
-      return NextResponse.json(
-        { success: false, message: "Email service is temporarily unavailable. Please try again in a moment." },
-        { status: 503 }
-      );
-    }
+    const mailOptions = {
+      from: emailUser,
+      to: emailUser,
+      replyTo: email,
+      subject: `New Portfolio Message from ${name}`,
+      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${msg}`,
+      html: `<p><strong>Name:</strong> ${name}</p><p><strong>Email:</strong> ${email}</p><p><strong>Message:</strong></p><p>${msg.replace(/\n/g, '<br>')}</p>`,
+    };
 
-    if (data.success) {
-      return NextResponse.json(
-        { success: true, message: "Message sent successfully! I'll get back to you within 24 hours." },
-        { status: 200 }
-      );
-    } else {
-      console.error("Web3Forms error:", data);
-      return NextResponse.json(
-        { success: false, message: data.message || "Failed to send message. Please try again." },
-        { status: 400 }
-      );
-    }
+    await transporter.sendMail(mailOptions);
+
+    return NextResponse.json(
+      { success: true, message: "Message sent successfully! I'll get back to you within 24 hours." },
+      { status: 200 }
+    );
   } catch (error) {
     console.error("Contact API error:", error);
     return NextResponse.json(
-      { success: false, message: "An unexpected error occurred. Please try again later." },
+      { success: false, message: "Email service is temporarily unavailable. Please try again in a moment." },
       { status: 500 }
     );
   }
