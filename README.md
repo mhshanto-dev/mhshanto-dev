@@ -1,19 +1,9 @@
 <!-- ===================================================== -->
-<!-- <p align="center">
-  <img width="100%" src="assets/banner.svg" alt="Md. Mehedi Hasan Shanto Banner" />
-</p> -->
+<!-- HERO BANNER -->
 <!-- ===================================================== -->
 
 <p align="center">
-  <!--
-  Add your professional banner image here
-  <img
-   width="1983"
-   height="793"
-   src="YOUR_BANNER_IMAGE_URL"
-   alt="Md. Mehedi Hasan Shanto Banner"
-  />
-  -->
+  <img width="100%" src="src/assets/banner.svg" alt="Md. Mehedi Hasan Shanto Banner" />
 </p>
 
 <!-- TYPING ANIMATION -->
@@ -35,10 +25,7 @@
 ## 🔗 Connect with Me
 
 <p align="center">
-  <a href="https://github.com/mhshanto-dev" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="YOUR_LINKEDIN_URL" target="_blank">
+  <a href="https://www.linkedin.com/in/mh-shanto" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://mhshanto-dev.vercel.app/" target="_blank">
@@ -50,7 +37,7 @@
   <a href="https://x.com/mhshanto8989" target="_blank">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
-  <a href="mailto:mhshanto.8989.t@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mhshanto.8989.t@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </p>
@@ -109,11 +96,9 @@
 
 | Project Name | Live Demo | Code Repository | Core Stack | Key Highlights |
 | :--- | :--- | :--- | :--- | :--- |
-| **💼 Personal Portfolio** | [Live Link](https://mhshanto-dev.vercel.app/) | [Repository](YOUR_PORTFOLIO_REPOSITORY) | Next.js, React.js, Tailwind CSS | Personal developer portfolio showcasing skills, projects, and modern interactive UI. |
-| **🪨 Tiles Gallery Ecommerce** | [Live Link](https://tiles-gallery-ecommerce.vercel.app/) | [Repository](YOUR_TILES_REPOSITORY) | Next.js, React.js, MongoDB, Tailwind CSS | Modern e-commerce platform with product-focused UI and responsive design. |
-| **📱 Keenkeeper Social Media** | [Live Link](https://courageous-fox-f6c3ed.netlify.app/) | [Repository](YOUR_KEENKEEPER_REPOSITORY) | React.js, JavaScript, Tailwind CSS | Social media platform focused on interactive user experience and modern responsive UI. |
-| **🛒 Modern Digitools Ecommerce** | [Live Link](https://whimsical-entremet-c5c4f5.netlify.app/) | [Repository](YOUR_DIGITOOLS_REPOSITORY) | React.js, JavaScript, Tailwind CSS | Modern digital-product e-commerce website with responsive and user-friendly interface. |
-
+| **🏥 MediCare Connect** | [Live Link](https://frontend-orpin-eight-50.vercel.app/) | [Client](https://github.com/mhshanto-dev/MedicareConnect) · [Server](https://github.com/mhshanto-dev/MedicareConnect-Server) | Next.js 15, Node.js, Express.js, MongoDB, Better Auth, Stripe | Healthcare appointment platform with patient/doctor/admin dashboards, JWT & Google auth, Stripe payments, and digital prescriptions. |
+| **📚 StudyNook** | [Live Link](https://studynook-client-bice.vercel.app/) | [Client](https://github.com/mhshanto-dev/assignment-9) · [Server](https://github.com/mhshanto-dev/assingment-9-server) | Next.js 16, React 19, Node.js, Express.js, MongoDB, Better Auth, HeroUI | Study room booking platform with room management, booking system, Google sign-in, and a fully responsive HeroUI interface. |
+| **📄 ResumePilot** | [Live Link](https://resumepilot-eight.vercel.app/) | [Repository](https://github.com/mhshanto-dev/AI-Resume-Builder-complete) | Next.js, React, TypeScript, MongoDB, Clerk Auth, Google Gemini AI | AI-powered resume & portfolio builder — extracts skills/experience from uploaded PDFs, generates AI summaries, and creates shareable portfolios. |
 ---
 
 # 🔥 GitHub Streak
