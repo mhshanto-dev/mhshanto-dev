@@ -1,19 +1,22 @@
-<!-- ===================================================== -->
-
 <!-- HERO BANNER -->
 
-<!-- ===================================================== -->
-
 <p align="center">
-  <!-- তোমার নিজের professional banner image এখানে বসাতে পারো -->
-  <!-- <img width="1983" height="793" src="YOUR_BANNER_IMAGE_URL" alt="Md. Mehedi Hasan Shanto Banner" /> -->
+  <!-- Add your professional banner image here -->
+  <!--
+  <img
+    width="1983"
+    height="793"
+    src="YOUR_BANNER_IMAGE_URL"
+    alt="Md. Mehedi Hasan Shanto Banner"
+  />
+  -->
 </p>
 
 <!-- TYPING ANIMATION -->
 
 <h1 align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?size=25&weight=700&duration=3500&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Hi+there!+%F0%9F%91%8B;I'm+Md.+Mehedi+Hasan+Shanto;%F0%9F%92%BB+Full+Stack+Developer;JavaScript+%E2%80%A2+React.js+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;%F0%9F%94%A7+Node.js+%E2%80%A2+Express.js+%E2%80%A2+MongoDB;%F0%9F%9A%80+Building+Modern+Web+Applications;%F0%9F%A4%96+AI-Assisted+Developer;Open+to+Developer+Opportunities"
+    src="https://readme-typing-svg.herokuapp.com?size=25&weight=700&duration=3500&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Hi+there!+%F0%9F%91%8B;I'm+Md.+Mehedi+Hasan+Shanto;%F0%9F%92%BB+Full+Stack+Developer;%E2%9A%A1+React.js+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;%F0%9F%94%A7+Node.js+%E2%80%A2+Express.js+%E2%80%A2+MongoDB;%F0%9F%9A%80+Building+Modern+Scalable+Web+Applications;%F0%9F%A4%96+AI-Assisted+Developer;Open+to+Developer+Opportunities"
     alt="Typing SVG"
   />
 </h1>
@@ -50,17 +53,24 @@
     />
   </a>
 
+  <a href="https://daily.dev/mhshantodev" target="_blank">
+    <img
+      src="https://img.shields.io/badge/Daily.dev-000000?style=for-the-badge&logo=dailydotdev&logoColor=FC4E03"
+      alt="Daily.dev"
+    />
+  </a>
+
+  <a href="https://x.com/mhshanto8989" target="_blank">
+    <img
+      src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"
+      alt="X"
+    />
+  </a>
+
   <a href="mailto:mhshanto.8989.t@gmail.com">
     <img
       src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
       alt="Gmail"
-    />
-  </a>
-
-  <a href="YOUR_FACEBOOK_URL" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"
-      alt="Facebook"
     />
   </a>
 
@@ -70,7 +80,7 @@
 
 ## 👨‍💻 About Me
 
-* 🎓 I am a passionate **Computer Science student** and aspiring **Full Stack Developer** focused on building modern and scalable web applications.
+* 🎓 I am a passionate **Computer Science student** and aspiring **Full Stack Developer**, focused on building modern and scalable web applications.
 
 * 💻 I work with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB**, and modern frontend technologies.
 
@@ -78,9 +88,9 @@
 
 * 🧠 I continuously improve my programming and problem-solving skills through practical projects and consistent learning.
 
-* 📚 Currently strengthening my development skills through **Programming Hero Batch 13** and **CSE Phitron**.
+* 📚 Currently sharpening my development skills through **Programming Hero Batch 13** and **CSE Phitron**.
 
-* 🤖 I am interested in using **AI-assisted development tools** to improve productivity, learn faster, and solve problems more efficiently.
+* 🤖 I use AI-assisted development tools to improve productivity, explore solutions, understand documentation, and solve problems more efficiently.
 
 * 🚀 My goal is to become a professional **Full Stack Developer** and build production-ready applications that solve real-world problems.
 
@@ -100,20 +110,20 @@
 
   <tr>
     <td>
-      HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, React Router, Tailwind CSS
+      HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, React Router, Context API, TanStack Query, Tailwind CSS
     </td>
 
 ```
 <td>
-  Node.js, Express.js, MongoDB, REST APIs, CRUD Operations
+  Node.js, Express.js, MongoDB, RESTful APIs, CRUD Operations, Server-side Validation
 </td>
 
 <td>
-  Python, C, C++, OOP, HeroUI, Framer Motion, GSAP
+  Python, C, C++, OOP, Better Auth, Firebase Authentication, JWT, HeroUI, Material UI, Bootstrap, DaisyUI, Framer Motion, React Hook Form
 </td>
 
 <td>
-  Git, GitHub, VS Code, npm, Postman, Figma, Vercel, Netlify, Chrome DevTools
+  Git, GitHub, VS Code, Postman, Figma, Chrome DevTools, npm, Vercel, Netlify, ESLint, Prettier
 </td>
 ```
 
@@ -122,7 +132,7 @@
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,tailwind,python,c,cpp,git,github,postman,figma,vscode,vercel,netlify,npm&perline=21"
+    src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,firebase,tailwind,bootstrap,materialui,git,github,postman,figma,vscode,vercel,netlify,npm,python,c,cpp&perline=21"
     width="900"
     alt="Tech Stack"
   />
@@ -132,22 +142,24 @@
 
 ## 🚀 Featured Projects
 
-| Project Name                      | Live Demo                                                   | Code Repository                          | Core Stack                               | Key Highlights                                                                                   |
-| :-------------------------------- | :---------------------------------------------------------- | :--------------------------------------- | :--------------------------------------- | :----------------------------------------------------------------------------------------------- |
-| **💼 Personal Portfolio**         | [Live Link](https://mhshanto-dev.vercel.app/)               | [Repository](YOUR_PORTFOLIO_REPOSITORY)  | Next.js, React.js, Tailwind CSS          | Personal developer portfolio showcasing skills, projects, experience, and modern interactive UI. |
-| **🪨 Tiles Gallery Ecommerce**    | [Live Link](https://tiles-gallery-ecommerce.vercel.app/)    | [Repository](YOUR_TILES_REPOSITORY)      | Next.js, React.js, MongoDB, Tailwind CSS | Modern e-commerce platform with product-focused UI and responsive design.                        |
-| **📱 Keenkeeper Social Media**    | [Live Link](https://courageous-fox-f6c3ed.netlify.app/)     | [Repository](YOUR_KEENKEEPER_REPOSITORY) | React.js, JavaScript, Tailwind CSS       | Social media platform focused on interactive user experience and modern responsive UI.           |
-| **🛒 Modern Digitools Ecommerce** | [Live Link](https://whimsical-entremet-c5c4f5.netlify.app/) | [Repository](YOUR_DIGITOOLS_REPOSITORY)  | React.js, JavaScript, Tailwind CSS       | Modern digital-product e-commerce website with responsive and user-friendly interface.           |
+| Project Name                      | Live Demo                                                   | Code Repository                          | Core Stack                               | Key Highlights                                                                         |
+| :-------------------------------- | :---------------------------------------------------------- | :--------------------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------------- |
+| **💼 Personal Portfolio**         | [Live Link](https://mhshanto-dev.vercel.app/)               | [Repository](YOUR_PORTFOLIO_REPOSITORY)  | Next.js, React.js, Tailwind CSS          | Personal developer portfolio showcasing skills, projects, and modern interactive UI.   |
+| **🪨 Tiles Gallery Ecommerce**    | [Live Link](https://tiles-gallery-ecommerce.vercel.app/)    | [Repository](YOUR_TILES_REPOSITORY)      | Next.js, React.js, MongoDB, Tailwind CSS | Modern e-commerce platform with product-focused UI and responsive design.              |
+| **📱 Keenkeeper Social Media**    | [Live Link](https://courageous-fox-f6c3ed.netlify.app/)     | [Repository](YOUR_KEENKEEPER_REPOSITORY) | React.js, JavaScript, Tailwind CSS       | Social media platform focused on interactive user experience and modern responsive UI. |
+| **🛒 Modern Digitools Ecommerce** | [Live Link](https://whimsical-entremet-c5c4f5.netlify.app/) | [Repository](YOUR_DIGITOOLS_REPOSITORY)  | React.js, JavaScript, Tailwind CSS       | Modern digital-product e-commerce website with responsive and user-friendly interface. |
 
 ---
 
 # 🔥 GitHub Streak
 
 <p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=mhshanto-dev&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-  />
+  <a href="https://github.com/mhshanto-dev">
+    <img
+      src="https://streak-stats.demolab.com?user=mhshanto-dev&theme=tokyonight&hide_border=true"
+      alt="GitHub Streak"
+    />
+  </a>
 </p>
 
 ---
@@ -165,7 +177,6 @@
 </p>
 
 <p align="center">
-
   <a href="https://github.com/mhshanto-dev">
     <img
       src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mhshanto-dev&theme=tokyonight"
@@ -181,7 +192,6 @@
       width="49%"
     />
   </a>
-
 </p>
 
 ---
@@ -210,7 +220,7 @@ If you are interested in collaboration, development opportunities, or simply wan
 
 🌐 **Portfolio:** [mhshanto-dev.vercel.app](https://mhshanto-dev.vercel.app/)
 
-💬 **WhatsApp:** [YOUR_WHATSAPP_NUMBER](YOUR_WHATSAPP_LINK)
+💬 **WhatsApp:** [+880 1871-758989](https://wa.me/8801871758989?text=Hi%20Shanto%2C%20I%20saw%20your%20GitHub%20profile...)
 
 ---
 
@@ -225,6 +235,7 @@ const shanto = {
 
   education: {
     field: "Computer Science & Engineering",
+
     learning: [
       "Programming Hero Batch 13",
       "CSE Phitron"
@@ -243,6 +254,9 @@ const shanto = {
       "TypeScript",
       "React.js",
       "Next.js",
+      "React Router",
+      "Context API",
+      "TanStack Query",
       "Tailwind CSS"
     ],
 
@@ -250,7 +264,15 @@ const shanto = {
       "Node.js",
       "Express.js",
       "MongoDB",
-      "REST APIs"
+      "RESTful APIs",
+      "CRUD Operations",
+      "Server-side Validation"
+    ],
+
+    authentication: [
+      "Better Auth",
+      "Firebase Authentication",
+      "JWT"
     ],
 
     programming: [
@@ -262,8 +284,11 @@ const shanto = {
 
     ui: [
       "HeroUI",
+      "Material UI",
+      "Bootstrap",
+      "DaisyUI",
       "Framer Motion",
-      "GSAP"
+      "React Hook Form"
     ]
   },
 
@@ -273,9 +298,12 @@ const shanto = {
     "VS Code",
     "Postman",
     "Figma",
+    "Chrome DevTools",
+    "npm",
     "Vercel",
     "Netlify",
-    "npm"
+    "ESLint",
+    "Prettier"
   ],
 
   aiWorkflow: [
@@ -285,16 +313,15 @@ const shanto = {
 
   focus: [
     "Full Stack Development",
-    "Frontend Development",
     "REST API Integration",
+    "Authentication & Authorization",
     "Responsive UI/UX",
-    "Clean Code",
+    "Clean Architecture",
     "Problem Solving"
   ],
 
   currentLearning: [
     "Advanced TypeScript",
-    "React.js",
     "Next.js",
     "Backend Development",
     "MongoDB",
@@ -306,26 +333,13 @@ const shanto = {
     "Master AI Integration",
     "Land First Developer Job",
     "Build SaaS Product",
-    "Contribute to Open Source"
+    "Open Source Contribution"
   ],
 
   challenge:
-    "Becoming a professional full-stack developer by continuously learning, building real-world projects, and solving meaningful problems."
+    "Building production-ready full-stack applications while continuously improving my skills and solving real-world problems."
 };
 ```
-
----
-
-## ⚡ Current Focus
-
-<p align="center">
-
-<img
- src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=850&lines=Learning+%26+Building+Every+Day+%F0%9F%9A%80;Mastering+TypeScript+%26+Next.js+%E2%9A%A1;Building+Real-World+Full-Stack+Projects+%F0%9F%92%BB;Improving+Problem+Solving+%F0%9F%A7%A0;Preparing+for+My+First+Developer+Job+%F0%9F%8E%AF"
- alt="Current Focus"
-/>
-
-</p>
 
 ---
 
