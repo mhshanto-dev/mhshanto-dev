@@ -36,7 +36,7 @@ const ProjectsContent = () => {
     },
     {
       title: "ResumePilot",
-      category: "Full-Stack",
+      category: "Frontend",
       description: "A comprehensive full-stack platform for building and managing professional resumes.",
       tags: ["React", "Node.js", "Tailwind", "MongoDB"],
       image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=1200&h=675",
@@ -54,7 +54,7 @@ const ProjectsContent = () => {
     },
     {
       title: "Tiles Gallery Ecommerce",
-      category: "Full-Stack",
+      category: "Frontend",
       description: "A premium tile ecommerce platform with full ordering system.",
       tags: ["React", "Node.js", "MongoDB"],
       image: projTilesImg,
@@ -63,7 +63,7 @@ const ProjectsContent = () => {
     },
     {
       title: "KeenKeeper Social",
-      category: "Full-Stack",
+      category: "Frontend",
       description: "Relationship management app to browse and nurture friendships.",
       tags: ["React", "Firebase", "Tailwind"],
       image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&q=80&w=1200&h=675",
