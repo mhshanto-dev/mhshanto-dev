@@ -1,28 +1,34 @@
+<!-- ===================================================== -->
+
 <!-- HERO BANNER -->
 
+<!-- ===================================================== -->
+
 <p align="center">
-  <!-- Add your professional banner image here -->
   <!--
-  <img
-    width="1983"
-    height="793"
-    src="YOUR_BANNER_IMAGE_URL"
-    alt="Md. Mehedi Hasan Shanto Banner"
-  />
-  -->
+  Add your professional banner image here
+
+<img
+ width="1983"
+ height="793"
+ src="YOUR_BANNER_IMAGE_URL"
+ alt="Md. Mehedi Hasan Shanto Banner"
+/>
+-->
+
 </p>
 
 <!-- TYPING ANIMATION -->
 
 <h1 align="center">
   <img
-    src="https://readme-typing-svg.herokuapp.com?size=25&weight=700&duration=3500&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Hi+there!+%F0%9F%91%8B;I'm+Md.+Mehedi+Hasan+Shanto;%F0%9F%92%BB+Full+Stack+Developer;%E2%9A%A1+React.js+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;%F0%9F%94%A7+Node.js+%E2%80%A2+Express.js+%E2%80%A2+MongoDB;%F0%9F%9A%80+Building+Modern+Scalable+Web+Applications;%F0%9F%A4%96+AI-Assisted+Developer;Open+to+Developer+Opportunities"
+    src="https://readme-typing-svg.herokuapp.com?size=25&weight=700&duration=3500&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Hi+there!+%F0%9F%91%8B;I'm+Md.+Mehedi+Hasan+Shanto;%F0%9F%92%BB+Full+Stack+Developer+(MERN+Stack);%E2%9A%A1+React.js+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;%F0%9F%94%A7+Node.js+%E2%80%A2+Express.js+%E2%80%A2+MongoDB;%F0%9F%9A%80+Building+Modern+Scalable+Web+Applications;%F0%9F%A4%96+AI-Assisted+Developer;Open+to+Full+Stack+Developer+Opportunities"
     alt="Typing SVG"
   />
 </h1>
 
 <p align="center">
-  <strong>Full Stack Developer</strong> 🚀 <br/>
+  <strong>Full Stack (MERN Stack) Developer</strong> 🚀 <br/>
   Building modern, scalable, responsive, and user-focused web applications.
 </p>
 
@@ -82,13 +88,13 @@
 
 * 🎓 I am a passionate **Computer Science student** and aspiring **Full Stack Developer**, focused on building modern and scalable web applications.
 
-* 💻 I work with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB**, and modern frontend technologies.
+* 💻 I work with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB**, and modern full-stack technologies.
 
-* ⚡ **How I work:** I focus on clean code, reusable components, responsive UI, API integration, performance, and maintainable project architecture.
+* ⚡ **How I work:** I focus on clean code, reusable components, responsive design, API integration, authentication, performance, and maintainable project architecture.
 
-* 🧠 I continuously improve my programming and problem-solving skills through practical projects and consistent learning.
+* 🧠 I continuously improve my programming and problem-solving skills through practical projects, documentation, and consistent learning.
 
-* 📚 Currently sharpening my development skills through **Programming Hero Batch 13** and **CSE Phitron**.
+* 📚 Currently sharpening my expertise through **Programming Hero Batch 13** and **CSE Phitron**.
 
 * 🤖 I use AI-assisted development tools to improve productivity, explore solutions, understand documentation, and solve problems more efficiently.
 
@@ -104,7 +110,7 @@
   <tr>
     <td align="center" width="25%"><strong>Frontend</strong></td>
     <td align="center" width="25%"><strong>Backend & Database</strong></td>
-    <td align="center" width="25%"><strong>Programming & UI</strong></td>
+    <td align="center" width="25%"><strong>Authentication & UI</strong></td>
     <td align="center" width="25%"><strong>Tools & Platforms</strong></td>
   </tr>
 
@@ -119,7 +125,7 @@
 </td>
 
 <td>
-  Python, C, C++, OOP, Better Auth, Firebase Authentication, JWT, HeroUI, Material UI, Bootstrap, DaisyUI, Framer Motion, React Hook Form
+  Better Auth, Firebase Authentication, JWT, HeroUI, Material UI, Bootstrap, DaisyUI, Framer Motion, React Hook Form
 </td>
 
 <td>
@@ -132,9 +138,9 @@
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,firebase,tailwind,bootstrap,materialui,git,github,postman,figma,vscode,vercel,netlify,npm,python,c,cpp&perline=21"
+    src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mongodb,firebase,tailwind,bootstrap,materialui,git,github,postman,figma,vscode,vercel,netlify,npm&perline=21"
     width="900"
-    alt="Tech Stack"
+    alt="Tech Stack & Tools"
   />
 </p>
 
@@ -177,6 +183,7 @@
 </p>
 
 <p align="center">
+
   <a href="https://github.com/mhshanto-dev">
     <img
       src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mhshanto-dev&theme=tokyonight"
@@ -192,6 +199,7 @@
       width="49%"
     />
   </a>
+
 </p>
 
 ---
@@ -231,7 +239,7 @@ const shanto = {
   name: "Md. Mehedi Hasan Shanto",
   pronouns: "he/him",
 
-  role: "Full Stack Developer",
+  role: "Full Stack Developer (MERN Stack)",
 
   education: {
     field: "Computer Science & Engineering",
@@ -243,14 +251,14 @@ const shanto = {
   },
 
   specialization:
-    "Building modern, scalable, responsive, and user-focused web applications",
+    "Building scalable, secure, responsive, and user-focused web applications",
 
   techStack: {
 
     frontend: [
       "HTML5",
       "CSS3",
-      "JavaScript",
+      "JavaScript (ES6+)",
       "TypeScript",
       "React.js",
       "Next.js",
@@ -275,13 +283,6 @@ const shanto = {
       "JWT"
     ],
 
-    programming: [
-      "Python",
-      "C",
-      "C++",
-      "OOP"
-    ],
-
     ui: [
       "HeroUI",
       "Material UI",
@@ -289,6 +290,13 @@ const shanto = {
       "DaisyUI",
       "Framer Motion",
       "React Hook Form"
+    ],
+
+    programming: [
+      "Python",
+      "C",
+      "C++",
+      "OOP"
     ]
   },
 
@@ -337,7 +345,7 @@ const shanto = {
   ],
 
   challenge:
-    "Building production-ready full-stack applications while continuously improving my skills and solving real-world problems."
+    "Building production-ready MERN applications while continuously improving my skills and solving real-world problems."
 };
 ```
 
