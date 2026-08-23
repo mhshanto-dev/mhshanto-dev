@@ -43,7 +43,7 @@ export async function POST(request) {
   } catch (error) {
     console.error("Contact API error:", error);
     return NextResponse.json(
-      { success: false, message: "Email service is temporarily unavailable. Please try again in a moment." },
+      { success: false, message: `Error: ${error.message}` },
       { status: 500 }
     );
   }
