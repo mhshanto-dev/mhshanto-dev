@@ -1,21 +1,17 @@
 <!-- ===================================================== -->
-
 <!-- HERO BANNER -->
-
 <!-- ===================================================== -->
 
 <p align="center">
   <!--
   Add your professional banner image here
-
-<img
- width="1983"
- height="793"
- src="YOUR_BANNER_IMAGE_URL"
- alt="Md. Mehedi Hasan Shanto Banner"
-/>
--->
-
+  <img
+   width="1983"
+   height="793"
+   src="YOUR_BANNER_IMAGE_URL"
+   alt="Md. Mehedi Hasan Shanto Banner"
+  />
+  -->
 </p>
 
 <!-- TYPING ANIMATION -->
@@ -37,49 +33,24 @@
 ## 🔗 Connect with Me
 
 <p align="center">
-
   <a href="https://github.com/mhshanto-dev" target="_blank">
-    <img
-      src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-      alt="GitHub"
-    />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-
   <a href="YOUR_LINKEDIN_URL" target="_blank">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-      alt="LinkedIn"
-    />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-
   <a href="https://mhshanto-dev.vercel.app/" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white"
-      alt="Portfolio"
-    />
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
   </a>
-
   <a href="https://daily.dev/mhshantodev" target="_blank">
-    <img
-      src="https://img.shields.io/badge/Daily.dev-000000?style=for-the-badge&logo=dailydotdev&logoColor=FC4E03"
-      alt="Daily.dev"
-    />
+    <img src="https://img.shields.io/badge/Daily.dev-000000?style=for-the-badge&logo=dailydotdev&logoColor=FC4E03" alt="Daily.dev" />
   </a>
-
   <a href="https://x.com/mhshanto8989" target="_blank">
-    <img
-      src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"
-      alt="X"
-    />
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
-
   <a href="mailto:mhshanto.8989.t@gmail.com">
-    <img
-      src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
-      alt="Gmail"
-    />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
-
 </p>
 
 ---
@@ -87,19 +58,12 @@
 ## 👨‍💻 About Me
 
 * 🎓 I am a passionate **Computer Science student** and aspiring **Full Stack Developer**, focused on building modern and scalable web applications.
-
 * 💻 I work with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, MongoDB**, and modern full-stack technologies.
-
 * ⚡ **How I work:** I focus on clean code, reusable components, responsive design, API integration, authentication, performance, and maintainable project architecture.
-
 * 🧠 I continuously improve my programming and problem-solving skills through practical projects, documentation, and consistent learning.
-
 * 📚 Currently sharpening my expertise through **Programming Hero Batch 13** and **CSE Phitron**.
-
 * 🤖 I use AI-assisted development tools to improve productivity, explore solutions, understand documentation, and solve problems more efficiently.
-
 * 🚀 My goal is to become a professional **Full Stack Developer** and build production-ready applications that solve real-world problems.
-
 * 💼 **Open to:** Junior **Full Stack Developer**, **Frontend Developer**, and entry-level software development opportunities.
 
 ---
@@ -113,26 +77,19 @@
     <td align="center" width="25%"><strong>Authentication & UI</strong></td>
     <td align="center" width="25%"><strong>Tools & Platforms</strong></td>
   </tr>
-
   <tr>
     <td>
       HTML5, CSS3, JavaScript (ES6+), TypeScript, React.js, Next.js, React Router, Context API, TanStack Query, Tailwind CSS
     </td>
-
-```
-<td>
-  Node.js, Express.js, MongoDB, RESTful APIs, CRUD Operations, Server-side Validation
-</td>
-
-<td>
-  Better Auth, Firebase Authentication, JWT, HeroUI, Material UI, Bootstrap, DaisyUI, Framer Motion, React Hook Form
-</td>
-
-<td>
-  Git, GitHub, VS Code, Postman, Figma, Chrome DevTools, npm, Vercel, Netlify, ESLint, Prettier
-</td>
-```
-
+    <td>
+      Node.js, Express.js, MongoDB, RESTful APIs, CRUD Operations, Server-side Validation
+    </td>
+    <td>
+      Better Auth, Firebase Authentication, JWT, HeroUI, Material UI, Bootstrap, DaisyUI, Framer Motion, React Hook Form
+    </td>
+    <td>
+      Git, GitHub, VS Code, Postman, Figma, Chrome DevTools, npm, Vercel, Netlify, ESLint, Prettier
+    </td>
   </tr>
 </table>
 
@@ -148,12 +105,12 @@
 
 ## 🚀 Featured Projects
 
-| Project Name                      | Live Demo                                                   | Code Repository                          | Core Stack                               | Key Highlights                                                                         |
-| :-------------------------------- | :---------------------------------------------------------- | :--------------------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------------- |
-| **💼 Personal Portfolio**         | [Live Link](https://mhshanto-dev.vercel.app/)               | [Repository](YOUR_PORTFOLIO_REPOSITORY)  | Next.js, React.js, Tailwind CSS          | Personal developer portfolio showcasing skills, projects, and modern interactive UI.   |
-| **🪨 Tiles Gallery Ecommerce**    | [Live Link](https://tiles-gallery-ecommerce.vercel.app/)    | [Repository](YOUR_TILES_REPOSITORY)      | Next.js, React.js, MongoDB, Tailwind CSS | Modern e-commerce platform with product-focused UI and responsive design.              |
-| **📱 Keenkeeper Social Media**    | [Live Link](https://courageous-fox-f6c3ed.netlify.app/)     | [Repository](YOUR_KEENKEEPER_REPOSITORY) | React.js, JavaScript, Tailwind CSS       | Social media platform focused on interactive user experience and modern responsive UI. |
-| **🛒 Modern Digitools Ecommerce** | [Live Link](https://whimsical-entremet-c5c4f5.netlify.app/) | [Repository](YOUR_DIGITOOLS_REPOSITORY)  | React.js, JavaScript, Tailwind CSS       | Modern digital-product e-commerce website with responsive and user-friendly interface. |
+| Project Name | Live Demo | Code Repository | Core Stack | Key Highlights |
+| :--- | :--- | :--- | :--- | :--- |
+| **💼 Personal Portfolio** | [Live Link](https://mhshanto-dev.vercel.app/) | [Repository](YOUR_PORTFOLIO_REPOSITORY) | Next.js, React.js, Tailwind CSS | Personal developer portfolio showcasing skills, projects, and modern interactive UI. |
+| **🪨 Tiles Gallery Ecommerce** | [Live Link](https://tiles-gallery-ecommerce.vercel.app/) | [Repository](YOUR_TILES_REPOSITORY) | Next.js, React.js, MongoDB, Tailwind CSS | Modern e-commerce platform with product-focused UI and responsive design. |
+| **📱 Keenkeeper Social Media** | [Live Link](https://courageous-fox-f6c3ed.netlify.app/) | [Repository](YOUR_KEENKEEPER_REPOSITORY) | React.js, JavaScript, Tailwind CSS | Social media platform focused on interactive user experience and modern responsive UI. |
+| **🛒 Modern Digitools Ecommerce** | [Live Link](https://whimsical-entremet-c5c4f5.netlify.app/) | [Repository](YOUR_DIGITOOLS_REPOSITORY) | React.js, JavaScript, Tailwind CSS | Modern digital-product e-commerce website with responsive and user-friendly interface. |
 
 ---
 
@@ -161,10 +118,7 @@
 
 <p align="center">
   <a href="https://github.com/mhshanto-dev">
-    <img
-      src="https://streak-stats.demolab.com?user=mhshanto-dev&theme=tokyonight&hide_border=true"
-      alt="GitHub Streak"
-    />
+    <img src="https://streak-stats.demolab.com?user=mhshanto-dev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   </a>
 </p>
 
@@ -174,32 +128,17 @@
 
 <p align="center">
   <a href="https://github.com/mhshanto-dev">
-    <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mhshanto-dev&theme=tokyonight"
-      alt="GitHub Profile Summary"
-      width="98%"
-    />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mhshanto-dev&theme=tokyonight" alt="GitHub Profile Summary" width="98%" />
   </a>
 </p>
 
 <p align="center">
-
   <a href="https://github.com/mhshanto-dev">
-    <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mhshanto-dev&theme=tokyonight"
-      alt="Top Languages by Repository"
-      width="49%"
-    />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mhshanto-dev&theme=tokyonight" alt="Top Languages by Repository" width="49%" />
   </a>
-
   <a href="https://github.com/mhshanto-dev">
-    <img
-      src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mhshanto-dev&theme=tokyonight"
-      alt="Most Commit Language"
-      width="49%"
-    />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mhshanto-dev&theme=tokyonight" alt="Most Commit Language" width="49%" />
   </a>
-
 </p>
 
 ---
@@ -208,11 +147,7 @@
 
 <p align="center">
   <a href="https://github.com/mhshanto-dev">
-    <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=mhshanto-dev&theme=tokyo-night&hide_border=true"
-      alt="Contribution Graph"
-      width="98%"
-    />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=mhshanto-dev&theme=tokyo-night&hide_border=true" alt="Contribution Graph" width="98%" />
   </a>
 </p>
 
@@ -243,7 +178,6 @@ const shanto = {
 
   education: {
     field: "Computer Science & Engineering",
-
     learning: [
       "Programming Hero Batch 13",
       "CSE Phitron"
@@ -254,7 +188,6 @@ const shanto = {
     "Building scalable, secure, responsive, and user-focused web applications",
 
   techStack: {
-
     frontend: [
       "HTML5",
       "CSS3",
@@ -267,7 +200,6 @@ const shanto = {
       "TanStack Query",
       "Tailwind CSS"
     ],
-
     backend: [
       "Node.js",
       "Express.js",
@@ -276,13 +208,11 @@ const shanto = {
       "CRUD Operations",
       "Server-side Validation"
     ],
-
     authentication: [
       "Better Auth",
       "Firebase Authentication",
       "JWT"
     ],
-
     ui: [
       "HeroUI",
       "Material UI",
@@ -291,7 +221,6 @@ const shanto = {
       "Framer Motion",
       "React Hook Form"
     ],
-
     programming: [
       "Python",
       "C",
