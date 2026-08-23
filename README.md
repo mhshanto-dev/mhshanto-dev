@@ -1,5 +1,7 @@
 <!-- ===================================================== -->
-<!-- HERO BANNER -->
+<!-- <p align="center">
+  <img width="100%" src="assets/banner.svg" alt="Md. Mehedi Hasan Shanto Banner" />
+</p> -->
 <!-- ===================================================== -->
 
 <p align="center">
