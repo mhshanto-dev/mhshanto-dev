@@ -1,0 +1,147 @@
+<svg width="1600" height="640" viewBox="0 0 1600 640" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <linearGradient id="darkbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#0F1C33"/>
+    </linearGradient>
+    <clipPath id="clipCanvas"><rect x="0" y="0" width="1600" height="640" rx="0"/></clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="640" fill="url(#bg)"/>
+
+  <g clip-path="url(#clipCanvas)" opacity="0.55">
+    <circle cx="80" cy="60" r="180" fill="#DCEBFF"/>
+    <circle cx="60" cy="560" r="220" fill="#E4EEFF"/>
+    <circle cx="1540" cy="600" r="160" fill="#E4EEFF"/>
+    <path d="M0 640 C 150 520, 250 560, 380 640 Z" fill="#DCEBFF"/>
+  </g>
+
+  <!-- decorative dotted grids -->
+  <g fill="#B9CFF2">
+    <circle cx="20" cy="20" r="3"/><circle cx="40" cy="20" r="3"/><circle cx="60" cy="20" r="3"/>
+    <circle cx="20" cy="40" r="3"/><circle cx="40" cy="40" r="3"/><circle cx="60" cy="40" r="3"/>
+    <circle cx="20" cy="60" r="3"/><circle cx="40" cy="60" r="3"/><circle cx="60" cy="60" r="3"/>
+    <circle cx="1540" cy="500" r="3"/><circle cx="1560" cy="500" r="3"/><circle cx="1580" cy="500" r="3"/>
+    <circle cx="1540" cy="520" r="3"/><circle cx="1560" cy="520" r="3"/><circle cx="1580" cy="520" r="3"/>
+    <circle cx="1540" cy="540" r="3"/><circle cx="1560" cy="540" r="3"/><circle cx="1580" cy="540" r="3"/>
+  </g>
+
+  <!-- Left stack: tech icons -->
+  <g font-size="24" font-weight="700" text-anchor="middle">
+    <line x1="120" y1="110" x2="120" y2="410" stroke="#C7D8F5" stroke-width="2" stroke-dasharray="2 6"/>
+
+    <circle cx="120" cy="100" r="34" fill="#0F3D2E"/>
+    <text x="120" y="109" fill="#5FE3A6" font-size="26">🍃</text>
+    <text x="170" y="93" font-size="21" font-weight="700" fill="#0F1C33" text-anchor="start">MongoDB</text>
+    <text x="170" y="115" font-size="16" fill="#6B7688" text-anchor="start">Database</text>
+
+    <circle cx="120" cy="200" r="34" fill="#111111"/>
+    <text x="120" y="209" fill="#FFFFFF" font-size="20" font-weight="700">ex</text>
+    <text x="170" y="193" font-size="21" font-weight="700" fill="#0F1C33" text-anchor="start">Express.js</text>
+    <text x="170" y="215" font-size="16" fill="#6B7688" text-anchor="start">Backend</text>
+
+    <circle cx="120" cy="300" r="34" fill="#0B2A4A"/>
+    <text x="120" y="309" fill="#61DAFB" font-size="24">⚛</text>
+    <text x="170" y="293" font-size="21" font-weight="700" fill="#1D6FE0" text-anchor="start">React</text>
+    <text x="170" y="315" font-size="16" fill="#6B7688" text-anchor="start">Frontend</text>
+
+    <circle cx="120" cy="400" r="34" fill="#123A1E"/>
+    <text x="120" y="409" fill="#7CC66E" font-size="20" font-weight="700">JS</text>
+    <text x="170" y="393" font-size="21" font-weight="700" fill="#2E7D32" text-anchor="start">Node.js</text>
+    <text x="170" y="415" font-size="16" fill="#6B7688" text-anchor="start">Runtime</text>
+  </g>
+
+  <!-- Center code icon -->
+  <text x="800" y="120" font-size="46" fill="#1D6FE0" text-anchor="middle" font-weight="700">&lt;/&gt;</text>
+
+  <!-- Name -->
+  <text x="800" y="215" font-size="72" font-weight="800" text-anchor="middle">
+    <tspan fill="#0B1220">MD. MEHEDI </tspan><tspan fill="#1D6FE0">HASAN</tspan>
+  </text>
+  <text x="800" y="290" font-size="72" font-weight="800" fill="#0B1220" text-anchor="middle">SHANTO</text>
+
+  <!-- Role -->
+  <text x="800" y="335" font-size="27" letter-spacing="6" fill="#2B3345" text-anchor="middle" font-weight="700">FULL STACK DEVELOPER</text>
+
+  <!-- Badge -->
+  <rect x="605" y="358" width="390" height="46" rx="23" fill="#FFFFFF" stroke="#B9CFF2" stroke-width="1.5"/>
+  <text x="800" y="388" font-size="21" letter-spacing="4" text-anchor="middle" font-weight="700">
+    <tspan fill="#2E7D32">MERN</tspan><tspan fill="#0B1220"> STACK DEVELOPER</tspan>
+  </text>
+
+  <!-- Tech line -->
+  <text x="800" y="440" font-size="21" text-anchor="middle" fill="#2B3345">
+    <tspan fill="#2E7D32" font-weight="700">MongoDB</tspan><tspan> | </tspan>
+    <tspan fill="#0B1220" font-weight="700">Express.js</tspan><tspan> | </tspan>
+    <tspan fill="#1D6FE0" font-weight="700">React</tspan><tspan> | </tspan>
+    <tspan fill="#2E7D32" font-weight="700">Node.js</tspan><tspan> | </tspan>
+    <tspan fill="#0B1220" font-weight="700">JavaScript</tspan><tspan> | </tspan>
+    <tspan fill="#1D6FE0" font-weight="700">TypeScript</tspan><tspan> | </tspan>
+    <tspan fill="#0B1220" font-weight="700">Tailwind CSS</tspan>
+  </text>
+
+  <!-- Feature row -->
+  <g font-size="18" font-weight="700" fill="#0B1220">
+    <text x="465" y="497">&lt;/&gt;</text>
+    <text x="500" y="493">Clean Code</text>
+    <text x="500" y="515" font-size="14" font-weight="400" fill="#6B7688">Best Practices</text>
+
+    <text x="665" y="497">🛡</text>
+    <text x="700" y="493">Secure &amp; Scalable</text>
+    <text x="700" y="515" font-size="14" font-weight="400" fill="#6B7688">Applications</text>
+
+    <text x="905" y="497">🚀</text>
+    <text x="940" y="493">Performance</text>
+    <text x="940" y="515" font-size="14" font-weight="400" fill="#6B7688">Optimized</text>
+
+    <text x="1105" y="497">☁</text>
+    <text x="1140" y="493">Deploy Anywhere</text>
+    <text x="1140" y="515" font-size="14" font-weight="400" fill="#6B7688">Vercel | Netlify</text>
+  </g>
+
+  <!-- Right illustration: laptop/dev -->
+  <g>
+    <rect x="1450" y="60" width="70" height="70" rx="14" fill="#1D6FE0"/>
+    <text x="1485" y="107" font-size="30" fill="#FFFFFF" text-anchor="middle" font-weight="700">{ }</text>
+
+    <rect x="1560" y="130" width="220" height="150" rx="10" fill="#0B1220"/>
+    <rect x="1560" y="130" width="220" height="24" rx="10" fill="#1B2740"/>
+    <circle cx="1575" cy="142" r="4" fill="#F87171"/>
+    <circle cx="1590" cy="142" r="4" fill="#FBBF24"/>
+    <circle cx="1605" cy="142" r="4" fill="#34D399"/>
+    <rect x="1575" y="165" width="90" height="6" rx="3" fill="#5FE3A6"/>
+    <rect x="1575" y="180" width="140" height="6" rx="3" fill="#7DB3FA"/>
+    <rect x="1575" y="195" width="70" height="6" rx="3" fill="#F5F5F5"/>
+    <rect x="1575" y="210" width="110" height="6" rx="3" fill="#5FE3A6"/>
+    <rect x="1575" y="225" width="60" height="6" rx="3" fill="#7DB3FA"/>
+
+    <circle cx="1420" cy="160" r="34" fill="#1D6FE0"/>
+    <text x="1420" y="169" font-size="18" fill="#FFFFFF" text-anchor="middle" font-weight="700">TS</text>
+
+    <text x="1560" y="330" font-size="26" fill="#0B1220" text-anchor="start" font-weight="700" letter-spacing="1">NEXT<tspan font-size="14" fill="#6B7688">.JS</tspan></text>
+
+    <!-- simple person with laptop -->
+    <ellipse cx="1320" cy="470" rx="150" ry="18" fill="#DCEBFF"/>
+    <circle cx="1300" cy="230" r="34" fill="#1B2740"/>
+    <path d="M1250 470 C1250 380, 1270 300, 1300 270 C1330 300, 1350 380, 1350 470 Z" fill="#4E86E8"/>
+    <rect x="1230" y="380" width="140" height="90" rx="16" fill="#111827"/>
+    <rect x="1240" y="388" width="120" height="66" rx="6" fill="#1E293B"/>
+    <circle cx="1180" cy="500" r="12" fill="#2E7D32"/>
+    <rect x="1174" y="505" width="12" height="60" fill="#2E7D32"/>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="60" y="555" width="1480" height="60" rx="30" fill="url(#darkbar)"/>
+  <circle cx="115" cy="585" r="18" fill="#FFFFFF"/>
+  <text x="115" y="592" font-size="18" text-anchor="middle">🐙</text>
+  <text x="150" y="580" font-size="17" fill="#FFFFFF" font-weight="700">Explore my code on <tspan fill="#7DB3FA">GitHub</tspan> →</text>
+
+  <text x="580" y="580" font-size="15" fill="#E5E7EB">Building scalable, modern web applications with <tspan fill="#7DB3FA" font-weight="700">clean code</tspan> and <tspan fill="#5FE3A6" font-weight="700">great UX</tspan>.</text>
+
+  <text x="1330" y="580" font-size="15" fill="#E5E7EB">Ideas to <tspan fill="#5FE3A6" font-weight="700">Impact</tspan> · Code to <tspan fill="#5FE3A6" font-weight="700">Create</tspan></text>
+</svg>
