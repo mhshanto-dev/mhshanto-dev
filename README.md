@@ -37,7 +37,7 @@
   <a href="https://x.com/mhshanto8989" target="_blank">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" />
   </a>
-  <a href="mailto:mhshanto.8989.t@gmail.com">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mhshanto.8989.t@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </p>
