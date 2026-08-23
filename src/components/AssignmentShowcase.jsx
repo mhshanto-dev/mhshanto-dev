@@ -12,6 +12,8 @@ const AssignmentShowcase = () => {
     { id: 6, title: "Assignment 06", marks: 60, total: 60, status: "Perfect" },
     { id: 7, title: "Assignment 07", marks: 59, total: 60, status: "Excellent" },
     { id: 8, title: "Assignment 08", marks: 60, total: 60, status: "Perfect" },
+    { id: 9, title: "Assignment 09", marks: 60, total: 60, status: "Perfect" },
+    { id: 10, title: "Assignment 10", marks: 59, total: 60, status: "Excellent" },
   ];
 
   return (
