@@ -1,19 +1,9 @@
 <!-- ===================================================== -->
-<!-- <p align="center">
-  <img width="100%" src="assets/banner.svg" alt="Md. Mehedi Hasan Shanto Banner" />
-</p> -->
+<!-- HERO BANNER -->
 <!-- ===================================================== -->
 
 <p align="center">
-  <!--
-  Add your professional banner image here
-  <img
-   width="1983"
-   height="793"
-   src="YOUR_BANNER_IMAGE_URL"
-   alt="Md. Mehedi Hasan Shanto Banner"
-  />
-  -->
+  <img width="100%" src="src/assets/banner.svg" alt="Md. Mehedi Hasan Shanto Banner" />
 </p>
 
 <!-- TYPING ANIMATION -->
