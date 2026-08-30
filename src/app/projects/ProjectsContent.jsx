@@ -17,6 +17,15 @@ const ProjectsContent = () => {
 
   const projects = [
     {
+      title: "TripZen - Travel Booking Platform",
+      category: "Full-Stack",
+      description: "A comprehensive full-stack travel booking platform to find and reserve dream destinations seamlessly.",
+      tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://tripzen-umber.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev/TripZen"
+    },
+    {
       title: "MediCare Connect",
       category: "Full-Stack",
       description: "Premium healthcare platform to book appointments with top medical professionals effortlessly.",

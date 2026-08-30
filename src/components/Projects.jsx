@@ -21,6 +21,14 @@ const Projects = () => {
 
   const allProjects = [
     {
+      title: "TripZen — Travel Booking Platform",
+      description: "• Problem: Travelers need a unified platform to discover and book destinations easily.\n• Solution: Developed a full-stack travel booking platform with intuitive user experience.\n• Key Features: Destination search, interactive booking system, and user dashboard.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend deployed.",
+      tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://tripzen-umber.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev/TripZen"
+    },
+    {
       title: "MediCare Connect — Premium Healthcare Platform",
       description: "• Problem: Booking appointments with top healthcare professionals is often tedious and inefficient.\n• Solution: Built a premium platform connecting patients with top doctors seamlessly.\n• Key Features: Advanced doctor search by specialty, instant appointment booking, and patient reviews.\n• Tech Stack: Next.js, React, Tailwind CSS.\n• Deployment: Frontend on Vercel.",
       tags: ["Next.js", "React", "Tailwind"],
