@@ -52,15 +52,7 @@ const ProjectsContent = () => {
       liveLink: "https://resumepilot-eight.vercel.app/",
       repoLink: "https://github.com/mhshanto-dev/AI-Resume-Builder-complete"
     },
-    {
-      title: "Personal Portfolio V2",
-      category: "Frontend",
-      description: "High-performance developer portfolio with cinematic animations.",
-      tags: ["Next.js", "Framer Motion", "GSAP"],
-      image: projPortfolioImg,
-      liveLink: "https://mhshanto-dev.vercel.app/",
-      repoLink: "https://github.com/mhshanto-dev/mhshanto"
-    },
+
     {
       title: "Tiles Gallery Ecommerce",
       category: "Frontend",

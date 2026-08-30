@@ -52,14 +52,7 @@ const Projects = () => {
       liveLink: "https://resumepilot-eight.vercel.app/",
       repoLink: "https://github.com/mhshanto-dev/AI-Resume-Builder-complete"
     },
-    {
-      title: "DevSphere — High-Performance Cinematic Portfolio Engine",
-      description: "• Problem: Standard portfolios suffer from poor search indexing, slow loads, and static, unengaging visuals.\n• Solution: Engineered a high-performance portfolio using Next.js, GSAP, and Framer Motion with deep crawl compliance.\n• Key Features: Cinematic parallax, custom GSAP scroll-triggered timelines, and complete JSON-LD search schema.\n• Tech Stack: Next.js, Framer Motion, GSAP, Tailwind CSS, Vercel.\n• Deployment: Automated Vercel hosting with live GitHub CI/CD integrations.",
-      tags: ["Next.js", "Framer Motion", "GSAP", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "https://mhshanto-dev.vercel.app/",
-      repoLink: "https://github.com/mhshanto-dev/mhshanto"
-    },
+
     {
       title: "AuraTiles — High-Performance B2B E-Commerce Platform",
       description: "• Problem: Home decor retailers struggle with slow catalog renderings, complex filtering, and unsafe checkouts.\n• Solution: Developed a full MERN stack e-commerce catalog with optimized database queries and secure API endpoints.\n• Key Features: Reactive product categories, real-time client-side queries, custom state, and encrypted user auth.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: API on Render, Client on Vercel, database on MongoDB Atlas.",
