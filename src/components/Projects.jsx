@@ -21,6 +21,15 @@ const Projects = () => {
 
   const allProjects = [
     {
+      title: "Focusora — AI-Powered Focus Management Platform",
+      description: "• Problem: Maintaining deep work and focus is challenging in a distraction‑rich environment.\n• Solution: Built an AI‑driven focus management web app that tracks work sessions, provides Pomodoro timers, and offers analytics.\n• Key Features: Real‑time focus timer, AI‑suggested breaks, session history, and productivity insights.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend on Render.",
+      tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1522199755830-c5b2a555f5c6?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://focusora-bice.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev/Focusora"
+    },
+    
+    {
       title: "TripZen — Travel Booking Platform",
       description: "• Problem: Travelers need a unified platform to discover and book destinations easily.\n• Solution: Developed a full-stack travel booking platform with intuitive user experience.\n• Key Features: Destination search, interactive booking system, and user dashboard.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend deployed.",
       tags: ["React", "Node.js", "MongoDB", "Tailwind"],
