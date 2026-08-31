@@ -21,14 +21,13 @@ const Projects = () => {
 
   const allProjects = [
     {
-      title: "Focusora — AI-Powered Focus Management Platform",
-      description: "• Problem: Maintaining deep work and focus is challenging in a distraction‑rich environment.\n• Solution: Built an AI‑driven focus management web app that tracks work sessions, provides Pomodoro timers, and offers analytics.\n• Key Features: Real‑time focus timer, AI‑suggested breaks, session history, and productivity insights.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend on Render.",
-      tags: ["React", "Node.js", "MongoDB", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1522199755830-c5b2a555f5c6?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "https://focusora-bice.vercel.app/",
-      repoLink: "https://github.com/mhshanto-dev/Focusora"
+      title: "MediCare Connect — Premium Healthcare Platform",
+      description: "• Problem: Booking appointments with top healthcare professionals is often tedious and inefficient.\n• Solution: Built a premium platform connecting patients with top doctors seamlessly.\n• Key Features: Advanced doctor search by specialty, instant appointment booking, and patient reviews.\n• Tech Stack: Next.js, React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend on Render.",
+      tags: ["Next.js", "React", "Node.js", "MongoDB"],
+      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://frontend-orpin-eight-50.vercel.app",
+      repoLink: "https://github.com/mhshanto-dev/MedicareConnect"
     },
-    
     {
       title: "TripZen — Travel Booking Platform",
       description: "• Problem: Travelers need a unified platform to discover and book destinations easily.\n• Solution: Developed a full-stack travel booking platform with intuitive user experience.\n• Key Features: Destination search, interactive booking system, and user dashboard.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend deployed.",
@@ -38,20 +37,12 @@ const Projects = () => {
       repoLink: "https://github.com/mhshanto-dev/TripZen"
     },
     {
-      title: "MediCare Connect — Premium Healthcare Platform",
-      description: "• Problem: Booking appointments with top healthcare professionals is often tedious and inefficient.\n• Solution: Built a premium platform connecting patients with top doctors seamlessly.\n• Key Features: Advanced doctor search by specialty, instant appointment booking, and patient reviews.\n• Tech Stack: Next.js, React, Tailwind CSS.\n• Deployment: Frontend on Vercel.",
-      tags: ["Next.js", "React", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "https://frontend-orpin-eight-50.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev/MedicareConnect"
-    },
-    {
-      title: "StudyNook — Study Space Booking Platform",
-      description: "• Problem: Students struggle to find and book quiet, private study spaces when they need them.\n• Solution: Developed a platform for finding, booking, and listing study spaces.\n• Key Features: Real-time availability, secure booking, space filtering by amenities.\n• Tech Stack: Next.js, React, Tailwind CSS.\n• Deployment: Frontend on Vercel.",
-      tags: ["Next.js", "React", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "https://studynook-client-bice.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev/assignment-9"
+      title: "Focusora — AI-Powered Focus Management Platform",
+      description: "• Problem: Maintaining deep work and focus is challenging in a distraction‑rich environment.\n• Solution: Built an AI‑driven focus management web app that tracks work sessions, provides Pomodoro timers, and offers analytics.\n• Key Features: Real‑time focus timer, AI‑suggested breaks, session history, and productivity insights.\n• Tech Stack: React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend on Render.",
+      tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://focusora-bice.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev/Focusora"
     },
     {
       title: "ResumePilot — Professional Resume Builder Platform",

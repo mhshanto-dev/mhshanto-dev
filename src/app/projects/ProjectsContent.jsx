@@ -17,6 +17,15 @@ const ProjectsContent = () => {
 
   const projects = [
     {
+      title: "MediCare Connect — Premium Healthcare Platform",
+      category: "Full-Stack",
+      description: "Premium healthcare platform to book appointments with top medical professionals effortlessly.",
+      tags: ["Next.js", "React", "Node.js", "MongoDB"],
+      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://frontend-orpin-eight-50.vercel.app",
+      repoLink: "https://github.com/mhshanto-dev/MedicareConnect"
+    },
+    {
       title: "TripZen - Travel Booking Platform",
       category: "Full-Stack",
       description: "A comprehensive full-stack travel booking platform to find and reserve dream destinations seamlessly.",
@@ -26,22 +35,13 @@ const ProjectsContent = () => {
       repoLink: "https://github.com/mhshanto-dev/TripZen"
     },
     {
-      title: "MediCare Connect",
+      title: "Focusora - AI-Powered Focus Management Platform",
       category: "Full-Stack",
-      description: "Premium healthcare platform to book appointments with top medical professionals effortlessly.",
-      tags: ["Next.js", "React", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "https://frontend-orpin-eight-50.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev/MedicareConnect"
-    },
-    {
-      title: "StudyNook - Study Space Booking",
-      category: "Full-Stack",
-      description: "Find, book, and list quiet, private study spaces designed for students.",
-      tags: ["Next.js", "React", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1200&h=675",
-      liveLink: "https://studynook-client-bice.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev/assignment-9"
+      description: "AI-driven focus management web app with Pomodoro timers, session history, and productivity analytics.",
+      tags: ["React", "Node.js", "MongoDB", "Tailwind"],
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://focusora-bice.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev/Focusora"
     },
     {
       title: "ResumePilot",
