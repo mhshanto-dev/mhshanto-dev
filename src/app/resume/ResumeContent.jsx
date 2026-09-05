@@ -33,6 +33,20 @@ export default function ResumeContent() {
     },
     projects: [
       {
+        emoji: "💼",
+        title: "Joventra — Modern Job Hunting & Recruitment Platform",
+        technologies: ["React 18", "TypeScript", "Node.js", "Express.js", "MongoDB", "Stripe", "Zustand", "TanStack Query"],
+        features: [
+          "Built a full-featured job hunting and recruitment platform connecting seekers with recruiters with Kanban ATS tracking.",
+          "Implemented Stripe subscription billing for recruiter tiers, Recharts analytics, and Cloudinary resume uploads.",
+        ],
+        links: {
+          live: "https://joventra-beige.vercel.app/",
+          client: "https://github.com/mhshanto-dev/Joventra",
+          server: "https://github.com/mhshanto-dev/Joventra-Server"
+        }
+      },
+      {
         emoji: "🏥",
         title: "MediCare Connect — Healthcare Appointment Platform",
         technologies: ["Next.js 15", "Node.js", "Express.js", "MongoDB", "Better Auth", "Stripe"],

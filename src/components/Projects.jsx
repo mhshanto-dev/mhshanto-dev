@@ -21,12 +21,24 @@ const Projects = () => {
 
   const allProjects = [
     {
+      title: "Joventra — Modern Job Hunting & Recruitment Platform",
+      description: "• Problem: Job seekers struggle with fragmented application tracking, while recruiters lack streamlined ATS and candidate management.\n• Solution: Built a modern full-stack recruitment portal bridging talent and employers with real-time tracking.\n• Key Features: Smart job discovery, one-click application tracking, recruiter ATS dashboard, Stripe subscription billing, and Recharts analytics.\n• Tech Stack: React 18, TypeScript, Node.js, Express, MongoDB, Stripe, Zustand, TanStack Query, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend on Render.",
+      tags: ["React 18", "TypeScript", "Node.js", "MongoDB", "Stripe"],
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://joventra-beige.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev/Joventra",
+      clientLink: "https://github.com/mhshanto-dev/Joventra",
+      serverLink: "https://github.com/mhshanto-dev/Joventra-Server"
+    },
+    {
       title: "MediCare Connect — Premium Healthcare Platform",
       description: "• Problem: Booking appointments with top healthcare professionals is often tedious and inefficient.\n• Solution: Built a premium platform connecting patients with top doctors seamlessly.\n• Key Features: Advanced doctor search by specialty, instant appointment booking, and patient reviews.\n• Tech Stack: Next.js, React, Node.js, Express, MongoDB, Tailwind CSS.\n• Deployment: Frontend on Vercel, Backend on Render.",
       tags: ["Next.js", "React", "Node.js", "MongoDB"],
       image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://frontend-orpin-eight-50.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev/MedicareConnect"
+      repoLink: "https://github.com/mhshanto-dev/MedicareConnect",
+      clientLink: "https://github.com/mhshanto-dev/MedicareConnect",
+      serverLink: "https://github.com/mhshanto-dev/MedicareConnect-Server"
     },
     {
       title: "TripZen — Travel Booking Platform",
@@ -172,15 +184,38 @@ const Projects = () => {
                             Live Demo
                             <span className="material-symbols-outlined text-sm">arrow_outward</span>
                           </a>
-                          <a 
-                            href={project.repoLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="bg-white/10 backdrop-blur-xl border border-white/10 text-white px-5 py-2.5 rounded-xl font-bold text-[11px] uppercase tracking-wider hover:bg-white/20 transition-all flex items-center gap-2"
-                          >
-                            GitHub
-                            <span className="material-symbols-outlined text-sm">code</span>
-                          </a>
+                          {project.clientLink && project.serverLink ? (
+                            <>
+                              <a 
+                                href={project.clientLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-white/10 backdrop-blur-xl border border-white/10 text-white px-4 py-2.5 rounded-xl font-bold text-[11px] uppercase tracking-wider hover:bg-white/20 transition-all flex items-center gap-1.5"
+                              >
+                                Client
+                                <span className="material-symbols-outlined text-sm">code</span>
+                              </a>
+                              <a 
+                                href={project.serverLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-white/10 backdrop-blur-xl border border-white/10 text-white px-4 py-2.5 rounded-xl font-bold text-[11px] uppercase tracking-wider hover:bg-white/20 transition-all flex items-center gap-1.5"
+                              >
+                                Server
+                                <span className="material-symbols-outlined text-sm">dns</span>
+                              </a>
+                            </>
+                          ) : (
+                            <a 
+                              href={project.repoLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="bg-white/10 backdrop-blur-xl border border-white/10 text-white px-5 py-2.5 rounded-xl font-bold text-[11px] uppercase tracking-wider hover:bg-white/20 transition-all flex items-center gap-2"
+                            >
+                              GitHub
+                              <span className="material-symbols-outlined text-sm">code</span>
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>

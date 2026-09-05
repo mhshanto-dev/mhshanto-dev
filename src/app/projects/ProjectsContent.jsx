@@ -17,13 +17,26 @@ const ProjectsContent = () => {
 
   const projects = [
     {
+      title: "Joventra — Modern Job Hunting & Recruitment Platform",
+      category: "Full-Stack",
+      description: "Full-featured job hunting and ATS recruitment portal with smart job discovery, applicant tracking, and Stripe billing.",
+      tags: ["React 18", "TypeScript", "Node.js", "MongoDB", "Stripe"],
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1200&h=675",
+      liveLink: "https://joventra-beige.vercel.app/",
+      repoLink: "https://github.com/mhshanto-dev/Joventra",
+      clientLink: "https://github.com/mhshanto-dev/Joventra",
+      serverLink: "https://github.com/mhshanto-dev/Joventra-Server"
+    },
+    {
       title: "MediCare Connect — Premium Healthcare Platform",
       category: "Full-Stack",
       description: "Premium healthcare platform to book appointments with top medical professionals effortlessly.",
       tags: ["Next.js", "React", "Node.js", "MongoDB"],
       image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=1200&h=675",
       liveLink: "https://frontend-orpin-eight-50.vercel.app",
-      repoLink: "https://github.com/mhshanto-dev/MedicareConnect"
+      repoLink: "https://github.com/mhshanto-dev/MedicareConnect",
+      clientLink: "https://github.com/mhshanto-dev/MedicareConnect",
+      serverLink: "https://github.com/mhshanto-dev/MedicareConnect-Server"
     },
     {
       title: "TripZen - Travel Booking Platform",
@@ -156,13 +169,24 @@ const ProjectsContent = () => {
                       {project.description}
                     </p>
                     
-                    <div className="mt-auto pt-6 flex gap-4 border-t border-outline-variant/5">
-                      <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-widest flex items-center gap-2 hover:text-primary transition-colors">
+                    <div className="mt-auto pt-6 flex flex-wrap gap-4 border-t border-outline-variant/5">
+                      <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-widest flex items-center gap-1.5 hover:text-primary transition-colors">
                         Live Demo <span className="material-symbols-outlined text-sm">arrow_outward</span>
                       </a>
-                      <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-widest flex items-center gap-2 hover:text-primary transition-colors">
-                        Source <span className="material-symbols-outlined text-sm">code</span>
-                      </a>
+                      {project.clientLink && project.serverLink ? (
+                        <>
+                          <a href={project.clientLink} target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-widest flex items-center gap-1.5 hover:text-primary transition-colors">
+                            Client <span className="material-symbols-outlined text-sm">code</span>
+                          </a>
+                          <a href={project.serverLink} target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-widest flex items-center gap-1.5 hover:text-primary transition-colors">
+                            Server <span className="material-symbols-outlined text-sm">dns</span>
+                          </a>
+                        </>
+                      ) : (
+                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="text-[10px] font-black uppercase tracking-widest flex items-center gap-1.5 hover:text-primary transition-colors">
+                          Source <span className="material-symbols-outlined text-sm">code</span>
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>
