@@ -224,17 +224,43 @@
 <!-- CONTRIBUTION GRAPH -->
 <!-- ===================================================== -->
 
-## 📈 CONTRIBUTION ACTIVITY
+
+## 📊 GITHUB STATISTICS & ANALYSIS
+
+### 🐍 GitHub Contributions:
 
 <p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=mhshanto-dev&theme=tokyo-night&hide_border=true" alt="GitHub Contribution Activity Graph"/>
+  <img
+    src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake.svg"
+    alt="GitHub Contribution Snake"
+    width="100%"
+  />
 </p>
 
----
+### 📈 GitHub Statistics:
 
-<!-- ===================================================== -->
-<!-- CONTACT -->
-<!-- ===================================================== -->
+<p align="center">
+  <img
+    height="180"
+    src="https://github-stats-extended.vercel.app/api?username=mhshanto-dev&theme=tokyonight&hide_border=true&include_all_commits=true"
+    alt="GitHub Statistics"
+  />
+  <img
+    height="180"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhshanto-dev&theme=tokyonight&hide_border=true&layout=compact"
+    alt="Top Languages"
+  />
+</p>
+
+### 🔥 GitHub Streak:
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com/?user=mhshanto-dev&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak"
+  />
+</p>
+
 
 ## 📫 REACH OUT
 
