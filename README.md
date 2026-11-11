@@ -38,7 +38,7 @@
 
 ---
 
-## 🌐 CONNECT WITH ME
+## 🌐 FOLLOW ME ON SOCIALS
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mh-shanto">
