@@ -190,12 +190,26 @@ Continuously expanding my full-stack development skills and exploring modern sof
   <img src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%"/>
 </p>
 
+
 ### 📈 GitHub Statistics
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mhshanto-dev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub Statistics"/>
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhshanto-dev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+  <a href="https://github.com/mhshanto-dev">
+    <img
+      height="180"
+      src="https://github-stats-extended.vercel.app/api?username=mhshanto-dev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"
+      alt="GitHub Statistics"
+    />
+  </a>
+  <a href="https://github.com/mhshanto-dev">
+    <img
+      height="180"
+      src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhshanto-dev&layout=compact&theme=tokyonight&hide_border=true"
+      alt="Top Languages"
+    />
+  </a>
 </p>
+
 
 ### 🔥 GitHub Streak
 
