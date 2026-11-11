@@ -1,3 +1,4 @@
+ 
 <!-- ===================================================== -->
 <!-- HERO BANNER -->
 <!-- ===================================================== -->
@@ -19,6 +20,8 @@
 </p>
 
 <br/>
+
+---
 
 <!-- ===================================================== -->
 <!-- ABOUT ME -->
@@ -75,7 +78,7 @@
 
 ### Languages:
 
-[![Languages](https://skillicons.dev/icons?i=html,css,javascript,typescript,c,cpp,python)](https://github.com/mhshanto-dev)
+[![Languages](https://skillicons.dev/icons?i=html,css,js,ts,c,cpp,python&perline=10)](https://github.com/mhshanto-dev)
 
 ### CSS Frameworks & Libraries:
 
@@ -85,9 +88,9 @@
 
 [![JavaScript Frameworks & Libraries](https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express)](https://github.com/mhshanto-dev)
 
-### Database & Model:
+### Database & ORM:
 
-[![Database & Model](https://skillicons.dev/icons?i=mongodb,mysql,postgres,prisma)](https://github.com/mhshanto-dev)
+[![Database & ORM](https://skillicons.dev/icons?i=mongodb,mysql,postgres,prisma)](https://github.com/mhshanto-dev)
 
 ### Authentication & Security:
 
@@ -98,9 +101,9 @@
 - Role-Based Access Control (RBAC)
 - bcrypt
 
-### Deployment Platform:
+### Deployment Platforms:
 
-[![Deployment Platform](https://skillicons.dev/icons?i=vercel,netlify,firebase)](https://github.com/mhshanto-dev)
+[![Deployment Platforms](https://skillicons.dev/icons?i=vercel,netlify,firebase)](https://github.com/mhshanto-dev)
 
 ### Design & Graphics:
 
@@ -116,7 +119,7 @@
 
 ### Tools & Technologies:
 
-[![Tools & Technologies](https://skillicons.dev/icons?i=windows,git,github,vscode,postman,npm,docker)](https://github.com/mhshanto-dev)
+[![Tools & Technologies](https://skillicons.dev/icons?i=windows,git,github,vscode,postman,npm,docker&perline=10)](https://github.com/mhshanto-dev)
 
 - Chrome DevTools
 - ESLint
@@ -127,7 +130,7 @@
 ---
 
 <!-- ===================================================== -->
-<!-- CURRENTLY LEARNING -->
+<!-- CURRENTLY LEARNING & NEXT LEVEL -->
 <!-- ===================================================== -->
 
 ## 📚 CURRENTLY LEARNING & NEXT LEVEL ROADMAP
@@ -183,9 +186,12 @@
 ### 🐍 GitHub Contributions:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake"/>
+  <img
+    src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake.svg"
+    alt="GitHub Contribution Snake"
+    width="100%"
+  />
 </p>
-
 
 ### 📈 GitHub Statistics:
 
@@ -206,61 +212,22 @@
   </a>
 </p>
 
-
-### 🏆 Repository Stats & Streak:
+### 🔥 GitHub Streak:
 
 <p align="center">
   <a href="https://github.com/mhshanto-dev">
-    <img height="180" src="https://github-contributor-stats.vercel.app/api?username=mhshanto-dev&limit=5&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true" alt="Repository Contributor Stats"/>
-  </a>
-  <a href="https://github.com/mhshanto-dev">
-    <img height="180" src="https://streak-stats.demolab.com/?user=mhshanto-dev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+    <img
+      src="https://streak-stats.demolab.com/?user=mhshanto-dev&theme=tokyonight&hide_border=true"
+      alt="GitHub Streak"
+    />
   </a>
 </p>
 
 ---
 
 <!-- ===================================================== -->
-<!-- CONTRIBUTION GRAPH -->
+<!-- REACH OUT -->
 <!-- ===================================================== -->
-
-
-## 📊 GITHUB STATISTICS & ANALYSIS
-
-### 🐍 GitHub Contributions:
-
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake.svg"
-    alt="GitHub Contribution Snake"
-    width="100%"
-  />
-</p>
-
-### 📈 GitHub Statistics:
-
-<p align="center">
-  <img
-    height="180"
-    src="https://github-stats-extended.vercel.app/api?username=mhshanto-dev&theme=tokyonight&hide_border=true&include_all_commits=true"
-    alt="GitHub Statistics"
-  />
-  <img
-    height="180"
-    src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhshanto-dev&theme=tokyonight&hide_border=true&layout=compact"
-    alt="Top Languages"
-  />
-</p>
-
-### 🔥 GitHub Streak:
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com/?user=mhshanto-dev&theme=tokyonight&hide_border=true"
-    alt="GitHub Streak"
-  />
-</p>
-
 
 ## 📫 REACH OUT
 
