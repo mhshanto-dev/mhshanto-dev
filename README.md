@@ -4,7 +4,7 @@
 <!-- ===================================================== -->
 
 <p align="center">
-  <img width="100%" src="src/assets/banner7.svg" alt="Md. Mehedi Hasan Shanto Banner"/>
+  <img width="100%" src="src/assets/banner7.png" alt="Md. Mehedi Hasan Shanto Banner"/>
 </p>
 
 <!-- TYPING ANIMATION -->
