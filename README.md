@@ -4,112 +4,107 @@
 <!-- ===================================================== -->
 
 <p align="center">
-  <img width="100%" src="src/assets/banner7.png" alt="Md. Mehedi Hasan Shanto Banner"/>
+  <img width="100%" src="src/assets/banner7.png" alt="Md. Mehedi Hasan Shanto - Full Stack Developer"/>
 </p>
 
-<!-- TYPING ANIMATION -->
-
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=25&pause=1000&color=00BFFF&center=true&vCenter=true&width=850&lines=Hi+there!+%F0%9F%91%8B+I'm+Mehedi+Hasan+Shanto;Full+Stack+Developer+(MERN+Stack);React.js+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;Node.js+%E2%80%A2+Express.js+%E2%80%A2+MongoDB;Building+Modern+Web+Applications;AI-Assisted+Development;Open+to+Junior+Developer+Opportunities" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=850&lines=Hi+there!+%F0%9F%91%8B+I'm+Mehedi+Hasan+Shanto;Full+Stack+Developer+(MERN+Stack);React.js+%E2%80%A2+Next.js+%E2%80%A2+TypeScript;Node.js+%E2%80%A2+Express.js+%E2%80%A2+MongoDB;Building+Modern+Web+Applications;Exploring+AI-Powered+Development" alt="Typing SVG"/>
 </h1>
 
 <p align="center">
-  <strong>Full Stack Developer (MERN Stack)</strong> 🚀
+  <strong>Full Stack Developer | MERN Stack</strong>
   <br/>
   Building modern, scalable, responsive, and user-focused web applications.
 </p>
 
-<br/>
+<p align="center">
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://komarev.com/ghpvc/?username=mhshanto-dev&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
+  </a>
+</p>
 
 ---
 
-<!-- ===================================================== -->
-<!-- ABOUT ME -->
-<!-- ===================================================== -->
-
 ## 👨‍💻 ABOUT ME
 
-- 👋 Hi, I'm **@[mhshanto-dev](https://github.com/mhshanto-dev)**.
-- 🎓 I'm a Computer Science student and aspiring **Full Stack Developer**.
-- 💻 I work with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB**.
-- 🗄️ I build RESTful APIs, authentication systems, database-driven applications, and responsive user interfaces.
-- ⚡ I focus on clean code, reusable components, secure authentication, performance, and maintainable application architecture.
-- 📚 Currently improving my skills through **Programming Hero Batch 13, CSE Phitron, and Next Level learning**.
-- 🤖 I use AI-assisted development tools for research, debugging, problem-solving, and improving development productivity.
-- 🚀 My goal is to become a professional Software Engineer and build production-ready applications.
+- 👋 Hi, I'm **[Md. Mehedi Hasan Shanto](https://github.com/mhshanto-dev)**.
+- 🎓 Computer Science student and aspiring Software Engineer.
+- 💻 Focused on full-stack development using **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB**.
+- ⚙️ Experienced in building RESTful APIs, authentication systems, database-driven applications, and responsive user interfaces through practical projects.
+- 🔐 Interested in secure authentication, authorization, API integration, and maintainable application architecture.
+- 📚 Continuously improving my skills through **Programming Hero Batch 13, CSE Phitron, and Next Level learning**.
+- 🤖 Using AI-assisted development tools for research, debugging, problem-solving, and improving development productivity.
+- 🚀 My goal is to build reliable, production-ready applications and grow as a professional Software Engineer.
 - 💼 Open to **Junior Full Stack Developer, React Developer, Frontend Developer, and entry-level Software Engineer** opportunities.
 
 ---
 
-<!-- ===================================================== -->
-<!-- SOCIAL LINKS -->
-<!-- ===================================================== -->
-
 ## 🌐 CONNECT WITH ME
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mh-shanto" target="_blank">
+  <a href="https://www.linkedin.com/in/mh-shanto">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://mhshanto-dev.vercel.app/" target="_blank">
+  <a href="https://mhshanto-dev.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
   </a>
-  <a href="https://daily.dev/mhshantodev" target="_blank">
+  <a href="https://daily.dev/mhshantodev">
     <img src="https://img.shields.io/badge/Daily.dev-000000?style=for-the-badge&logo=dailydotdev&logoColor=FC4E03" alt="Daily.dev"/>
   </a>
-  <a href="https://x.com/mhshanto8989" target="_blank">
+  <a href="https://x.com/mhshanto8989">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
   </a>
   <a href="mailto:mhshanto.8989.t@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://discord.com/users/YOUR_DISCORD_USER_ID" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
-  </a>
 </p>
 
 ---
 
-<!-- ===================================================== -->
-<!-- TECHNOLOGY STACK -->
-<!-- ===================================================== -->
-
 ## 🛠️ TECHNOLOGY STACK
 
-### Languages:
+### Languages
 
-[![Languages](https://skillicons.dev/icons?i=html,css,js,ts,c,cpp,python&perline=10)](https://github.com/mhshanto-dev)
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,ts,c,cpp,python&perline=10" alt="Languages"/>
+  </a>
+</p>
 
-### CSS Frameworks & Libraries:
+### CSS Frameworks & Libraries
 
-[![CSS Frameworks & Libraries](https://skillicons.dev/icons?i=tailwind,materialui,bootstrap)](https://github.com/mhshanto-dev)
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=tailwind,materialui,bootstrap&perline=10" alt="CSS Frameworks"/>
+  </a>
+</p>
 
-### JavaScript Frameworks & Libraries:
+### JavaScript Frameworks & Libraries
 
-[![JavaScript Frameworks & Libraries](https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express)](https://github.com/mhshanto-dev)
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express&perline=10" alt="JavaScript Frameworks"/>
+  </a>
+</p>
 
-### Database & ORM:
+### Database & ORM
 
-[![Database & ORM](https://skillicons.dev/icons?i=mongodb,mysql,postgres,prisma)](https://github.com/mhshanto-dev)
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,prisma&perline=10" alt="Database and ORM"/>
+  </a>
+</p>
 
-### Authentication & Security:
+### Authentication & Security
 
 - Better Auth
 - Firebase Authentication
-- JWT & Refresh Tokens
+- JWT & Refresh Token Rotation
 - Google OAuth 2.0
 - Role-Based Access Control (RBAC)
 - bcrypt
 
-### Deployment Platforms:
-
-[![Deployment Platforms](https://skillicons.dev/icons?i=vercel,netlify,firebase)](https://github.com/mhshanto-dev)
-
-### Design & Graphics:
-
-[![Design & Graphics](https://skillicons.dev/icons?i=figma,ps)](https://github.com/mhshanto-dev)
-
-### UI Libraries & Animation:
+### UI Libraries & Animation
 
 - HeroUI
 - DaisyUI
@@ -117,135 +112,183 @@
 - Recharts
 - React Hook Form
 
-### Tools & Technologies:
+### Deployment Platforms
 
-[![Tools & Technologies](https://skillicons.dev/icons?i=windows,git,github,vscode,postman,npm,docker&perline=10)](https://github.com/mhshanto-dev)
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=vercel,netlify,firebase&perline=10" alt="Deployment Platforms"/>
+  </a>
+</p>
+
+### Design & Graphics
+
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=figma,ps&perline=10" alt="Design and Graphics"/>
+  </a>
+</p>
+
+### Tools & Technologies
+
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=windows,git,github,vscode,postman,npm,docker&perline=10" alt="Tools and Technologies"/>
+  </a>
+</p>
 
 - Chrome DevTools
-- ESLint
-- Prettier
+- ESLint & Prettier
 - REST API Integration
 - AI-Assisted Development
 
 ---
 
-<!-- ===================================================== -->
-<!-- CURRENTLY LEARNING & NEXT LEVEL -->
-<!-- ===================================================== -->
+## 📚 CURRENTLY LEARNING — NEXT LEVEL
 
-## 📚 CURRENTLY LEARNING & NEXT LEVEL ROADMAP
+Continuously expanding my full-stack development skills and exploring modern software engineering practices.
 
-### 📖 Learning Now:
+### Learning Now
 
-[![Learning Now](https://skillicons.dev/icons?i=typescript,nextjs,postgres,prisma)](https://github.com/mhshanto-dev)
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=typescript,nextjs,postgres,prisma&perline=10" alt="Currently Learning"/>
+  </a>
+</p>
 
 - Advanced TypeScript
-- Next.js Advanced Concepts
+- Next.js & Full-Stack Development
 - PostgreSQL
 - Drizzle ORM
-
-### 🚀 Next Level Learning:
-
-[![Next Level Learning](https://skillicons.dev/icons?i=docker,nginx)](https://github.com/mhshanto-dev)
-
 - Software Engineering Fundamentals
+
+### Exploring Next-Level Technologies
+
+<p>
+  <a href="https://github.com/mhshanto-dev">
+    <img src="https://skillicons.dev/icons?i=docker,nginx&perline=10" alt="Next Level Technologies"/>
+  </a>
+</p>
+
 - Docker & Containerization
 - Nginx
 - Large Language Models (LLM)
 - Retrieval-Augmented Generation (RAG)
 - LangChain
-- AI Integration & AI-powered SaaS Development
+- AI Integration & AI-Powered SaaS Development
 
 <p align="center">
-  <i>Learning continuously, building consistently, and growing every day. 🚀</i>
+  <i>Learn continuously. Build consistently. Improve every day. 🚀</i>
 </p>
 
 ---
-
-<!-- ===================================================== -->
-<!-- FEATURED PROJECTS -->
-<!-- ===================================================== -->
-
-## 🚀 FEATURED PROJECTS
-
-| Project Name | Live Demo | Technologies & Key Features |
-| :--- | :--- | :--- |
-| **Joventra** – Job Board & Talent Acquisition Platform | [Live Demo](https://joventra-beige.vercel.app/) · [Server](https://joventra-server.vercel.app/) | React, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB, JWT, Google OAuth 2.0, Stripe. Job management, recruitment workflows, RBAC, and dashboards. |
-| **MediCare Connect** – Healthcare Platform | [Live Demo](https://frontend-orpin-eight-50.vercel.app/) · [Client](https://github.com/mhshanto-dev/MedicareConnect) · [Server](https://github.com/mhshanto-dev/MedicareConnect-Server) | Next.js, Better Auth, MongoDB, Stripe, JWT, Google Authentication, appointment management, and dashboards. |
-| **StudyNook** – Study Room Booking Platform | [Live Demo](https://studynook-client-bice.vercel.app/) · [Client](https://github.com/mhshanto-dev/assignment-9) · [Server](https://github.com/mhshanto-dev/assingment-9-server) | Next.js, React, HeroUI, MongoDB, Better Auth, Google Sign-in, room booking, and management. |
-| **ResumePilot** – AI Resume Builder | [Live Demo](https://resumepilot-eight.vercel.app/) · [Repository](https://github.com/mhshanto-dev/AI-Resume-Builder-complete) | Next.js, React, TypeScript, MongoDB, Clerk Auth, Google Gemini AI, PDF parsing, and AI-generated resume content. |
-
----
-
-<!-- ===================================================== -->
-<!-- GITHUB STATISTICS -->
-<!-- ===================================================== -->
 
 ## 📊 GITHUB STATISTICS & ANALYSIS
 
-### 🐍 GitHub Contributions:
+### 🐍 GitHub Contributions
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake.svg"
-    alt="GitHub Contribution Snake"
-    width="100%"
-  />
+  <img src="https://raw.githubusercontent.com/mhshanto-dev/mhshanto-dev/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%"/>
 </p>
 
-### 📈 GitHub Statistics:
+### 📈 GitHub Statistics
 
 <p align="center">
-  <a href="https://github.com/mhshanto-dev">
-    <img
-      height="180"
-      src="https://github-stats-extended.vercel.app/api?username=mhshanto-dev&theme=tokyonight&hide_border=true&include_all_commits=true"
-      alt="GitHub Statistics"
-    />
-  </a>
-  <a href="https://github.com/mhshanto-dev">
-    <img
-      height="180"
-      src="https://github-stats-extended.vercel.app/api/top-langs/?username=mhshanto-dev&theme=tokyonight&hide_border=true&layout=compact"
-      alt="Top Languages"
-    />
-  </a>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=mhshanto-dev&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub Statistics"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhshanto-dev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 </p>
 
-### 🔥 GitHub Streak:
+### 🔥 GitHub Streak
 
 <p align="center">
-  <a href="https://github.com/mhshanto-dev">
-    <img
-      src="https://streak-stats.demolab.com/?user=mhshanto-dev&theme=tokyonight&hide_border=true"
-      alt="GitHub Streak"
-    />
-  </a>
+  <img src="https://streak-stats.demolab.com/?user=mhshanto-dev&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ---
 
-<!-- ===================================================== -->
-<!-- REACH OUT -->
-<!-- ===================================================== -->
+## 📫 LET'S CONNECT
 
-## 📫 REACH OUT
+I'm always interested in learning, collaborating, building meaningful projects, and exploring new opportunities in software development.
 
-I'm actively working toward becoming a professional Full Stack Developer. I enjoy learning new technologies, building real-world applications, solving problems, and continuously improving my development skills.
-
-If you're interested in collaboration, development opportunities, or simply want to connect, feel free to reach out.
+If you have an interesting project, collaboration opportunity, or developer opening, feel free to connect!
 
 - 📧 **Email:** [mhshanto.8989.t@gmail.com](mailto:mhshanto.8989.t@gmail.com)
 - 🌐 **Portfolio:** [mhshanto-dev.vercel.app](https://mhshanto-dev.vercel.app/)
 - 💼 **LinkedIn:** [linkedin.com/in/mh-shanto](https://www.linkedin.com/in/mh-shanto)
-- 💬 **Discord:** [Connect with me](https://discord.com/users/YOUR_DISCORD_USER_ID)
+- 🐙 **GitHub:** [github.com/mhshanto-dev](https://github.com/mhshanto-dev)
 
 ---
 
-<!-- ===================================================== -->
-<!-- DEVELOPER SNAPSHOT -->
-<!-- ===================================================== -->
+## 📌 PINNED PROJECTS
 
+### 🚀 Joventra — Job Board & Talent Acquisition Platform
+
+A full-stack recruitment platform connecting job seekers and employers through modern job management and recruitment workflows.
+
+- **Technologies:** React, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB.
+- **Features:** Job management, candidate applications, role-based dashboards, JWT authentication, Google OAuth 2.0, Stripe Checkout and webhooks.
+
+<p>
+  <a href="https://joventra-beige.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Project-2ea44f?style=for-the-badge" alt="Joventra Live Demo"/>
+  </a>
+  <a href="https://joventra-server.vercel.app/">
+    <img src="https://img.shields.io/badge/Backend-Server-blue?style=for-the-badge" alt="Joventra Server"/>
+  </a>
+</p>
+
+### 🏥 MediCare Connect — Healthcare Appointment Platform
+
+A healthcare platform designed to connect patients and doctors through appointment booking and management.
+
+- **Technologies:** Next.js, MongoDB, Better Auth, Stripe, JWT.
+- **Features:** Patient, doctor and admin dashboards, Google authentication, appointment management, online payments and digital prescriptions.
+
+<p>
+  <a href="https://frontend-orpin-eight-50.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Project-2ea44f?style=for-the-badge" alt="MediCare Live Demo"/>
+  </a>
+  <a href="https://github.com/mhshanto-dev/MedicareConnect">
+    <img src="https://img.shields.io/badge/Client-Source%20Code-blue?style=for-the-badge" alt="MediCare Client"/>
+  </a>
+  <a href="https://github.com/mhshanto-dev/MedicareConnect-Server">
+    <img src="https://img.shields.io/badge/Server-Source%20Code-blue?style=for-the-badge" alt="MediCare Server"/>
+  </a>
+</p>
+
+### 📚 StudyNook — Study Room Booking Platform
+
+A responsive platform for discovering, managing and booking study rooms.
+
+- **Technologies:** Next.js, React, HeroUI, Node.js, Express.js, MongoDB, Better Auth.
+- **Features:** Study room management, booking system, Google sign-in and responsive user interface.
+
+<p>
+  <a href="https://studynook-client-bice.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Project-2ea44f?style=for-the-badge" alt="StudyNook Live Demo"/>
+  </a>
+  <a href="https://github.com/mhshanto-dev/assignment-9">
+    <img src="https://img.shields.io/badge/Client-Source%20Code-blue?style=for-the-badge" alt="StudyNook Client"/>
+  </a>
+  <a href="https://github.com/mhshanto-dev/assingment-9-server">
+    <img src="https://img.shields.io/badge/Server-Source%20Code-blue?style=for-the-badge" alt="StudyNook Server"/>
+  </a>
+</p>
+
+### 🤖 ResumePilot — AI Resume & Portfolio Builder
+
+An AI-powered application that helps users generate professional resumes and shareable portfolios.
+
+- **Technologies:** Next.js, React, TypeScript, MongoDB, Clerk Authentication, Google Gemini AI.
+- **Features:** PDF content extraction, AI-generated resume summaries, skill extraction and shareable portfolios.
+
+<p>
+  <a href="https://resumepilot-eight.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Project-2ea44f?style=for-the-badge" alt="ResumePilot Live Demo"/>
+  </a>
+  <a href="https://github.com/mhshanto-dev/AI-Resume-Builder-complete">
+    <img src="https://img.shields.io/badge/Repository-Source%20Code-blue?style=for-the-badge" alt="ResumePilot Repository"/>
+  </a>
+</p>
 
 ---
 
@@ -255,8 +298,4 @@ If you're interested in collaboration, development opportunities, or simply want
 
 <p align="center">
   <i>Me vs Me ✦ Consistent Learning ✦ Continuous Growth</i>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mhshanto-dev&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views"/>
 </p>
