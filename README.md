@@ -25,17 +25,16 @@
 
 ---
 
+
 ## 👨‍💻 ABOUT ME
 
-- 👋 Hi, I'm **[Md. Mehedi Hasan Shanto](https://github.com/mhshanto-dev)**.
-- 🎓 Computer Science student and aspiring Software Engineer.
-- 💻 Focused on full-stack development using **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB**.
-- ⚙️ Experienced in building RESTful APIs, authentication systems, database-driven applications, and responsive user interfaces through practical projects.
-- 🔐 Interested in secure authentication, authorization, API integration, and maintainable application architecture.
-- 📚 Continuously improving my skills through **Programming Hero Batch 13, CSE Phitron, and Next Level learning**.
-- 🤖 Using AI-assisted development tools for research, debugging, problem-solving, and improving development productivity.
-- 🚀 My goal is to build reliable, production-ready applications and grow as a professional Software Engineer.
-- 💼 Open to **Junior Full Stack Developer, React Developer, Frontend Developer, and entry-level Software Engineer** opportunities.
+- 👋 Hi, I'm [**Md. Mehedi Hasan Shanto**](https://github.com/mhshanto-dev), a passionate **Full Stack Developer (MERN Stack)**.
+- 💻 Working with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB**.
+- ⚙️ Building real-world applications with RESTful APIs, secure authentication, and responsive user interfaces.
+- 🧠 A consistent learner with a growth mindset, strong work ethic, and a commitment to continuous improvement.
+- 🚀 Confident in taking on challenges, solving problems, and turning ideas into practical solutions.
+- 🤖 Exploring AI-assisted development to build smarter and more efficient applications.
+- 💼 Open to **Junior Full Stack Developer, React Developer, Frontend Developer, and Software Engineer** opportunities.
 
 ---
 
