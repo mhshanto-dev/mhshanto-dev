@@ -29,7 +29,7 @@
 
 ## 👨‍💻 ABOUT ME
 
-- 👋 Hi, I'm **@mhshanto-dev**.
+- 👋 Hi, I'm **@[mhshanto-dev](https://github.com/mhshanto-dev)**.
 - 🎓 I'm a Computer Science student and aspiring **Full Stack Developer**.
 - 💻 I work with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB**.
 - 🗄️ I build RESTful APIs, authentication systems, database-driven applications, and responsive user interfaces.
