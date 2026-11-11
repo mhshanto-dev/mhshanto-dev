@@ -25,15 +25,17 @@
 
 ---
 
-
 ## 👨‍💻 ABOUT ME
 
 - 👋 Hi, I'm [**Md. Mehedi Hasan Shanto**](https://github.com/mhshanto-dev), a passionate **Full Stack Developer (MERN Stack)**.
 - 💻 Working with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB**.
 - ⚙️ Building real-world applications with RESTful APIs, secure authentication, and responsive user interfaces.
 - 🧠 A consistent learner with a growth mindset, strong work ethic, and a commitment to continuous improvement.
-- 🚀 Confident in taking on challenges, solving problems, and turning ideas into practical solutions.
+- 🚀 Always ready to take on challenges, solve problems, and turn ideas into practical solutions.
 - 🤖 Exploring AI-assisted development to build smarter and more efficient applications.
+- 🌐 Explore my [**Portfolio**](https://mhshanto-dev.vercel.app/) and check out my [**Resume**](https://drive.google.com/file/d/1qxln957GjQbbeK4tIsxboed5nNit6uAK/view?usp=sharing).
+- 📝 I regularly share my thoughts and learning experiences through articles on [**LinkedIn**](https://www.linkedin.com/in/mh-shanto/).
+- 📫 Feel free to reach me at [**mhshanto.8989.t@gmail.com**](mailto:mhshanto.8989.t@gmail.com).
 - 💼 Open to **Junior Full Stack Developer, React Developer, Frontend Developer, and Software Engineer** opportunities.
 
 ---
@@ -44,17 +46,11 @@
   <a href="https://www.linkedin.com/in/mh-shanto">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://mhshanto-dev.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
-  </a>
   <a href="https://daily.dev/mhshantodev">
     <img src="https://img.shields.io/badge/Daily.dev-000000?style=for-the-badge&logo=dailydotdev&logoColor=FC4E03" alt="Daily.dev"/>
   </a>
   <a href="https://x.com/mhshanto8989">
     <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
-  </a>
-  <a href="mailto:mhshanto.8989.t@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
 </p>
 
