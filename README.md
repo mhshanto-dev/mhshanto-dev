@@ -103,12 +103,22 @@
 
 ---
 
+
+---
+
 ## 📚 CURRENTLY LEARNING — NEXT LEVEL
 
-<sub>Continuously expanding my full-stack development skills and exploring modern software engineering practices.</sub>
+<p align="center">
+  Continuously expanding my full-stack development skills and exploring modern software engineering practices.
+</p>
 
-**📖 Learning Now**  
-<img src="https://skillicons.dev/icons?i=typescript,nextjs,postgres,prisma&perline=10" />
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### 📖 Learning Now
+
+<img src="https://skillicons.dev/icons?i=typescript,nextjs,postgres,prisma&perline=4" />
 
 - 🔷 Advanced TypeScript
 - ▲ Next.js & Full-Stack Development
@@ -116,17 +126,26 @@
 - 🔶 Drizzle ORM
 - ⚙️ Software Engineering Fundamentals
 
-**🚀 Exploring Next-Level Technologies**  
-<img src="https://skillicons.dev/icons?i=docker,nginx&perline=10" />
+</td>
+<td width="50%" valign="top">
+
+### 🚀 Exploring Next-Level
+
+<img src="https://skillicons.dev/icons?i=docker,nginx&perline=4" />
 
 - 🤖 Large Language Models (LLM)
 - 🔍 Retrieval-Augmented Generation (RAG)
 - 🦜 LangChain
 - 🧠 AI Integration & AI-Powered SaaS Development
 
+</td>
+</tr>
+</table>
+
 <p align="center">
   <i>Learn continuously. Build consistently. Improve every day. 🚀</i>
 </p>
+
 
 
 ## 📊 GITHUB STATISTICS & ANALYSIS
