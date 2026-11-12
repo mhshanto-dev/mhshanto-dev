@@ -58,124 +58,76 @@
 
 ## 🛠️ TECHNOLOGY STACK
 
-### Languages
+**💻 Languages**  
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,c,cpp,python&perline=10" />
 
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,c,cpp,python&perline=10" alt="Languages"/>
-  </a>
-</p>
+**🎨 CSS Frameworks & Libraries**  
+<img src="https://skillicons.dev/icons?i=tailwind,materialui,bootstrap&perline=10" />
 
-### CSS Frameworks & Libraries
+**⚛️ JavaScript Frameworks & Libraries**  
+<img src="https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express&perline=10" />
 
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=tailwind,materialui,bootstrap&perline=10" alt="CSS Frameworks"/>
-  </a>
-</p>
+**🗄️ Database & ORM**  
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,prisma&perline=10" />
 
-### JavaScript Frameworks & Libraries
+**🔐 Authentication & Security**  
+<img src="https://img.shields.io/badge/Better%20Auth-333333?style=flat&logo=auth0&logoColor=white" />
+<img src="https://img.shields.io/badge/Firebase%20Auth-FFCA28?style=flat&logo=firebase&logoColor=black" />
+<img src="https://img.shields.io/badge/JWT%20%26%20Refresh%20Tokens-000000?style=flat&logo=jsonwebtokens&logoColor=white" />
+<img src="https://img.shields.io/badge/Google%20OAuth-4285F4?style=flat&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/RBAC-6C47FF?style=flat&logo=shieldsdotio&logoColor=white" />
+<img src="https://img.shields.io/badge/bcrypt-003A70?style=flat" />
 
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,redux,nodejs,express&perline=10" alt="JavaScript Frameworks"/>
-  </a>
-</p>
+**🎭 UI Libraries & Animation**  
+<img src="https://img.shields.io/badge/HeroUI-000000?style=flat&logo=heroui&logoColor=white" />
+<img src="https://img.shields.io/badge/DaisyUI-5A0EF8?style=flat&logo=daisyui&logoColor=white" />
+<img src="https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat&logo=framer&logoColor=white" />
+<img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat" />
+<img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990?style=flat&logo=reacthookform&logoColor=white" />
 
-### Database & ORM
+**🚀 Deployment Platforms**  
+<img src="https://skillicons.dev/icons?i=vercel,netlify,firebase&perline=10" />
 
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,prisma&perline=10" alt="Database and ORM"/>
-  </a>
-</p>
+**🎨 Design & Graphics**  
+<img src="https://skillicons.dev/icons?i=figma,ps&perline=10" />
 
-### Authentication & Security
+**🔧 Tools & Technologies**  
+<img src="https://skillicons.dev/icons?i=windows,git,github,vscode,postman,npm,docker&perline=10" />
+<img src="https://img.shields.io/badge/Chrome%20DevTools-4285F4?style=flat&logo=googlechrome&logoColor=white" />
+<img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white" />
+<img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black" />
+<img src="https://img.shields.io/badge/REST%20API-009688?style=flat&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/AI--Assisted%20Development-7B61FF?style=flat&logo=openai&logoColor=white" />
 
-- Better Auth
-- Firebase Authentication
-- JWT & Refresh Token Rotation
-- Google OAuth 2.0
-- Role-Based Access Control (RBAC)
-- bcrypt
 
-### UI Libraries & Animation
-
-- HeroUI
-- DaisyUI
-- Framer Motion
-- Recharts
-- React Hook Form
-
-### Deployment Platforms
-
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=vercel,netlify,firebase&perline=10" alt="Deployment Platforms"/>
-  </a>
-</p>
-
-### Design & Graphics
-
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=figma,ps&perline=10" alt="Design and Graphics"/>
-  </a>
-</p>
-
-### Tools & Technologies
-
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=windows,git,github,vscode,postman,npm,docker&perline=10" alt="Tools and Technologies"/>
-  </a>
-</p>
-
-- Chrome DevTools
-- ESLint & Prettier
-- REST API Integration
-- AI-Assisted Development
 
 ---
 
 ## 📚 CURRENTLY LEARNING — NEXT LEVEL
 
-Continuously expanding my full-stack development skills and exploring modern software engineering practices.
+<sub>Continuously expanding my full-stack development skills and exploring modern software engineering practices.</sub>
 
-### Learning Now
+**📖 Learning Now**  
+<img src="https://skillicons.dev/icons?i=typescript,nextjs,postgres,prisma&perline=10" />
 
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=typescript,nextjs,postgres,prisma&perline=10" alt="Currently Learning"/>
-  </a>
-</p>
+- 🔷 Advanced TypeScript
+- ▲ Next.js & Full-Stack Development
+- 🐘 PostgreSQL
+- 🔶 Drizzle ORM
+- ⚙️ Software Engineering Fundamentals
 
-- Advanced TypeScript
-- Next.js & Full-Stack Development
-- PostgreSQL
-- Drizzle ORM
-- Software Engineering Fundamentals
+**🚀 Exploring Next-Level Technologies**  
+<img src="https://skillicons.dev/icons?i=docker,nginx&perline=10" />
 
-### Exploring Next-Level Technologies
-
-<p>
-  <a href="https://github.com/mhshanto-dev">
-    <img src="https://skillicons.dev/icons?i=docker,nginx&perline=10" alt="Next Level Technologies"/>
-  </a>
-</p>
-
-- Docker & Containerization
-- Nginx
-- Large Language Models (LLM)
-- Retrieval-Augmented Generation (RAG)
-- LangChain
-- AI Integration & AI-Powered SaaS Development
+- 🤖 Large Language Models (LLM)
+- 🔍 Retrieval-Augmented Generation (RAG)
+- 🦜 LangChain
+- 🧠 AI Integration & AI-Powered SaaS Development
 
 <p align="center">
   <i>Learn continuously. Build consistently. Improve every day. 🚀</i>
 </p>
 
----
 
 ## 📊 GITHUB STATISTICS & ANALYSIS
 
