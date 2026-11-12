@@ -233,6 +233,19 @@ An AI-powered application that helps users extract information from resumes, gen
   </a>
 </p>
 
+------
+## 📜 CERTIFICATIONS
+
+Explore my certificates and completed courses:
+
+<p align="left">
+  <a href="https://drive.google.com/drive/folders/12Bn6lYAQQ59ZbKE7_9PbVrFfidRSmlM_?usp=sharing">
+    <img src="https://img.shields.io/badge/View%20All%20Certificates-Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="View Certificates"/>
+  </a>
+</p>
+
+---
+
 
 ### 🔥 GitHub Streak
 
@@ -256,17 +269,7 @@ If you have an interesting project, collaboration opportunity, or developer open
 ---
 
 
-## 📜 CERTIFICATIONS
 
-Explore my certificates and completed courses:
-
-<p align="left">
-  <a href="https://drive.google.com/drive/folders/12Bn6lYAQQ59ZbKE7_9PbVrFfidRSmlM_?usp=sharing">
-    <img src="https://img.shields.io/badge/View%20All%20Certificates-Google%20Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="View Certificates"/>
-  </a>
-</p>
-
----
 
 <p align="center">
   <strong>💻 Code. Learn. Build. Improve. Repeat. 🚀</strong>
