@@ -157,7 +157,7 @@ A full-stack recruitment platform designed to simplify the hiring process by con
 - **My Contribution:** Developed the frontend and backend, implemented authentication and role-based access, integrated payment workflows and connected REST APIs.
 - **Result & Learning:** Built a full-stack recruitment application and gained practical experience with authentication, authorization, payment integration and end-to-end application workflows.
 
-**Links:** [Live Demo](https://joventra-beige.vercel.app/) | [Backend](https://joventra-server.vercel.app/)
+**Links:** [Live Demo](https://frontend-orpin-eight-50.vercel.app/) | [Client Source Code](https://github.com/mhshanto-dev/Joventra) | [Server Source Code](https://github.com/mhshanto-dev/Joventra-Server)
 
 
 ### 🏥 MediCare Connect — Healthcare Appointment Platform
