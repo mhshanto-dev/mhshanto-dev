@@ -143,11 +143,16 @@
 
 ------
 
+
 ## 🚀 PINNED PROJECTS
 
 ### 🚀 Joventra — Job Board & Talent Acquisition Platform
 
 A full-stack recruitment platform designed to simplify the hiring process by connecting job seekers and employers in one place.
+
+<p align="center">
+  <img src="./src/assets/projects/joventra.png" alt="Joventra Homepage" width="100%" />
+</p>
 
 - **Problem:** Job seekers and employers need a centralized platform to manage job opportunities and recruitment activities.
 - **Target Users:** Job seekers, recruiters and employers.
@@ -164,6 +169,10 @@ A full-stack recruitment platform designed to simplify the hiring process by con
 
 A healthcare platform that helps patients connect with doctors and manage appointments through an online system.
 
+<p align="center">
+  <img src="./src/assets/projects/medicare.png" alt="MediCare Connect Registration Page" width="100%" />
+</p>
+
 - **Problem:** Managing doctor appointments and healthcare services can be difficult without a centralized digital platform.
 - **Target Users:** Patients, doctors and healthcare administrators.
 - **Solution:** Developed a platform for appointment booking, doctor management and online healthcare services.
@@ -178,6 +187,10 @@ A healthcare platform that helps patients connect with doctors and manage appoin
 ### 📚 StudyNook — Study Room Booking Platform
 
 A responsive platform that allows users to discover and book study rooms through a simple online experience.
+
+<p align="center">
+  <img src="./src/assets/projects/studynook.png" alt="StudyNook Study Room Listings" width="100%" />
+</p>
 
 - **Problem:** Finding and booking suitable study spaces can be inconvenient without an organized booking system.
 - **Target Users:** Students and people looking for dedicated study spaces.
@@ -194,6 +207,10 @@ A responsive platform that allows users to discover and book study rooms through
 
 An AI-powered application that helps users extract information from resumes, generate professional summaries and create shareable portfolios.
 
+<p align="center">
+  <img src="./src/assets/projects/resumepilot.png" alt="ResumePilot Homepage" width="100%" />
+</p>
+
 - **Problem:** Creating a professional resume and presenting skills effectively can be time-consuming.
 - **Target Users:** Job seekers, students and professionals.
 - **Solution:** Built an AI-powered application that uses uploaded resume content to generate useful career-related information and portfolios.
@@ -203,7 +220,8 @@ An AI-powered application that helps users extract information from resumes, gen
 - **Result & Learning:** Built an AI-powered resume application and gained practical experience with Gemini AI integration, PDF processing and AI-assisted application development.
 
 **Links:** [Live Demo](https://resumepilot-eight.vercel.app/) | [Source Code](https://github.com/mhshanto-dev/AI-Resume-Builder-complete)
-------
+
+---
 
 ## 📊 GITHUB STATISTICS & ANALYSIS
 
