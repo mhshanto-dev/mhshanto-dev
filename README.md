@@ -184,7 +184,7 @@ A healthcare platform that helps patients connect with doctors and manage appoin
 **Links:** [Live Demo](https://frontend-orpin-eight-50.vercel.app/) | [Client Source Code](https://github.com/mhshanto-dev/MedicareConnect) | [Server Source Code](https://github.com/mhshanto-dev/MedicareConnect-Server)
 
 
-### 📚 StudyNook — Study Room Booking Platform
+### 📚  Focusora — Study Room Booking Platform
 
 A responsive platform that allows users to discover and book study rooms through a simple online experience.
 
@@ -219,7 +219,8 @@ An AI-powered application that helps users extract information from resumes, gen
 - **My Contribution:** Developed the application interface, integrated authentication and connected AI-powered resume processing features.
 - **Result & Learning:** Built an AI-powered resume application and gained practical experience with Gemini AI integration, PDF processing and AI-assisted application development.
 
-**Links:** [Live Demo](https://resumepilot-eight.vercel.app/) | [Source Code](https://github.com/mhshanto-dev/AI-Resume-Builder-complete)
+**Links:** [Live Demo](https://resumepilot-eight.vercel.app/) | [Client Source Code](https://github.com/mhshanto-dev/Focusora) | [Server Source Code](https://github.com/mhshanto-dev/Focusora-server)
+
 
 ---
 
