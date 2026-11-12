@@ -99,11 +99,6 @@
 <img src="https://img.shields.io/badge/REST%20API-009688?style=flat&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/AI--Assisted%20Development-7B61FF?style=flat&logo=openai&logoColor=white" />
 
-
-
----
-
-
 ---
 
 ## 📚 CURRENTLY LEARNING — NEXT LEVEL
@@ -146,7 +141,69 @@
   <i>Learn continuously. Build consistently. Improve every day. 🚀</i>
 </p>
 
+------
 
+## 🚀 PINNED PROJECTS
+
+### 🚀 Joventra — Job Board & Talent Acquisition Platform
+
+A full-stack recruitment platform designed to simplify the hiring process by connecting job seekers and employers in one place.
+
+- **Problem:** Job seekers and employers need a centralized platform to manage job opportunities and recruitment activities.
+- **Target Users:** Job seekers, recruiters and employers.
+- **Solution:** Built a recruitment platform with dedicated workflows for job discovery, applications and talent management.
+- **Key Features:** Job posting and management, candidate applications, role-based dashboards, JWT authentication, Google OAuth 2.0, Stripe Checkout and payment webhooks.
+- **Technologies:** React, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB.
+- **My Contribution:** Developed the frontend and backend, implemented authentication and role-based access, integrated payment workflows and connected REST APIs.
+- **Result & Learning:** Built a full-stack recruitment application and gained practical experience with authentication, authorization, payment integration and end-to-end application workflows.
+
+**Links:** [Live Demo](https://joventra-beige.vercel.app/) | [Backend](https://joventra-server.vercel.app/)
+
+
+### 🏥 MediCare Connect — Healthcare Appointment Platform
+
+A healthcare platform that helps patients connect with doctors and manage appointments through an online system.
+
+- **Problem:** Managing doctor appointments and healthcare services can be difficult without a centralized digital platform.
+- **Target Users:** Patients, doctors and healthcare administrators.
+- **Solution:** Developed a platform for appointment booking, doctor management and online healthcare services.
+- **Key Features:** Patient, doctor and admin dashboards, Google authentication, appointment management, online payments and digital prescriptions.
+- **Technologies:** Next.js, MongoDB, Better Auth, Stripe, JWT.
+- **My Contribution:** Built the application frontend and backend, implemented authentication, role-based workflows and integrated appointment payment functionality.
+- **Result & Learning:** Developed a healthcare application and strengthened my understanding of Next.js, authentication, role-based systems and payment integration.
+
+**Links:** [Live Demo](https://frontend-orpin-eight-50.vercel.app/) | [Client Source Code](https://github.com/mhshanto-dev/MedicareConnect) | [Server Source Code](https://github.com/mhshanto-dev/MedicareConnect-Server)
+
+
+### 📚 StudyNook — Study Room Booking Platform
+
+A responsive platform that allows users to discover and book study rooms through a simple online experience.
+
+- **Problem:** Finding and booking suitable study spaces can be inconvenient without an organized booking system.
+- **Target Users:** Students and people looking for dedicated study spaces.
+- **Solution:** Created a platform where users can explore available study rooms and manage their bookings.
+- **Key Features:** Study room management, room booking, Google sign-in and responsive user interface.
+- **Technologies:** Next.js, React, HeroUI, Node.js, Express.js, MongoDB, Better Auth.
+- **My Contribution:** Developed the client and server applications, worked on authentication, room management and booking workflows.
+- **Result & Learning:** Built a full-stack booking application and improved my practical skills in Next.js, API integration, authentication and database operations.
+
+**Links:** [Live Demo](https://studynook-client-bice.vercel.app/) | [Client Source Code](https://github.com/mhshanto-dev/assignment-9) | [Server Source Code](https://github.com/mhshanto-dev/assingment-9-server)
+
+
+### 🤖 ResumePilot — AI Resume & Portfolio Builder
+
+An AI-powered application that helps users extract information from resumes, generate professional summaries and create shareable portfolios.
+
+- **Problem:** Creating a professional resume and presenting skills effectively can be time-consuming.
+- **Target Users:** Job seekers, students and professionals.
+- **Solution:** Built an AI-powered application that uses uploaded resume content to generate useful career-related information and portfolios.
+- **Key Features:** PDF content extraction, AI-generated resume summaries, skill extraction and shareable portfolios.
+- **Technologies:** Next.js, React, TypeScript, MongoDB, Clerk Authentication, Google Gemini AI.
+- **My Contribution:** Developed the application interface, integrated authentication and connected AI-powered resume processing features.
+- **Result & Learning:** Built an AI-powered resume application and gained practical experience with Gemini AI integration, PDF processing and AI-assisted application development.
+
+**Links:** [Live Demo](https://resumepilot-eight.vercel.app/) | [Source Code](https://github.com/mhshanto-dev/AI-Resume-Builder-complete)
+------
 
 ## 📊 GITHUB STATISTICS & ANALYSIS
 
@@ -198,79 +255,6 @@ If you have an interesting project, collaboration opportunity, or developer open
 
 ---
 
-## 📌 PINNED PROJECTS
-
-### 🚀 Joventra — Job Board & Talent Acquisition Platform
-
-A full-stack recruitment platform connecting job seekers and employers through modern job management and recruitment workflows.
-
-- **Technologies:** React, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB.
-- **Features:** Job management, candidate applications, role-based dashboards, JWT authentication, Google OAuth 2.0, Stripe Checkout and webhooks.
-
-<p>
-  <a href="https://joventra-beige.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Project-2ea44f?style=for-the-badge" alt="Joventra Live Demo"/>
-  </a>
-  <a href="https://joventra-server.vercel.app/">
-    <img src="https://img.shields.io/badge/Backend-Server-blue?style=for-the-badge" alt="Joventra Server"/>
-  </a>
-</p>
-
-### 🏥 MediCare Connect — Healthcare Appointment Platform
-
-A healthcare platform designed to connect patients and doctors through appointment booking and management.
-
-- **Technologies:** Next.js, MongoDB, Better Auth, Stripe, JWT.
-- **Features:** Patient, doctor and admin dashboards, Google authentication, appointment management, online payments and digital prescriptions.
-
-<p>
-  <a href="https://frontend-orpin-eight-50.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Project-2ea44f?style=for-the-badge" alt="MediCare Live Demo"/>
-  </a>
-  <a href="https://github.com/mhshanto-dev/MedicareConnect">
-    <img src="https://img.shields.io/badge/Client-Source%20Code-blue?style=for-the-badge" alt="MediCare Client"/>
-  </a>
-  <a href="https://github.com/mhshanto-dev/MedicareConnect-Server">
-    <img src="https://img.shields.io/badge/Server-Source%20Code-blue?style=for-the-badge" alt="MediCare Server"/>
-  </a>
-</p>
-
-### 📚 StudyNook — Study Room Booking Platform
-
-A responsive platform for discovering, managing and booking study rooms.
-
-- **Technologies:** Next.js, React, HeroUI, Node.js, Express.js, MongoDB, Better Auth.
-- **Features:** Study room management, booking system, Google sign-in and responsive user interface.
-
-<p>
-  <a href="https://studynook-client-bice.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Project-2ea44f?style=for-the-badge" alt="StudyNook Live Demo"/>
-  </a>
-  <a href="https://github.com/mhshanto-dev/assignment-9">
-    <img src="https://img.shields.io/badge/Client-Source%20Code-blue?style=for-the-badge" alt="StudyNook Client"/>
-  </a>
-  <a href="https://github.com/mhshanto-dev/assingment-9-server">
-    <img src="https://img.shields.io/badge/Server-Source%20Code-blue?style=for-the-badge" alt="StudyNook Server"/>
-  </a>
-</p>
-
-### 🤖 ResumePilot — AI Resume & Portfolio Builder
-
-An AI-powered application that helps users generate professional resumes and shareable portfolios.
-
-- **Technologies:** Next.js, React, TypeScript, MongoDB, Clerk Authentication, Google Gemini AI.
-- **Features:** PDF content extraction, AI-generated resume summaries, skill extraction and shareable portfolios.
-
-<p>
-  <a href="https://resumepilot-eight.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Project-2ea44f?style=for-the-badge" alt="ResumePilot Live Demo"/>
-  </a>
-  <a href="https://github.com/mhshanto-dev/AI-Resume-Builder-complete">
-    <img src="https://img.shields.io/badge/Repository-Source%20Code-blue?style=for-the-badge" alt="ResumePilot Repository"/>
-  </a>
-</p>
-
----
 
 ## 📜 CERTIFICATIONS
 
