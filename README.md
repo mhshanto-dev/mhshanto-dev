@@ -162,35 +162,48 @@
 
 ---
 
-
 ## 📚 CURRENTLY LEARNING — NEXT LEVEL
 
-<table width="100%" cellpadding="12" cellspacing="0">
+<table width="100%" cellpadding="10" cellspacing="0">
 <tr>
 <td width="50%" valign="top">
 
-**📖 Learning Now**
+**📖 Backend & Database**
 
-<p>
 <img src="https://img.shields.io/badge/Advanced%20TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Next.js%20%26%20Full--Stack-000000?style=flat&logo=nextdotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
 <img src="https://img.shields.io/badge/Drizzle%20ORM-C5F74F?style=flat&logo=drizzle&logoColor=black" />
-<img src="https://img.shields.io/badge/Software%20Engineering%20Fundamentals-555555?style=flat&logo=codefactor&logoColor=white" />
-</p>
+
+**🚀 DevOps & Deployment**
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
 
 </td>
 <td width="50%" valign="top">
 
-**🚀 Exploring Next-Level**
+**🤖 AI Engineering**
 
-<p>
 <img src="https://img.shields.io/badge/LLM-412991?style=flat&logo=openai&logoColor=white" />
-<img src="https://img.shields.io/badge/RAG-0A7E8C?style=flat&logo=googlescholar&logoColor=white" />
+<img src="https://img.shields.io/badge/RAG-0A7E8C?style=flat" />
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=chainlink&logoColor=white" />
+<img src="https://img.shields.io/badge/Vector%20Database-7C3AED?style=flat" />
+<img src="https://img.shields.io/badge/Prompt%20Engineering-F59E0B?style=flat" />
 <img src="https://img.shields.io/badge/AI%20Integration-7B61FF?style=flat&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/AI--Powered%20SaaS-2563EB?style=flat&logo=vercel&logoColor=white" />
-</p>
+
+**🧩 Software Engineering**
+
+<img src="https://img.shields.io/badge/System%20Design-334155?style=flat" />
+<img src="https://img.shields.io/badge/Multi--Tenant%20SaaS-334155?style=flat" />
+<img src="https://img.shields.io/badge/Clean%20Code-334155?style=flat" />
+<img src="https://img.shields.io/badge/Testing-334155?style=flat" />
+<img src="https://img.shields.io/badge/Software%20Engineering%20Fundamentals-555555?style=flat" />
 
 </td>
 </tr>
