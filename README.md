@@ -162,37 +162,35 @@
 
 ---
 
+
 ## 📚 CURRENTLY LEARNING — NEXT LEVEL
 
-<p align="center">
-  Continuously expanding my full-stack development skills and exploring modern software engineering practices.
-</p>
-
-<table width="100%">
+<table width="100%" cellpadding="12" cellspacing="0">
 <tr>
 <td width="50%" valign="top">
 
-### 📖 Learning Now
+**📖 Learning Now**
 
-<img src="https://skillicons.dev/icons?i=typescript,nextjs,postgres,prisma&perline=4" />
-
-- 🔷 Advanced TypeScript
-- ▲ Next.js & Full-Stack Development
-- 🐘 PostgreSQL
-- 🔶 Drizzle ORM
-- ⚙️ Software Engineering Fundamentals
+<p>
+<img src="https://img.shields.io/badge/Advanced%20TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js%20%26%20Full--Stack-000000?style=flat&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Drizzle%20ORM-C5F74F?style=flat&logo=drizzle&logoColor=black" />
+<img src="https://img.shields.io/badge/Software%20Engineering%20Fundamentals-555555?style=flat&logo=codefactor&logoColor=white" />
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 🚀 Exploring Next-Level
+**🚀 Exploring Next-Level**
 
-<img src="https://skillicons.dev/icons?i=docker,nginx&perline=4" />
-
-- 🤖 Large Language Models (LLM)
-- 🔍 Retrieval-Augmented Generation (RAG)
-- 🦜 LangChain
-- 🧠 AI Integration & AI-Powered SaaS Development
+<p>
+<img src="https://img.shields.io/badge/LLM-412991?style=flat&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/RAG-0A7E8C?style=flat&logo=googlescholar&logoColor=white" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=chainlink&logoColor=white" />
+<img src="https://img.shields.io/badge/AI%20Integration-7B61FF?style=flat&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/AI--Powered%20SaaS-2563EB?style=flat&logo=vercel&logoColor=white" />
+</p>
 
 </td>
 </tr>
@@ -202,7 +200,8 @@
   <i>Learn continuously. Build consistently. Improve every day. 🚀</i>
 </p>
 
-------
+---
+
 
 ## 📜 CERTIFICATIONS
 
