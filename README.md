@@ -35,7 +35,7 @@
 - 🤖 Exploring AI-assisted development to build smarter and more efficient applications.
 - 🌐 Explore my [**Portfolio**](https://mhshanto-dev.vercel.app/) and check out my [**Resume**](https://drive.google.com/file/d/1qxln957GjQbbeK4tIsxboed5nNit6uAK/view?usp=sharing).
 - 📝 I regularly share my thoughts and learning experiences through articles on [**LinkedIn**](https://www.linkedin.com/in/mh-shanto/).
-- 📫 Feel free to reach me at [**mhshanto.8989.t@gmail.com**](mailto:mhshanto.8989.t@gmail.com).
+- 📫 Feel free to reach me at [**mhshanto.8989.t@gmail.com**](mailto:mhshanto.8989.t@gmail.com).- 💬 **WhatsApp:** [+880 1871-758989](https://wa.me/8801871758989)
 - 💼 Open to **Junior Full Stack Developer, React Developer, Frontend Developer, and Software Engineer** opportunities.
 
 ---
@@ -336,6 +336,7 @@ An AI-powered application that helps users extract information from resumes, gen
 
 ---
 
+
 ## 📫 LET'S CONNECT
 
 I'm always interested in learning, collaborating, building meaningful projects, and exploring new opportunities in software development.
@@ -346,8 +347,10 @@ If you have an interesting project, collaboration opportunity, or developer open
 - 🌐 **Portfolio:** [mhshanto-dev.vercel.app](https://mhshanto-dev.vercel.app/)
 - 💼 **LinkedIn:** [linkedin.com/in/mh-shanto](https://www.linkedin.com/in/mh-shanto)
 - 🐙 **GitHub:** [github.com/mhshanto-dev](https://github.com/mhshanto-dev)
- -💬 **WhatsApp:** [+880 1871-758989](https://wa.me/8801871758989)
+- 💬 **WhatsApp:** [+880 1871-758989](https://wa.me/8801871758989)
+
 ---
+
 
 
 
