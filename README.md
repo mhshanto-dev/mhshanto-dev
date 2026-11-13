@@ -27,7 +27,7 @@
 
 ## 👨‍💻 ABOUT ME
 
-- 👋 Hi, I'm [**Md. Mehedi Hasan Shanto**](https://github.com/mhshanto-dev).
+- 👋 Hi, I'm [**mhshanto-dev**](https://github.com/mhshanto-dev).
 - 💻 Working with **JavaScript, TypeScript, React.js, Next.js, Node.js, Express.js, and MongoDB**.
 - ⚙️ Building real-world applications with RESTful APIs, secure authentication, and responsive user interfaces.
 - 🧠 A consistent learner with a growth mindset, strong work ethic, and a commitment to continuous improvement.
